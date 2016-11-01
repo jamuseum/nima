@@ -1,0 +1,42 @@
+#admin_bar {
+	position: fixed;
+	top: 50px;
+	right: 10px;
+	z-index: 200;
+	width: 160px;
+	text-align: right;
+
+	p {
+		@extend .btn-group-vertical;
+
+		width: 150px;
+
+		a {
+			@extend .btn;
+			@extend .btn-success;
+
+			font-size: 13px;
+			white-space: normal;
+
+			&.unpublished {
+				@extend .btn-danger;
+			}
+		}
+
+		&.secondary {
+			a {
+				@extend .btn-xs;
+			}
+		}
+	}
+
+	.status {
+		@extend .label;
+		@extend .label-default;
+
+		font-size: 13px;
+		&.unpublished {
+			@extend .label-danger;
+		}
+	}
+}

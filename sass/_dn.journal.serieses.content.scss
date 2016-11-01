@@ -1,0 +1,172 @@
+.pagination_nav {
+	margin: 0 0 20px 0;
+	text-align: center;
+
+	ul {
+		@extend .pagination;
+		@extend .pagination-sm;
+
+		margin: 0;
+
+		li {
+			&.disable {
+				/* legacy workaround */
+
+				@extend .disabled;
+			}
+
+			a,
+			span {
+				font-size: 9px;
+			}
+		}
+	}
+}
+
+.header {
+	@include clearfix;
+
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	font-size: 13px;
+	color: #555;
+	border-bottom: $border;
+
+	h2 {
+		@extend .pull-left;
+		margin: 0 0 10px 0;
+		font-weight: bold;
+		font-size: 29px;
+	}
+
+	.num-results {
+		@extend .pull-left;
+
+		line-height: 34px;
+	}
+
+	.sort {
+		@extend .pull-right;
+
+		.options {
+			@extend .btn-group;
+
+			a {
+				@extend .btn;
+				@extend .btn-default;
+
+				&.active {
+					@extend .active;
+				}
+			}
+		}
+	}
+}
+
+.item {
+	@include clearfix;
+
+	margin: 0 0 20px 0;
+	padding: 0 0 0 10px;
+	border-left: 3px solid $series-theme-color;
+
+	&.only {
+		margin: 0;
+	}
+
+	a {
+		@include clearfix;
+
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:hover .info h3 {
+			color: $series-theme-color;
+			text-decoration: underline;
+		}
+
+		.image {
+			@extend .pull-left;
+
+			position: relative;
+			margin: 0 10px 0 0;
+
+			img {
+				@extend .img-thumbnail;
+			}
+		}
+
+		.info {
+			@extend .pull-left;
+			@include clearfix;
+
+			width: 372px;
+
+			.languages {
+				@extend .pull-right;
+
+				margin: 0;
+
+				span {
+					@extend .badge;
+
+					text-transform: uppercase;
+					font-style: normal;
+					font-size: 10px;
+					padding: 3px 4px;
+				}
+			}
+
+			h3 {
+				margin: 0 0 3px 0;
+				line-height: normal;
+				font-size: 17px;
+				font-family: $series-theme-title-font;
+				color: $series-theme-color;
+				font-weight: bold;
+			}
+
+			.meta {
+				@include clearfix;
+
+				margin: 0 0 5px 0;
+			}
+
+			.byline {
+				margin: 0;
+				line-height: normal;
+				font-size: 11px;
+				color: #999999;
+
+				ul {
+					@extend .list-inline;
+					@extend .list-unstyled;
+
+					margin: 0;
+
+					li {
+						margin: 0;
+						padding: 0;
+
+						&.author {
+							&:after {
+								content: "/";
+								margin: 0 3px 0 3px;
+							}
+						}
+					}
+				}
+			}
+
+			.teaser {
+				margin: 0;
+				font-size: 14px;
+				line-height: normal;
+				color: $font-reading-color;
+			}
+		}
+	}
+}

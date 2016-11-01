@@ -1,0 +1,65 @@
+#journal_navigation {
+	@include clearfix;
+
+	// make generic
+	background: transparent;
+	padding-left: 0;
+	padding-right: 0;
+
+	margin: 0 0 10px 0;
+	color: $font-reading-color;
+	font-family: $font-ui;
+
+	.breadcrumb {
+		@include clearfix;
+
+		width: 807px;
+		margin: 0;
+
+		// make generic
+		background: transparent;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+#language_message {
+	@extend .alert;
+	@extend .alert-dismissible !optional;
+	@extend .fade;
+	@extend .in;
+
+	&.warning {
+		@extend .alert-warning;
+	}
+
+	&.success {
+		@extend .alert-success;
+	}
+
+	margin: 0 0 10px 0;
+
+	.language {
+		@extend .badge;
+
+		font-style: normal;
+		font-size: 13px !important;
+		background: black !important;
+	}
+
+	.languages {
+		margin: 0;
+
+		span,
+		a {
+			@extend .badge;
+
+			font-style: normal;
+			font-size: 13px !important;
+		}
+
+		span {
+			background: black !important;
+		}
+	}
+}

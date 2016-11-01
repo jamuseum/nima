@@ -1,0 +1,327 @@
+#article-body {
+	@include clearfix;
+
+	font-size: 14px;
+	line-height: 20px;
+	color: $font-reading-color;
+	font-family: $font-reading;
+	text-rendering: optimizelegibility;
+	margin: 0 0 10px 0;
+
+	ul {
+		list-style: disc inside none;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	blockquote {
+		font-size: 13px;
+	}
+
+	td {
+		vertical-align: top;
+	}
+}
+
+.polaroid {
+	@include clearfix;
+	@extend .img-thumbnail;
+
+	&.responsive {
+		img {
+			@extend .img-responsive;
+		}
+	}
+
+	img {
+		border: 0;
+		outline: none;
+	}
+
+	.caption {
+		@extend .caption;
+
+		line-height: normal;
+		font-size: 11px;
+		color: #666;
+
+		p {
+			margin: 0;
+			color: #666;
+		}
+	}
+}
+
+td {
+	.polaroid {
+		&.responsive {
+			img {
+				max-width: none !important;
+			}
+		}
+	}
+}
+
+.rating_badge {
+	@extend .alert;
+	@extend .alert-warning;
+	@extend .pull-left;
+	@include clearfix;
+
+	margin: 0 10px 5px 0;
+	padding: 0 5px 5px 5px;
+	text-align: center;
+
+	img {
+		width: 40px;
+		margin: 2px auto;
+	}
+
+	a,
+	span {
+		@extend .btn;
+		@extend .btn-primary;
+		@extend .btn-sm;
+		@include center-block;
+
+		text-align: center;
+		white-space: nowrap;
+		font-weight: bold;
+		font-size: 11px;
+	}
+
+	span {
+		@extend .disabled;
+	}
+}
+
+#article-licensing {
+	margin: 0 0 20px 0;
+}
+
+#article-tags {
+	margin: 0 0 20px 0;
+	line-height: 30px;
+	text-align: justify;
+	font-size: 15px;
+
+	span {
+		font-weight: bold;
+	}
+
+	a {
+		@extend .label;
+		@extend .label-default;
+
+		display: inline-block;
+	}
+}
+
+#article-share {
+	@include clearfix;
+
+	margin: 0 0 10px 0;
+	padding: 10px 0 7px 0;
+	border-top: 1px solid #e4e7ea;
+	border-bottom: 1px solid #e4e7ea;
+
+	.options {
+		@extend .pull-left;
+
+		.addthis_32x32_style {
+			.at_flat_counter {
+				vertical-align: top;
+			}
+		}
+	}
+
+	.local {
+		@include clearfix;
+		@extend .pull-right;
+		@extend .btn-group;
+
+		text-align: right;
+
+		.print {
+			@extend .btn;
+			@extend .btn-default;
+			@extend .btn-lg;
+
+			display: inline-block;
+			height: 32px;
+			width: 32px;
+			background: url("../img/icons/print_24x24.png") no-repeat 50% 50%;
+		}
+
+		.comments {
+			@extend .btn;
+			@extend .btn-default;
+			@extend .btn-lg;
+
+			display: inline-block;
+			height: 32px;
+			width: 35px;
+			padding: 2px 0 0 0;
+			text-align: center;
+			line-height: normal;
+			vertical-align: top;
+			font-weight: bold;
+			font-size: 13px;
+			color: white;
+			background: url("../img/icons/comments_24x24.png") no-repeat 50% 50%;
+
+			&:hover {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+#nima_stars,
+.popover {
+	@extend .alert;
+	@extend .alert-warning;
+	@include clearfix;
+
+	margin: 0 0 20px 0;
+
+	 h3 {
+		font-size: 19px !important;
+		margin: 0 0 10px 0;
+		/* color: #8a6d3b; */
+	}
+
+	p {
+		margin: 0 0 10px 0;
+		font-size: 15px !important;
+	}
+
+	.rating {
+		@extend .pull-right;
+
+		width: 80px;
+		margin: 0 0 10px 10px;
+		text-align: center;
+
+		img {
+			display: block;
+			width: 70px;
+			margin: 0 auto 2px;
+		}
+
+		a,
+		span {
+			@extend .btn;
+			@extend .btn-primary;
+			@extend .btn-sm;
+			@include center-block;
+
+			text-align: center;
+			white-space: nowrap;
+			font-weight: bold;
+			font-size: 13px;
+		}
+
+		span {
+			@extend .disabled;
+		}
+	}
+}
+
+#user_modal,
+#login_modal,
+#choice_modal {
+	form {
+		@include clearfix;
+
+		/*
+		margin: 0 0 20px 0;
+		border-bottom: 5px solid black;
+		*/
+
+		p {
+			@extend .form-group;
+		}
+	}
+
+	h2 {
+		margin: 0 0 10px 0;
+	}
+
+	.latest_logins {
+		@extend .list-inline;
+	}
+
+	.errorlist {
+		@include clearfix;
+		@extend .list-unstyled;
+		@extend .pull-right;
+
+		position: relative;
+		top: 30px;
+		right: 0;
+		width: 200px;
+		text-align: right;
+		color: #a94442;
+		font-size: 11px;
+
+		li {
+			@extend .pull-right;
+		}
+	}
+}
+
+#login_form {
+	#id_username {
+		@extend .form-control;
+		@extend .input-lg;
+	}
+}
+
+#id_password {
+	@extend .form-control;
+	@extend .input-lg;
+}
+
+#register_form {
+	#id_username {
+		@extend .form-control;
+	}
+}
+
+#id_email {
+	@extend .form-control;
+}
+
+#id_password1 {
+	@extend .form-control;
+}
+
+#id_password2 {
+	@extend .form-control;
+}
+
+.popover {
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+	color: #8a6d3b;
+
+	h3 {
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.popover.right > .arrow::after {
+  border-right-color: #fcf8e3;
+}
+
+.popover-title {
+	background: transparent;
+}

@@ -1,0 +1,94 @@
+#journal {
+	@include clearfix;
+
+	margin: 15px 0 0 0;
+
+	 /* background: cyan; */
+}
+	#journal_main {
+		@include clearfix;
+		@extend .pull-left;
+
+		width: 829px;
+		margin: 0 0 10px 0;
+		padding: 0 11px;
+
+		/* background: red; */
+	}
+		#journal_navigation {
+			@include clearfix;
+
+			margin: 0 0 10px 0;
+
+			/* background: orange; */
+		}
+
+			.mini_nav {
+				@extend .nav;
+				@extend .nav-pills;
+				@extend .nav-justified;
+
+				width: 807px;
+				margin: 0;
+				padding: 10px 0;
+				white-space: nowrap;
+				border-bottom: $border;
+				background: white;
+
+				&.unsticky {
+					display: none;
+				}
+
+				&.sticky {
+					top: 0;
+				}
+
+				.active {
+					-webkit-transform: translate3d(0, 0, 0);
+					-moz-transform: translate3d(0, 0, 0);
+					-o-transform: translate3d(0, 0, 0);
+					-ms-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
+				}
+			}
+
+		#journal_content {
+			@include clearfix;
+			@extend .pull-left;
+
+			width: 490px;
+			margin: 0;
+
+			/* background: yellow; */
+		}
+
+		#journal_sidebar {
+			@include clearfix;
+			@extend .pull-right;
+
+			width: 300px;
+			margin: 0;
+			padding: 0;
+
+
+			/* background: green; */
+		}
+
+	#journal_promos {
+		@include clearfix;
+		@extend .pull-right;
+
+		width: 163px;
+
+		/* background: blue; */
+	}
+
+
+	#journal_footer_wall {
+		@include clearfix;
+
+		clear: both;
+		margin: 0 11px 10px;
+
+		/* background: purple; */
+	}
