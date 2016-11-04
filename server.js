@@ -10,8 +10,8 @@ app.set('view engine', 'ejs')
 const indexRoutes = require('./routes/index')
 app.use(indexRoutes)
 
-app.listen(3000, function(err){
+app.listen(process.env.PORT, function(err){
 	if(err) console.log(err);
 
-	console.log("Listening on port 3000")
+	console.log("Listening on port " + process.env.PORT)
 })
