@@ -20376,3 +20376,7 @@ p.complete {
     padding: 30px;
     text-align: center;
     background: transparent url("../img/interface/header-background.gif") no-repeat center -50px; }
+
+@media screen and (max-width: 1000px) {
+  #container {
+    width: 100%; } }
