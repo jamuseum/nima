@@ -1,0 +1,424 @@
+body {
+  background-color: #ddd9c2 !important;
+}
+
+// #container {
+//   background-color: white;
+//   margin: 8px auto 0;
+//   width: 1000px;
+//   border: 4px solid #c6b889;
+// }
+
+#header {
+  background: #4b66d4 url('../img/interface/header-background.gif') 0px 0px no-repeat;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 101;
+  height: 184px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+}
+
+#header a,
+#header h1,
+#header h2,
+#header h3,
+#header li,
+#header dt,
+#header dd {
+  color: white;
+  font-weight: bold;
+}
+
+#header h2,
+#header h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+#header h2 span,
+#header h3 span {
+  display: none;
+}
+
+#header h2 {
+  position: absolute;
+  top: 30px;
+  left: 1px;
+  width: 500px;
+  height: 60px;
+}
+
+#header h2.en {
+  background: url('../img/interface/header-titles.gif') 0px 0px no-repeat;
+}
+
+#header h2.ja {
+  background: url('../img/interface/header-titles.gif') 0px -60px no-repeat;
+}
+
+#header h2.es {
+  background: url('../img/interface/header-titles.gif') 0px -120px no-repeat;
+}
+
+#header h2.pt {
+  background: url('../img/interface/header-titles.gif') 0px -180px no-repeat;
+}
+
+#header h3 {
+  display: none;
+}
+
+#header #earth {
+  width: 50px;
+  height: 50px;
+  background: url('../img/interface/header-earth.gif') no-repeat;
+  position: absolute;
+  top: 52px;
+  left: 900px;
+}
+
+#header #sitesearch {
+  position: absolute;
+  top: 155px;
+  left: 750px;
+}
+
+#header #sitesearch #id_search_q {
+  width: 170px;
+}
+
+#header #sitesearch .submit {
+  width: 70px;
+}
+
+#header .horizontal li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#header th,
+#header td {
+  vertical-align: top;
+}
+
+ul#languages,
+ul#breadcrumbs,
+ul#commonnav {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#languages li form,
+ul#breadcrumbs li form,
+ul#commonnav li form {
+  display: inline;
+}
+
+.sf-menu {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  font-size: 13px;
+}
+
+.sf-menu a {
+  border: 0px;
+  border-top: 0px;
+}
+
+.sf-menu li {
+  background: #4b66d4;
+}
+
+.sf-menu > li {
+  border-top: 1px solid #4b66d4;
+  border-left: 2px solid #4b66d4;
+  border-right: 1px solid white;
+}
+
+.sf-menu li li {
+  border: 0px;
+  background: #9dabe7;
+  width: 17em;
+  line-height: 0.8em;
+  top: -2px;
+  left: -2px;
+}
+
+.sf-menu li li li {
+  background: #7488dd;
+}
+
+.sf-menu li:hover,
+.sf-menu li.sfHover,
+.sf-menu a:focus,
+.sf-menu a:hover,
+.sf-menu a:active {
+  background: #7488dd;
+}
+
+.sf-menu > li.selected {
+  background: #9dabe7;
+  border-left: 2px solid #7488dd;
+}
+
+.sf-menu > li.selected > a {
+  color: #000000;
+}
+
+body .search-nav {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  font-size: 12pt;
+  border: 0px;
+  margin: 0;
+}
+
+body .search-nav td {
+  border-right: 1px solid white;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body .search-nav a {
+  border: 0px;
+  border-top: 0px;
+}
+
+#languages {
+  width: 120px;
+  height: 20px;
+  position: relative;
+  top: 30px;
+  left: 680px;
+  background: url('../img/interface/langs.png') -0px -0px no-repeat;
+}
+
+#languages li {
+  display: inline;
+}
+
+#languages li a:link,
+#languages li a:visited {
+  position: absolute;
+  top: 0;
+  height: 20px;
+  text-indent: -9000px;
+  overflow: hidden;
+}
+
+#languages .en a:link,
+#languages .en a:visited {
+  left: 0px;
+  width: 30px;
+}
+
+#languages .en a:hover,
+#languages .en a:focus,
+#languages .en a:active {
+  background: url('../img/interface/langs.png') no-repeat -0px -20px;
+}
+
+#languages .en.active a:link,
+#languages .en.active a:visited {
+  background: url('../img/interface/langs.png') no-repeat -0px -20px;
+  cursor: default;
+}
+
+#languages .ja a:link,
+#languages .ja a:visited {
+  left: 30px;
+  width: 30px;
+}
+
+#languages .ja a:hover,
+#languages .ja a:focus,
+#languages .ja a:active {
+  background: url('../img/interface/langs.png') no-repeat -30px -20px;
+}
+
+#languages .ja.active a:link,
+#languages .ja.active a:visited {
+  background: url('../img/interface/langs.png') no-repeat -30px -20px;
+  cursor: default;
+}
+
+#languages .es a:link,
+#languages .es a:visited {
+  left: 60px;
+  width: 30px;
+}
+
+#languages .es a:hover,
+#languages .es a:focus,
+#languages .es a:active {
+  background: url('../img/interface/langs.png') no-repeat -60px -20px;
+}
+
+#languages .es.active a:link,
+#languages .es.active a:visited {
+  background: url('../img/interface/langs.png') no-repeat -60px -20px;
+  cursor: default;
+}
+
+#languages .pt a:link,
+#languages .pt a:visited {
+  left: 90px;
+  width: 30px;
+}
+
+#languages .pt a:hover,
+#languages .pt a:focus,
+#languages .pt a:active {
+  background: url('../img/interface/langs.png') no-repeat -90px -20px;
+}
+
+#languages .pt.active a:link,
+#languages .pt.active a:visited {
+  background: url('../img/interface/langs.png') no-repeat -90px -20px;
+  cursor: default;
+}
+
+#user {
+  margin: 0;
+  padding: 0px;
+  width: 400px;
+}
+
+#user table {
+	margin-top: 5px;
+}
+
+#user p,
+#user ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#user li {
+  list-style-type: none;
+}
+
+#user p {
+  text-align: right;
+}
+
+#user a {
+  color: #4b66d4;
+  font-weight: normal;
+}
+
+#user #authenticated {
+  position: relative;
+  top: 30px;
+  left: 450px;
+  border: 0px;
+}
+
+#user #anonymous {
+  position: relative;
+  top: 30px;
+  left: 432px;
+}
+
+#user #anonymous .icon {
+  width: 200px;
+  margin: 0 5px 0 0;
+}
+
+#user #anonymous .icon img {
+  border: 1px solid #edecf8;
+}
+
+#user #anonymous .login {
+  width: 50px;
+}
+
+#user #anonymous .links .last {
+  margin-right: 0px;
+}
+
+#user #anonymous form {
+  margin: 0 0 0 0;
+  width: 100px;
+}
+
+#user #anonymous .username,
+#user #anonymous .password,
+#user #anonymous .submit {
+  border: 1px solid #7488dd;
+  font-size: 11px;
+}
+
+#user #anonymous .submit {
+  background: #c6cef1;
+}
+
+#user #anonymous .username,
+#user #anonymous .password {
+  background: #f7f8fd;
+  color: #9dabe7;
+  width: 100px;
+  margin-bottom: 3px;
+}
+
+#user #anonymous #password-clear {
+  display: none;
+}
+
+#user #anonymous ul {
+  margin: 0px;
+  font-size: smaller;
+}
+
+form#sitesearch {
+  position: absolute;
+  top: 155px;
+  left: 812px;
+}
+
+form#sitesearch input.input {
+  border-top: 1px solid #333333;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  height: 12px;
+  padding: 3px;
+  background: #f5ffff;
+}
+
+#footer {
+  clear: both;
+  margin-top: 50px;
+  padding: 5px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  background-color: white;
+  text-align: center;
+}
+
+#footer ul,
+#footer #copyright {
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+  color: #999999;
+}
+
+#footer ul a,
+#footer #copyright a {
+  color: #999999;
+}
+
+#footer .horizontal li {
+  display: inline;
+  margin-right: 10px;
+}

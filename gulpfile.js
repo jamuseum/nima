@@ -5,7 +5,7 @@ const browserSync = require('browser-sync')
 gulp.task('sass', function(){
 	gulp.src('./sass/*.scss')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('./public/css/'))
+		.pipe(gulp.dest('./public/static/css/'))
 })
 
 gulp.task('serve', ['sass'], function(){
@@ -17,7 +17,7 @@ gulp.task('serve', ['sass'], function(){
 		}
 	});
 	gulp.watch('./sass/*.scss', ['sass'])
-	gulp.watch('./public/css/*.css').on('change', browserSync.reload)
+	gulp.watch('./public/static/css/*.css').on('change', browserSync.reload)
 	gulp.watch('./views/*/*.*').on('change', browserSync.reload)	
 })
 
