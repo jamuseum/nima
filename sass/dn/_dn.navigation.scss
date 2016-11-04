@@ -1,0 +1,129 @@
+#dn_nav {
+	@extend .navbar;
+	@extend .navbar-default;
+
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 15px;
+
+	background: $primary-blue;
+
+	a {
+		font-weight: bold;
+	}
+
+	.header {
+		@extend .navbar-header;
+
+		.navbar-toggle {
+			margin-right: 0;
+		}
+
+		a {
+			@extend .navbar-brand;
+			@extend .visible-xs;
+
+			width: 200px;
+			height: $navbar-height;
+			margin-left: 15px;
+			background: transparent url("../img/interface/header-title-en.png") no-repeat left 8px;
+			background-size: contain;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.dropdown:hover .dropdown-menu {
+			display: block;
+		}
+	}
+
+	#collapse {
+		@extend .collapse;
+		@extend .navbar-collapse;
+
+		margin: 0;
+
+		> ul {
+			@extend .nav;
+			@extend .navbar-nav;
+
+			> li {
+				@extend .dropdown;
+
+				> a {
+					@extend .dropdown-toggle;
+				}
+			}
+		}
+
+		form[role="search"] {
+			@extend .navbar-form;
+			@extend .navbar-right;
+
+			margin: 1px 0 0 0;
+
+			input {
+				@extend .form-control;
+				@extend .input-sm;
+			}
+
+			button[type="submit"] {
+				 @extend .btn;
+				 @extend .btn-default;
+				 @extend .btn-sm;
+			}
+		}
+
+		.profile {
+			@extend .visible-xs;
+
+			.avatar {
+				margin: 0 5px 0 0;
+			}
+
+			p {
+				@extend .navbar-text;
+			}
+
+			a {
+				@extend .navbar-link;
+			}
+		}
+	}
+
+	.search,
+	.search *,
+	.search *:before,
+	.search *:after {
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+	}
+}
+
+#cse {
+	width: 300px;
+
+	@extend .navbar-form;
+	@extend .navbar-right;
+}
+
+.gsc-input-box {
+	height: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

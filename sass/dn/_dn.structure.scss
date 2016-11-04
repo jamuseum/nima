@@ -1,0 +1,97 @@
+#dn {
+	background: $background;
+}
+
+#dn_container {
+	@extend .container-fluid;
+
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+}
+
+#dn_main {
+	@include clearfix;
+	@extend .col-md-12;
+
+	/*
+	@extend .pull-left;
+
+	width: 829px;
+	margin: 0 0 10px 0;
+	padding: 0 11px;
+	*/
+
+	/* background: red; */
+}
+
+.focus {
+	#dn_main {
+		@include clearfix;
+		@extend .col-sm-6;
+		@extend .col-sm-offset-3;
+	}
+}
+
+.transitional {
+	#dn_main {
+		@include clearfix;
+		@extend .col-md-10;
+	}
+}
+
+#dn_content {
+	@include clearfix;
+	@extend .col-sm-7;
+	@extend .col-md-7;
+
+	/*
+	@extend .pull-left;
+
+	width: 490px;
+	margin: 0;
+	*/
+
+	/* background: yellow; */
+}
+
+#dn_sidebar {
+	@include clearfix;
+	@extend .col-sm-5;
+	@extend .col-md-5;
+
+	/*
+	@extend .pull-right;
+
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	*/
+
+
+	/* background: green; */
+}
+
+#dn_promos {
+	@include clearfix;
+	@extend .col-md-2;
+
+	/*
+	@extend .pull-right;
+
+	width: 141px;
+	*/
+
+	/* background: blue; */
+}
+
+
+#dn_footer_wall {
+	@include clearfix;
+
+	clear: both;
+	margin: 0 11px 10px;
+
+	/* background: purple; */
+}

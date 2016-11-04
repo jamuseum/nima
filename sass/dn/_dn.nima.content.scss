@@ -1,0 +1,121 @@
+body {
+	&.nima {
+		.breadcrumb {
+			@include clearfix;
+
+			margin: 0;
+
+			// make generic
+			background: transparent;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+
+		.block {
+			&.form {
+				@extend .well;
+
+				p {
+					@extend .form-group;
+				}
+
+				#id_oldpassword {
+					@extend .form-control;
+				}
+
+				#id_password1 {
+					@extend .form-control;
+				}
+
+				#id_password2 {
+					@extend .form-control;
+				}
+			}
+		}
+	}
+}
+
+#nima_form_container {
+	@extend .panel;
+	@extend .panel-default;
+
+	.form-group {
+		margin: 0;
+	}
+
+	.errorlist {
+		@include clearfix;
+		@extend .list-unstyled;
+
+		margin: 10px 0 0;
+		padding: 0;
+
+		li {
+			@extend .text-danger;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			margin: 0;
+			padding: 0;
+			font-size: 11px;
+		}
+	}
+}
+
+#nima_form_content {
+	@extend .panel-body;
+}
+
+.incomplete {
+	color: gray;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.complete {
+	color: #52b54a;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+p {
+	&.complete {
+		text-decoration: line-through;
+	}
+}
+
+.nima-header {
+	margin: 0 0 20px 0;
+
+	.thumbnail {
+		@extend .img-circle;
+		@extend .center-block;
+
+		height: 170px;
+		text-align: center;
+	}
+
+	.cover {
+		width: 100%;
+		height: 270px;
+		padding: 30px;
+		text-align: center;
+		background: transparent url("../img/interface/header-background.gif") no-repeat center -50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

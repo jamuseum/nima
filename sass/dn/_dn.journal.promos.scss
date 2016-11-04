@@ -1,0 +1,60 @@
+#journal_promos {
+	h2 {
+		margin: 0 0 5px 0;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	p {
+		margin: 0 0 5px 0;
+		font-size: 11px;
+		line-height: 12px;
+	}
+
+	label {
+		font-size: 11px;
+	}
+
+	a {
+		color: black;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	form {
+		margin: 0;
+	}
+
+	.form-group {
+		margin: 0;
+	}
+
+	.more {
+		font-weight: normal;
+		color: #428bca !important;
+		margin: 0;
+
+		&.type2 {
+			text-align: right;
+		}
+	}
+
+	.promo {
+		margin: 0 0 10px 0;
+		padding: 10px;
+
+		&.type1 {
+			background: #fce3c7;
+
+			.more {
+				color: #453D30;
+			}
+		}
+
+		&.type2 {
+			background: #e6f0ee;
+		}
+	}
+}
