@@ -1,21 +1,36 @@
 <%- layout('default-layout') %>
 
-
-<!-- <div id="container"> -->
+<!-- legacy container -->
+<div id="container">
 	
-<div id="dn" class="nima">
-	<div id="dn_container">
-		<%- include ../partials/header %>
-			<div class="row">
-				<div id="dn_main">
-					<p>Some great stuff will go here.</p>
-				</div> <!-- /dn_main -->
-			</div> <!-- .row -->
-	</div> <!-- /journal -->
-</div><!-- #dn_container -->
-
-<%- include ../partials/modal %>
-
-<% include ../partials/footer %>
+	<div id="dn" class="nima">
+		<div id="dn_container">
+			<%- include ../partials/header %>
+				<div class="row">
+					<div id="dn_main">
+						<p>Some great stuff will go here.</p>
+					</div> <!-- /dn_main -->
+				</div> <!-- .row -->
+		</div> <!-- /journal -->
+	</div><!-- #dn_container -->
 
 
+	<%- include ../partials/modal %>
+
+
+	<div>
+		Are you a NIMA? Nima stuff will go here.
+	</div>
+	<div>
+		Google Map Goes here
+	</div>
+	<div>
+		Activity feed
+	</div>
+	<div>
+		Comments Latest
+	</div>
+
+	<% include ../partials/footer %>
+
+</div>
