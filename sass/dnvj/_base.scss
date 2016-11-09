@@ -1,10 +1,45 @@
 #journal_introduction {
 	width:100%;
+	font-family: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 
 }
 .dn-inner-container {
 	padding:0px 10px;
 }
+
+//default nima styles and classes
+.nima {
+	&.community_icon {
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	&.signup {
+		background-color: #2e87cf;
+	    border: none;
+	    border-radius: 5px;
+	    height: 35px;
+	    width: 90px;
+	    color: white;
+	    font-size: 12px;
+	    box-sizing: border-box;
+	    font-weight: bolder;
+	}
+}
+.nima_search {
+	h2 {
+		margin:0px;
+	}
+	input[type=text]{
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	button {
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+}
+
+
 
 @media screen and (max-width:1000px){
 	#container {

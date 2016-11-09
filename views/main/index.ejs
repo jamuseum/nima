@@ -6,11 +6,7 @@
 	<div id="dn" class="nima">
 		<div id="dn_container">
 			<%- include ../partials/header %>
-				<div class="row">
-					<div id="dn_main">
-						<p>Some great stuff will go here.</p>
-					</div> <!-- /dn_main -->
-				</div> <!-- .row -->
+				 <!-- .row -->
 		</div> <!-- /journal -->
 	</div><!-- #dn_container -->
 
@@ -21,14 +17,39 @@
 			
 			<div class="col-md-12">
 				<div id="journal_introduction">
-					<h2>Nima</h2>
-					<p>Are you a Nima*?</p>
-					<p>Nima are members of the Discover Nikkei online community called Nima-kai.  Join our community and share your stories about the Nikkei experience.  Click an icon on the map to connect with Nima around the world!</p>
-					<p>The term "Nima" comes from combining Nikkei and nakama (Japanese for "colleagues", or "fellows", or "circle").</p>
+					
+					<div class="row">
+						<div class="col-md-2 text-center">
+							<img class="nima community_icon" src="static/img/icons/users-100.png">
+							<button class="nima signup">Sign Up</button>
+						</div>
+						<div class="col-md-6">
+							<h2>Nima</h2>
+							<p>Are you a Nima*?</p>
+							<p>Nima are members of the Discover Nikkei online community called Nima-kai.  Join our community and share your stories about the Nikkei experience.  Click an icon on the map to connect with Nima around the world!</p>
+							<p>The term "Nima" comes from combining Nikkei and nakama (Japanese for "colleagues", or "fellows", or "circle").</p>
+						</div>
+						<div class="col-md-4">
+							<p>Some other stuff</p>
+						</div>
+					</div>
+					
 				</div>
-				<div>
-					<h2>Nima Map</h2>
-					Google Map Goes here
+				<div class="nima_search">
+					<div class="row">
+						<div class="col-md-7">
+							<h2>Nima Map</h2>
+						</div>
+						<div class="col-md-5 text-right">
+							<form class="form-inline">
+								<div class="form-group">
+									<input class="form-control" type="text" name="search" placeholder="Search NIMA"><button class="btn btn-primary">GO</button>
+								</div>
+							</form>
+							
+						</div>
+					</div>
+					<div id="map"></div>
 				</div>
 			</div>
 		</div>
@@ -36,52 +57,218 @@
 		<div class="row">
 			<div class="col-md-8">
 				<h2>Nima-kai Community Activity Feed</h2>
-				<div>
-					<ul>
-						<li>All</li>
-						<li>Articles</li>
-						<li>Events</li>
-						<li>Nikkei Album</li>
-					</ul>
+				
+					<div id="events" class="block">
+  
+  
+					  <h2>Upcoming Events</h2>
+					<table class="eventpreviews" border="0">
+					  <tbody><tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/09/5202/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>9</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/09/5202/">
+					Distilled, Not Brewed: Discovering Shochu
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/10/5220/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>10</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/10/5220/">
+					POSTPONED -- Opening Reception Hiroshi Senju
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/10/5174/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>10</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/10/5174/">
+					Meditative Chanting with Ko Ishikawa
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/10/5254/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>10</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/10/5254/">
+					Joy Kogawa Toronto Book Launch for Gently to Nagasaki on November 10th 
+					<br>
+					<em>Ontario, Canada</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/11/5235/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>11</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/11/5235/">
+					Remembrance Day ceremony
+					<br>
+					<em>British Columbia, Canada</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/11/5175/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>11</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/11/5175/">
+					Sounds to Summon the Japanese Gods
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/12/5169/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>12</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/12/5169/">
+					2016 JAMsj Winter Boutique
+					<br>
+					<em>California, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/12/5239/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>12</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/12/5239/">
+					11º Odori Fest 2016
+					<br>
+					<em>Paraná, Brazil</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/12/5252/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>12</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/12/5252/">
+					“TOKYO TO NEW YORK” in CONCERT 東京 と ニューヨーク" Concert
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					  <tr>
+					    <td valign="top" class="icon">
+					<a href="/en/events/2016/11/14/5242/">
+					<span class="dates">
+					<div class="startdate">
+					<em>Nov</em>
+					<b>14</b>
+					</div>
+					</span>
+					</a>
+					    </td>
+					    <td valign="top" class="text">
+					<a href="/en/events/2016/11/14/5242/">
+					Nihongo Chat + J-Culture | 日本語と英語の語学交換会
+					<br>
+					<em>New York, United States</em>
+					</a>
+					    </td>
+					  </tr>
+
+					</tbody></table>
+
+					  
+					  <p class="more"><a href="/en/events/">more events</a></p>
+					</div>
 				</div>
-				<div>
-					<div>
-						<div>Nov 2</div>
-						<div>
-							<div>EN</div>
-							<div>Event</div>
-							<p>Curabitur sit amet turpis eu eros</p>
-						</div>
-					</div>
-					<div>
-						<div>Nov 2</div>
-						<div>
-							<div>EN</div>
-							<div>Event</div>
-							<p>Curabitur sit amet turpis eu eros</p>
-						</div>
-					</div>
-					<div>
-						<div>Nov 2</div>
-						<div>
-							<div>EN</div>
-							<div>Event</div>
-							<p>Curabitur sit amet turpis eu eros</p>
-						</div>
-					</div>
-					<div>
-						<div>Nov 2</div>
-						<div>
-							<div>EN</div>
-							<div>Event</div>
-							<p>Curabitur sit amet turpis eu eros</p>
-						</div>
-					</div>
-					<button>Load More</button>
-				</div>
-			</div>
-			<div class="col-md-4">
-				Comments Latest
 			</div>
 		</div>
 	</div><!-- dn inner container -->
