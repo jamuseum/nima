@@ -21994,16 +21994,18 @@ p.complete {
 
 .nima_search input[type=text] {
   border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px; }
+  border-bottom-right-radius: 0px;
+  vertical-align: top; }
 
 .nima_search button {
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px; }
+  border-bottom-left-radius: 0px;
+  vertical-align: top; }
 
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
 
 #map {
-  height: 400px;
+  height: 215px;
   width: 100%; }
