@@ -1,3 +1,26 @@
 #footer {
 	background-color:#2e2e2e;
+	text-align: left;
+	color:#cbcbbe;
+	h5 {
+		text-transform: uppercase;
+		margin-right:15px;
+	}
+	.row {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	a {
+		color:#cbcbbe;
+	}
+	ul {
+		padding-left: 0;
+	}
+	ul li {
+		list-style-type: none;
+		text-transform: uppercase;
+		padding-bottom: 5px;
+		color:#cbcbbe;
+	}
 }
