@@ -22077,6 +22077,9 @@ p.complete {
   margin-top: 20px;
   margin-bottom: 15px; }
 
+#account {
+  display: none; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
