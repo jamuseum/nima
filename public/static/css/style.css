@@ -21969,13 +21969,13 @@ p.complete {
 
 #journal_introduction {
   width: 100%;
-  font-family: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif; }
+  font-family: Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif; }
 
 .dn-inner-container {
   padding: 0px 10px; }
 
 .nima.community_icon {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px; }
 
 .nima.signup {
@@ -21987,7 +21987,22 @@ p.complete {
   color: white;
   font-size: 12px;
   box-sizing: border-box;
-  font-weight: bolder; }
+  font-weight: bolder;
+  cursor: pointer; }
+
+.nima.toggle {
+  border-radius: 8px;
+  border: 1px solid #979797;
+  background-color: white;
+  font-family: Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif;
+  color: black;
+  width: 110px;
+  cursor: pointer;
+  box-shadow: border-box;
+  padding-top: 5px; }
+  .nima.toggle.active {
+    background-color: #979797;
+    color: white; }
 
 .nima_search h2 {
   margin: 0px; }
@@ -22002,6 +22017,16 @@ p.complete {
   border-bottom-left-radius: 0px;
   vertical-align: top; }
 
+.activity-feed button {
+  margin-right: 5px; }
+
+.activity-feed button:first-child {
+  margin-left: 5px; }
+
+.spacing_20px {
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
@@ -22009,3 +22034,6 @@ p.complete {
 #map {
   height: 215px;
   width: 100%; }
+
+#footer {
+  background-color: #2e2e2e; }
