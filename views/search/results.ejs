@@ -22,15 +22,52 @@
 				
 		<div class="row">
 			<div class="col-md-8">
-				<h3>Results</h3>
+				<h2>Results</h2>
 				<hr>
-
-				
-					
-				
+				<p>Sort by <button class="nima toggle active">Alphabetical</button><button class="nima toggle">Recently Active</button></p>
+				<% if(typeof query != 'undefined') { %>
+					<p><%- query -%></p>
+				<% } else { %>
+					<p>No results matched your search</p>
+				<% } %>
+				<div>
+					<p>Links for prev and next page go here</p>
+				</div>
 			</div>
 			<div class="col-md-4">
-				<h3></h3>
+				<h2>Search</h2>
+				<div>
+					<h3>Username</h3>
+					<textarea></textarea>
+				</div>
+				<div>
+					<h3>Nikkei Interests</h3>
+					<input type="checkbox" name=""> Community History
+					<input type="checkbox" name=""> Family Stories
+					<input type="checkbox" name=""> Festival/Matsuri
+					<input type="checkbox" name=""> Japanese / Nikkei Food
+					<input type="checkbox" name=""> Japantowns
+					<input type="checkbox" name=""> Taiko
+					<input type="checkbox" name=""> Other
+				</div>
+				<div>
+					<h3>Current City</h3>
+					<input type="text" name="" placeholder="">
+				</div>
+				<div>
+					<h3>Hometown</h3>
+					<input type="text" name="" placeholder="">
+				</div>
+				<div>
+					<h3>Communication Preference</h3>
+					<input type="checkbox" name=""> English
+					<input type="checkbox" name=""> 日本語
+					<input type="checkbox" name=""> Espanol
+					<input type="checkbox" name=""> Portugues
+				</div>
+				<div class="text-center">
+					<button class="btn btn-default">Submit</button>
+				</div>
 			</div>
 		</div>
 	</div><!-- dn inner container -->

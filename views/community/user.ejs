@@ -13,23 +13,51 @@
 
 	<%- include ../partials/modal %>
 	<div class="dn-inner-container">
-		<div class="row">
-			
+		<div class="row text-center">
 			<div class="col-md-12">
-				
+				<div id="map"></div>
+			</div>
+			<div class="col-md-12">
+				<% if(typeof user !== "undefined"){ %>
+					
+				<h2><%- user %></h2>
+				<% }else { %>
+				<h2>susan2</h2>
+				<% } %>
+
+				<p>Los Angeles - United States</p>
+				<p>Nima since 2015</p>
 			</div>
 		</div>
 				
 		<div class="row">
 			<div class="col-md-8">
-				<h2>Results</h2>
-
-				
-					
+				<div class="activity-feed spacing_20px">
+					<button class="nima toggle active">All</button>
+					<button class="nima toggle">Articles</button>
+					<button class="nima toggle">Events</button>
+					<button class="nima toggle">Nikkei Album</button>
+				</div>
+				<% include ../partials/events %>
 				
 			</div>
 			<div class="col-md-4">
-				Some other stuff
+				<h3>General Information</h3>
+				<div>
+					<hr>
+					<p>Lorem ipsum <a href="#">(read more)</a></p>
+					<p>Current City: Los Angeles - United States</p>
+					<p>Hometown: Boston - United States</p>
+					<p>Nikkei Interests: Japantowns, Food</p>
+					<p>Facebook</p>
+					<p>Communication Preferences</p>
+					<button>English</button>
+					<button>日本語</button>
+				</div>
+				<div>
+					<h3>Send message to susan2</h3>
+					<p>Discuss Plugin</p>
+				</div>
 			</div>
 		</div>
 	</div><!-- dn inner container -->
