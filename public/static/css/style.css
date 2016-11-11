@@ -22042,6 +22042,18 @@ p.complete {
     background-color: #979797;
     color: white; }
 
+.nima-lang {
+  background-color: #4a4a4a;
+  color: white;
+  text-transform: uppercase;
+  float: right;
+  border-radius: 6px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  margin-right: 6px;
+  padding-top: 4px; }
+
 .nima_search h2 {
   margin: 0px; }
 
