@@ -132,6 +132,10 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	margin-bottom: 15px;
 }
 
+#account {
+	display: none;
+}
+
 
 @media screen and (max-width:1000px){
 	#container {

@@ -14,3 +14,13 @@ $(".activity-feed button").click(function(){
 	$(".activity-feed button").removeClass('active');
 	$(this).addClass('active');
 });
+
+$("#profile-tab").click(function(){
+	$("#account").hide();
+	$("#profile").show();
+})
+
+$("#account-tab").click(function(){
+	$("#profile").hide();
+	$("#account").show();
+})
