@@ -9,3 +9,8 @@ function initMap() {
 	  map: map
 	});
 }
+
+$(".activity-feed button").click(function(){
+	$(".activity-feed button").removeClass('active');
+	$(this).addClass('active');
+});

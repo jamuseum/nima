@@ -1,6 +1,6 @@
 $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 
-
+//modifications
 #journal_introduction {
 	width:100%;
 	font-family: $default_font;
@@ -8,6 +8,51 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .dn-inner-container {
 	padding:0px 10px;
 }
+//calendars in events
+.startdate, .enddate {
+	height: 70px;
+    width: 70px;
+    box-sizing: border-box;
+}
+.startdate em, .enddate em, .startdate td.month, .enddate td.month {
+	font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.startdate b, .enddate b, .startdate td.date, .enddate td.date {
+    background: #ffffff;
+    font-size: 24px;
+    color: #4b66d4;
+    font-weight: 200;
+    padding-top: 7px;
+}
+.eventpreviews {
+	margin-bottom: 30px;
+	.text {
+		padding-left: 30px;
+		button {
+			margin-bottom: 10px;
+			display: block;
+		}
+	}
+	tr {
+		border:1px solid #ccc;
+		td {
+			vertical-align: bottom;
+		}
+		td.icon {
+			padding-top:2px;
+			padding-bottom: 2px;
+			padding-left:2px;
+		}
+	}
+	tr.spacer {
+		border:0;
+		height:30px;
+	}
+}
+
 
 //default nima styles and classes
 .nima {
@@ -37,6 +82,7 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		cursor:pointer;
 		box-shadow: border-box;
 		padding-top: 5px;
+		outline:none;
 		&.active {
 			background-color: #979797;
 			color:white;
