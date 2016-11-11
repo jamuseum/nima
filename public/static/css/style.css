@@ -21974,6 +21974,43 @@ p.complete {
 .dn-inner-container {
   padding: 0px 10px; }
 
+.startdate, .enddate {
+  height: 70px;
+  width: 70px;
+  box-sizing: border-box; }
+
+.startdate em, .enddate em, .startdate td.month, .enddate td.month {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.startdate b, .enddate b, .startdate td.date, .enddate td.date {
+  background: #ffffff;
+  font-size: 24px;
+  color: #4b66d4;
+  font-weight: 200;
+  padding-top: 7px; }
+
+.eventpreviews {
+  margin-bottom: 30px; }
+  .eventpreviews .text {
+    padding-left: 30px; }
+    .eventpreviews .text button {
+      margin-bottom: 10px;
+      display: block; }
+  .eventpreviews tr {
+    border: 1px solid #ccc; }
+    .eventpreviews tr td {
+      vertical-align: bottom; }
+    .eventpreviews tr td.icon {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 2px; }
+  .eventpreviews tr.spacer {
+    border: 0;
+    height: 30px; }
+
 .nima.community_icon {
   margin-top: 20px;
   margin-bottom: 10px; }
@@ -21999,7 +22036,8 @@ p.complete {
   width: 110px;
   cursor: pointer;
   box-shadow: border-box;
-  padding-top: 5px; }
+  padding-top: 5px;
+  outline: none; }
   .nima.toggle.active {
     background-color: #979797;
     color: white; }
