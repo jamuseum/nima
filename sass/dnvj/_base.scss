@@ -1,7 +1,9 @@
+$default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
+
+
 #journal_introduction {
 	width:100%;
-	font-family: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
-
+	font-family: $default_font;
 }
 .dn-inner-container {
 	padding:0px 10px;
@@ -10,7 +12,7 @@
 //default nima styles and classes
 .nima {
 	&.community_icon {
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 	&.signup {
@@ -23,6 +25,22 @@
 	    font-size: 12px;
 	    box-sizing: border-box;
 	    font-weight: bolder;
+	    cursor: pointer;
+	}
+	&.toggle {
+		border-radius:8px;
+		border:1px solid #979797;
+		background-color:white;
+		font-family: $default_font;
+		color:black;
+		width: 110px;
+		cursor:pointer;
+		box-shadow: border-box;
+		padding-top: 5px;
+		&.active {
+			background-color: #979797;
+			color:white;
+		}
 	}
 }
 .nima_search {
@@ -40,7 +58,19 @@
 		vertical-align: top;
 	}
 }
+.activity-feed {
+	button {
+		margin-right: 5px;
+	}
+	button:first-child {
+		margin-left: 5px;
+	}
+}
 
+.spacing_20px {
+	margin-top:20px;
+	margin-bottom: 15px;
+}
 
 
 @media screen and (max-width:1000px){
