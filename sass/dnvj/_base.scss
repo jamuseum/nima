@@ -53,6 +53,16 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	}
 }
 
+.navigation.block {
+	text-align: left;
+}
+.breadcrumb {
+    margin: 0;
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 //default nima styles and classes
 .nima {
@@ -106,6 +116,17 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	}
 	&.profile-pic.avatar {
 		border-radius:50%;
+	}
+	&.profile-pic-map {
+		position: absolute;
+		top:120px;
+		left:50%;
+		margin-left: -25px;
+		z-index: 10;
+		img {
+			border-radius: 50%;
+			border:6px solid white;
+		}
 	}
 	&.menu-icon {
 	    position: relative;
