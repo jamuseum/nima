@@ -21995,7 +21995,7 @@ p.complete {
 .eventpreviews {
   margin-bottom: 30px; }
   .eventpreviews .text {
-    padding-left: 30px; }
+    padding-left: 10px; }
     .eventpreviews .text button {
       margin-bottom: 10px;
       display: block; }
@@ -22026,6 +22026,22 @@ p.complete {
   box-sizing: border-box;
   font-weight: bolder;
   cursor: pointer; }
+
+.nima.pill {
+  border-radius: 2px;
+  border: 1px solid #979797;
+  background-color: #999;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 2px;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 9px; }
 
 .nima.toggle {
   border-radius: 8px;
@@ -22066,6 +22082,9 @@ p.complete {
   text-align: center;
   margin-right: 6px;
   padding-top: 4px; }
+
+.nima-lang.inactive {
+  background-color: #999; }
 
 .nima_search h2 {
   margin: 0px; }

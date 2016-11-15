@@ -30,7 +30,7 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .eventpreviews {
 	margin-bottom: 30px;
 	.text {
-		padding-left: 30px;
+		padding-left: 10px;
 		button {
 			margin-bottom: 10px;
 			display: block;
@@ -71,6 +71,22 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	    box-sizing: border-box;
 	    font-weight: bolder;
 	    cursor: pointer;
+	}
+	&.pill {
+		border-radius: 2px;
+	    border: 1px solid #979797;
+	    background-color: #999;
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	    color: #fff;
+	    cursor: pointer;
+	    text-transform: uppercase;
+	    box-sizing: border-box;
+	    padding: 2px;
+	    outline: none;
+	    display: inline-block;
+	    text-align: center;
+	    font-weight: 500;
+	    margin-bottom: 9px;
 	}
 	&.toggle {
 		border-radius:8px;
@@ -114,6 +130,9 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
     text-align: center;
     margin-right: 6px;
     padding-top: 4px;
+}
+.nima-lang.inactive {
+	background-color:#999;
 }
 
 .nima_search {
