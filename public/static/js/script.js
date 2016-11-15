@@ -24,3 +24,8 @@ $("#account-tab").click(function(){
 	$("#profile").hide();
 	$("#account").show();
 })
+
+$("#nima_menu_trigger").click(function(e){
+	e.preventDefault();
+	$("#popover").toggle()
+})
