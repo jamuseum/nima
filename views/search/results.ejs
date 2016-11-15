@@ -24,14 +24,14 @@
 			<div class="col-md-8">
 				<h2>Results</h2>
 				<hr>
-				<p>Sort by <button class="nima toggle active">Alphabetical</button><button class="nima toggle">Recently Active</button></p>
+				<p>Sort by <div class="btn-group"><button class="btn btn-default">Alphabetical</button><button class="btn btn-default">Recently Active</button></div></p>
 				<% if(typeof query != 'undefined') { %>
-					<p><%- query -%></p>
+					<h1>You searched for: <%- query -%></h1>
 				<% } else { %>
 					<p>No results matched your search</p>
 				<% } %>
 				<div>
-					<p>Links for prev and next page go here</p>
+					<p>Here are the closest matches we found:</p>
 				</div>
 			</div>
 			<div class="col-md-4">
