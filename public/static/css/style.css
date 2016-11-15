@@ -22042,12 +22042,25 @@ p.complete {
     background-color: #979797;
     color: white; }
 
+.nima.profile-pic.avatar {
+  border-radius: 50%; }
+
+.nima.menu-icon {
+  position: relative;
+  top: 15px !important;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: black;
+  margin-top: 0px !important;
+  line-height: 25px !important; }
+
 .nima-lang {
   background-color: #4a4a4a;
   color: white;
   text-transform: uppercase;
   float: right;
-  border-radius: 6px;
+  border-radius: 10px;
   width: 30px;
   height: 20px;
   text-align: center;
