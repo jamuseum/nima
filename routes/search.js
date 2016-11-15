@@ -8,10 +8,10 @@ router.get('/', function(req, res, next){
 	})
 })
 
-router.get('/:query', function(req, res, next){
-
+router.get('/q', function(req, res, next){
+	console.log(req.query.search)
 	res.render('search/results', {
-		query: req.params.query
+		query: req.query.search
 	})
 })
 
