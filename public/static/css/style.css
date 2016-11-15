@@ -22011,6 +22011,15 @@ p.complete {
     border: 0;
     height: 30px; }
 
+.navigation.block {
+  text-align: left; }
+
+.breadcrumb {
+  margin: 0;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0; }
+
 .nima.community_icon {
   margin-top: 20px;
   margin-bottom: 10px; }
@@ -22060,6 +22069,16 @@ p.complete {
 
 .nima.profile-pic.avatar {
   border-radius: 50%; }
+
+.nima.profile-pic-map {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left: -25px;
+  z-index: 10; }
+  .nima.profile-pic-map img {
+    border-radius: 50%;
+    border: 6px solid white; }
 
 .nima.menu-icon {
   position: relative;
