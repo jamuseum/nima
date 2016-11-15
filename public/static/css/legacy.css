@@ -3,7 +3,7 @@ body {
 
 #container {
   background-color: white;
-  margin: 8px auto 0;
+  margin: 0px auto 0;
   width: 1000px;
   border: none; }
 
@@ -536,13 +536,6 @@ dd > p {
 
 body {
   background-color: #ddd9c2; }
-
-#container {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1000px;
-  border: 4px solid #c6b889; }
 
 #wrapper {
   margin: 0 auto 0 auto;
