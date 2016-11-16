@@ -22034,6 +22034,15 @@ p.complete {
   z-index: 1;
   width: 145px; }
 
+.nima_form_container {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-color: #ddd; }
+
 .nima.community_icon {
   margin-top: 20px;
   margin-bottom: 10px; }
