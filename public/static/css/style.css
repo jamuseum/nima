@@ -22020,14 +22020,14 @@ p.complete {
   padding-left: 0;
   padding-right: 0; }
 
-#nima_card_3 {
+.dn-inner-container #nima_card_3 {
   position: absolute;
   top: 8px;
   right: 0px;
   z-index: 1;
   width: 145px; }
 
-#nima_card_2 {
+.dn-inner-container #nima_card_2 {
   position: absolute;
   top: 8px;
   left: 100px;

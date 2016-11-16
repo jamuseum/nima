@@ -33,7 +33,26 @@
                 <h6 class="or">~ or ~</h6>
         </div> <!-- /login_or -->
 
-        <div id="login_form"></div> <!-- /login_form -->
+        <div id="login_form">
+
+
+
+            <form method="post" action="/en/login/" data-title="Sign In" novalidate="">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="NEXNwv2qkahVLU6SfH5OWgPLM6FxFO1w">
+
+                    <p><label for="id_login">Login:</label> <input autofocus="autofocus" id="id_login" name="login" placeholder="Username or e-mail" type="text"></p>
+            <p><label for="id_password">Password:</label> <input id="id_password" name="password" placeholder="Password" type="password"></p>
+
+                    <!-- <input type="hidden" name="next" value="/en/login/?next=/en/nima/susan2/" /> -->
+
+                    <button type="submit" class="btn btn-block btn-social" id="dn_user_button">
+                            <span class="fa"><img src="/static/img/icons/icon_white_30x30.png" alt="" style="height: 20px; margin-top: -4px;"></span> Sign In
+                    </button>
+
+                <p class="forgot"><a href="/en/password/reset/" class="btn btn-link" style="padding-left: 0;" data-remote="false" data-toggle="modal" data-target="#password_modal" data-dismiss="modal">Forgot Password?</a></p>
+            </form>
+
+        </div> <!-- /login_form -->
 </div> <!-- /login_options -->
 
 <div class="nima_switch">
@@ -165,7 +184,26 @@
                 <h6 class="or">~ or ~</h6>
         </div> <!-- /signup_or -->
 
-        <div id="signup_form"></div> <!-- /signup_form -->
+        <div id="signup_form">
+
+
+
+            <form method="post" action="/en/signup/" data-title="Sign Up" novalidate="">
+                <input type="hidden" name="csrfmiddlewaretoken" value="NEXNwv2qkahVLU6SfH5OWgPLM6FxFO1w">
+
+                <p><label for="id_username">Username:</label> <input autofocus="autofocus" id="id_username" name="username" placeholder="Username" type="text"></p>
+            <p><label for="id_email">E-mail:</label> <input id="id_email" name="email" placeholder="E-mail address" type="email"></p>
+            <p><label for="id_password1">Password:</label> <input id="id_password1" name="password1" placeholder="Password" type="password"><input id="id_confirmation_key" maxlength="40" name="confirmation_key" type="hidden"></p>
+
+                <!-- <input type="hidden" name="next" value="/en/signup/?next=/en/nima/susan2/" /> -->
+
+                <button type="submit" class="btn btn-block btn-social" id="dn_user_button">
+                        <span class="fa"><img src="/static/img/icons/icon_white_30x30.png" alt="" style="height: 20px; margin-top: -4px;"></span> Sign Up
+                </button>
+            </form>
+
+
+        </div> <!-- /signup_form -->
 </div> <!-- /signup_options -->
 
 <div class="nima_switch">
