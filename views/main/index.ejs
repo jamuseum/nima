@@ -121,21 +121,21 @@
 				
 				<div class="">
 					<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default active">All</button>
-					<button type="button" class="btn btn-default">Journals</button>
-					<button type="button" class="btn btn-default">Events</button>
-					<button type="button" class="btn btn-default">Nikkei Album</button>
+					<button type="button" id="activity-all" class="btn btn-default active">All</button>
+					<button type="button" id="activity-journal" class="btn btn-default">Journals</button>
+					<button type="button" id="activity-event" class="btn btn-default">Events</button>
+					<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
 						
 					</div>
 				</div>
 				<% include ../partials/events %>
 			</div>
-			<div class="col-md-3 col-sm-3 spacing_20px">
+			<div class="col-md-4 col-sm-4 spacing_20px middle-rail">
 				<h3>Latest Comments</h3>
 				<div id="disqus_thread"></div>
 				
 			</div>
-			<div class="col-md-3 col-sm-3 spacing_20px">
+			<div class="col-md-2 col-sm-2 spacing_20px">
 					<%- include ../partials/sidebar %>
 			</div>
 		</div>		

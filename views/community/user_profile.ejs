@@ -98,17 +98,40 @@
 									<div class="row">
 										<div class="col-sm-4">
 											<h4>General Information</h4>
-											<p><img src="/media/cache/susan-large.jpg" alt="" class="thumbnail img-responsive" style="display:inline; width:175px;"></p>
+											<p></p>
 										</div>
-										<div class="col-sm-8">
-											<div class="form-group" style="margin-top:50px;">
+										<div class="col-sm-8 text-center">
+											<div class="btn-group" style="margin-top: 10px; margin-bottom: 10px;">
+												<button type="button" class="btn btn-default active">English</button>
+												<button type="button" class="btn btn-default">日本語</button>
+												<button type="button" class="btn btn-default">Espanol</button>
+												<button type="button" class="btn btn-default">Portugues</button>
+											</div>
+											<div class="form-group">
 												<textarea class="form-control input-lg" cols="40" id="id_general_info" name="general_info" rows="6">well this is it</textarea>
 											</div>
 										</div>
-										
 									</div>
 								</div>
 							</li>
+							<li class="list-group-item">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-sm-4">
+												<h4>Profile Image</h4>
+												<p>JPEG, GIF or PNG, 10MB max.</p>
+											</div>
+											<div class="col-sm-4">
+												<p>susan2.jpg <button style="margin-left:10px;" type="button" class="btn">Change Image</button></p>
+											</div>
+											<div class="col-sm-4 text-right">
+												
+												<img src="/media/cache/susan-large.jpg" alt="" class="thumbnail img-responsive" style="width:175px; display: inline-block;">
+												
+											</div>
+										</div>
+									</div>
+								</li>
 							<li class="list-group-item">
 								<div class="container-fluid">
 									<div class="row">
@@ -138,25 +161,73 @@
 								</div>
 							</li>
 							<li class="list-group-item">
-								<div class="container-fluid">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Gender</h4>
-											
-										</div>
-										<div class="col-sm-2">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-4">
+										<h4>Social</h4>
 										
-											<div class="form-group">
-												<select class="form-control input-lg" id="id_gender" name="gender">
-													<option value=""></option>
-													<option value="f" selected="selected">female</option>
-													<option value="m">male</option>
-												</select>
-											</div>
-											
+										
+									</div>
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control input-lg" placeholder="" type="text" value="facebook.com/susan.bergman" autocomplete="off">
+										</div>
+										<div class="form-group">
+											<input class="form-control input-lg" placeholder="" type="text" value="@susan2" autocomplete="off">
+										</div>
+										<div class="form-group">
+											<input class="form-control input-lg" placeholder="" type="text" value="youtube.com/susan2" autocomplete="off">
+										</div>
+										<div class="form-group">
+											<input class="form-control input-lg" placeholder="" type="text" value="@susan2" autocomplete="off">
 										</div>
 									</div>
-								</li>
+								</div>
+							</div>
+						</li>
+							<li class="list-group-item">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-4">
+										<h4>Communication Preferences</h4>
+										<p>You may select multiple languages</p>
+										
+									</div>
+									<div class="col-sm-8">
+										<input type="checkbox" name=""> English
+										<br>
+										<input type="checkbox" name=""> 日本語
+										<br>
+										<input type="checkbox" name=""> Espanol
+										<br>
+										<input type="checkbox" name=""> Portugues
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-4">
+										<h4>Nikkei Interests</h4>
+										
+									</div>
+									<div class="col-sm-8">
+										<input type="checkbox" name=""> Community History
+										<br>
+										<input type="checkbox" name=""> Family Stories
+										<br>
+										<input type="checkbox" name=""> Festival Matsuri
+										<br>
+										<input type="checkbox" name=""> Japantowns
+										<br>
+										<input type="checkbox" name=""> Taiko
+										<br>
+										<input type="checkbox" name=""> Other
+									</div>
+								</div>
+							</div>
+						</li>
 								
 								
 							</ul>
@@ -218,7 +289,7 @@
 									
 									</div>
 									<div class="col-sm-8">
-												<a href="http://www.facebook.com/discovernikkei" target="_blank"><img class="tiny-icon" src="http://media.discovernikkei.org/static/img/icons/logo_45x45_facebook.png" alt=""></a> <a href="http://twitter.com/discovernikkei" target="_blank"><img class="tiny-icon" src="http://media.discovernikkei.org/static/img/icons/logo_45x45_twitter.png" alt=""></a> <a href="http://www.youtube.com/discovernikkei" target="_blank"><img class="tiny-icon" src="http://media.discovernikkei.org/static/img/icons/logo_45x45_youtube.png" alt=""></a>
+											facebook icon
 										<br><a href="#">Revoke access</a>
 									</div>
 								</div>
@@ -262,49 +333,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="list-group-item">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-sm-4">
-										<h4>Communication Preferences</h4>
-										<p>You may select multiple languages</p>
-										
-									</div>
-									<div class="col-sm-8">
-										<input type="checkbox" name=""> English
-										<br>
-										<input type="checkbox" name=""> 日本語
-										<br>
-										<input type="checkbox" name=""> Espanol
-										<br>
-										<input type="checkbox" name=""> Portugues
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-sm-4">
-										<h4>Nikkei Interests</h4>
-										
-									</div>
-									<div class="col-sm-8">
-										<input type="checkbox" name=""> Community History
-										<br>
-										<input type="checkbox" name=""> Family Stories
-										<br>
-										<input type="checkbox" name=""> Festival Matsuri
-										<br>
-										<input type="checkbox" name=""> Japantowns
-										<br>
-										<input type="checkbox" name=""> Taiko
-										<br>
-										<input type="checkbox" name=""> Other
-									</div>
-								</div>
-							</div>
-						</li>
+						
 						</ul>
 					</form>
 					</div>

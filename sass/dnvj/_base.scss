@@ -13,7 +13,7 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 //calendars in events
 .startdate, .enddate {
 	height: 70px;
-    width: 70px;
+    width: 90px;
     box-sizing: border-box;
 }
 .startdate em, .enddate em, .startdate td.month, .enddate td.month {
@@ -53,6 +53,14 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		border:0;
 		height:30px;
 	}
+}
+.general-info {
+	border:1px solid black;
+	padding:10px;
+}
+.middle-rail {
+	position:relative;
+	left:-10px;
 }
 
 .navigation.block {
@@ -209,7 +217,7 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .article-pic {
 	background-color: #999;
 	height:71px;
-	width:100%;
+	width:120px;
 }
 
 .spacing_20px {
@@ -220,7 +228,17 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 #account {
 	display: none;
 }
+.eventpreviews {
+	table-layout: auto;
+	width: 100%;
+}
 
+.eventpreviews td.text {
+	padding-top:5px;
+}
+.eventpreviews tr td {
+	vertical-align: top;
+}
 
 @media screen and (max-width:1000px){
 	#container {

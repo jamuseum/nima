@@ -16,6 +16,25 @@ function initMap() {
 	});
 }
 
+$("#activity-all").click(function(){
+	$("#events tr").show();
+});
+
+$("#activity-journal").click(function(){
+	$("#events tr").not('.spacer.first').hide();
+	$(".item-journal").show();
+});
+
+$("#activity-event").click(function(){
+	$("#events tr").not('.spacer.first').hide();
+	$(".item-event").show();
+});
+
+$("#activity-album").click(function(){
+	$("#events tr").not('.spacer.first').hide();
+	$(".item-album").show();
+});
+
 $(".btn-group button").click(function(){
 	$(".btn-group button").removeClass('active');
 	$(this).addClass('active');
