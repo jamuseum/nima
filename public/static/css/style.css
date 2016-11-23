@@ -3297,67 +3297,42 @@ fieldset[disabled] a {
     border-color: #adadad; }
   .btn-default:active, .more a:active, #journal_sidebar .more a:active, #journal_footer_wall p.more a:active, #nima_menu_content .options a:active, #dn_nav #collapse form[role="search"] button[type="submit"]:active, .btn-default.active, .more a.active, #journal_sidebar .more a.active, #journal_footer_wall p.more a.active, #nima_menu_content .options a.active, #dn_nav #collapse form[role="search"] button.active[type="submit"],
   .open > .btn-default.dropdown-toggle, .more
-  .open > a.dropdown-toggle, .more #dn_nav #collapse > ul >
-  li.open > a, #dn_nav .more #collapse > ul >
-  li.open > a, #journal_sidebar .more
+  .open > a.dropdown-toggle, #journal_sidebar .more
   .open > a.dropdown-toggle, #journal_footer_wall p.more
   .open > a.dropdown-toggle, #nima_menu_content .options
-  .open > a.dropdown-toggle, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-default, #dn_nav #collapse form[role="search"]
+  .open > a.dropdown-toggle, #dn_nav #collapse form[role="search"]
   .open > button.dropdown-toggle[type="submit"] {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad; }
     .btn-default:active:hover, .more a:active:hover, #journal_sidebar .more a:active:hover, #journal_footer_wall p.more a:active:hover, #nima_menu_content .options a:active:hover, #dn_nav #collapse form[role="search"] button[type="submit"]:active:hover, .btn-default:active:focus, .more a:active:focus, #journal_sidebar .more a:active:focus, #journal_footer_wall p.more a:active:focus, #nima_menu_content .options a:active:focus, #dn_nav #collapse form[role="search"] button[type="submit"]:active:focus, .btn-default:active.focus, .more a:active.focus, #journal_sidebar .more a:active.focus, #journal_footer_wall p.more a:active.focus, #nima_menu_content .options a:active.focus, #dn_nav #collapse form[role="search"] button[type="submit"]:active.focus, .btn-default.active:hover, .more a.active:hover, #journal_sidebar .more a.active:hover, #journal_footer_wall p.more a.active:hover, #nima_menu_content .options a.active:hover, #dn_nav #collapse form[role="search"] button.active[type="submit"]:hover, .btn-default.active:focus, .more a.active:focus, #journal_sidebar .more a.active:focus, #journal_footer_wall p.more a.active:focus, #nima_menu_content .options a.active:focus, #dn_nav #collapse form[role="search"] button.active[type="submit"]:focus, .btn-default.active.focus, .more a.active.focus, #journal_sidebar .more a.active.focus, #journal_footer_wall p.more a.active.focus, #nima_menu_content .options a.active.focus, #dn_nav #collapse form[role="search"] button.active.focus[type="submit"],
     .open > .btn-default.dropdown-toggle:hover, .more
-    .open > a.dropdown-toggle:hover, .more #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav .more #collapse > ul >
-    li.open > a:hover, #journal_sidebar .more
+    .open > a.dropdown-toggle:hover, #journal_sidebar .more
     .open > a.dropdown-toggle:hover, #journal_footer_wall p.more
     .open > a.dropdown-toggle:hover, #nima_menu_content .options
-    .open > a.dropdown-toggle:hover, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-default:hover, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle:hover, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle[type="submit"]:hover,
     .open > .btn-default.dropdown-toggle:focus, .more
-    .open > a.dropdown-toggle:focus, .more #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav .more #collapse > ul >
-    li.open > a:focus, #journal_sidebar .more
+    .open > a.dropdown-toggle:focus, #journal_sidebar .more
     .open > a.dropdown-toggle:focus, #journal_footer_wall p.more
     .open > a.dropdown-toggle:focus, #nima_menu_content .options
-    .open > a.dropdown-toggle:focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-default:focus, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle:focus, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle[type="submit"]:focus,
     .open > .btn-default.dropdown-toggle.focus, .more
-    .open > a.dropdown-toggle.focus, .more #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav .more #collapse > ul >
-    li.open > a.focus, #journal_sidebar .more
+    .open > a.dropdown-toggle.focus, #journal_sidebar .more
     .open > a.dropdown-toggle.focus, #journal_footer_wall p.more
     .open > a.dropdown-toggle.focus, #nima_menu_content .options
-    .open > a.dropdown-toggle.focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-default.focus, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle.focus, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle.focus[type="submit"] {
       color: #333;
       background-color: #d4d4d4;
       border-color: #8c8c8c; }
   .btn-default:active, .more a:active, #journal_sidebar .more a:active, #journal_footer_wall p.more a:active, #nima_menu_content .options a:active, #dn_nav #collapse form[role="search"] button[type="submit"]:active, .btn-default.active, .more a.active, #journal_sidebar .more a.active, #journal_footer_wall p.more a.active, #nima_menu_content .options a.active, #dn_nav #collapse form[role="search"] button.active[type="submit"],
   .open > .btn-default.dropdown-toggle, .more
-  .open > a.dropdown-toggle, .more #dn_nav #collapse > ul >
-  li.open > a, #dn_nav .more #collapse > ul >
-  li.open > a, #journal_sidebar .more
+  .open > a.dropdown-toggle, #journal_sidebar .more
   .open > a.dropdown-toggle, #journal_footer_wall p.more
   .open > a.dropdown-toggle, #nima_menu_content .options
-  .open > a.dropdown-toggle, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-default, #dn_nav #collapse form[role="search"]
+  .open > a.dropdown-toggle, #dn_nav #collapse form[role="search"]
   .open > button.dropdown-toggle[type="submit"] {
     background-image: none; }
   .btn-default.disabled:hover, .more a.disabled:hover, #journal_sidebar .more a.disabled:hover, #journal_footer_wall p.more a.disabled:hover, #nima_menu_content .options a.disabled:hover, #nima_menu_content .rating_badge span.btn-default:hover, #dn_nav #collapse form[role="search"] button.disabled[type="submit"]:hover, .btn-default.disabled:focus, .more a.disabled:focus, #journal_sidebar .more a.disabled:focus, #journal_footer_wall p.more a.disabled:focus, #nima_menu_content .options a.disabled:focus, #nima_menu_content .rating_badge span.btn-default:focus, #dn_nav #collapse form[role="search"] button.disabled[type="submit"]:focus, .btn-default.disabled.focus, .more a.disabled.focus, #journal_sidebar .more a.disabled.focus, #journal_footer_wall p.more a.disabled.focus, #nima_menu_content .options a.disabled.focus, #nima_menu_content .rating_badge span.btn-default.focus, #dn_nav #collapse form[role="search"] button.disabled.focus[type="submit"], .btn-default[disabled]:hover, .more a[disabled]:hover, #journal_sidebar .more a[disabled]:hover, #journal_footer_wall p.more a[disabled]:hover, #nima_menu_content .options a[disabled]:hover, #dn_nav #collapse form[role="search"] button[disabled][type="submit"]:hover, .btn-default[disabled]:focus, .more a[disabled]:focus, #journal_sidebar .more a[disabled]:focus, #journal_footer_wall p.more a[disabled]:focus, #nima_menu_content .options a[disabled]:focus, #dn_nav #collapse form[role="search"] button[disabled][type="submit"]:focus, .btn-default[disabled].focus, .more a[disabled].focus, #journal_sidebar .more a[disabled].focus, #journal_footer_wall p.more a[disabled].focus, #nima_menu_content .options a[disabled].focus, #dn_nav #collapse form[role="search"] button[disabled].focus[type="submit"],
@@ -3448,21 +3423,12 @@ fieldset[disabled] a {
   #nima_menu_content .rating_badge span:active, .btn-primary.active, #journal_introduction .content .active.submit, #journal-info .active.submit, #nima_menu_content .options a.active.view, #nima_menu_content .rating_badge a.active,
   #nima_menu_content .rating_badge span.active,
   .open > .btn-primary.dropdown-toggle, #journal_introduction .content
-  .open > .dropdown-toggle.submit, #journal_introduction .content #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal_introduction .content #collapse > ul >
-  li.open > a.submit, #journal-info
-  .open > .dropdown-toggle.submit, #journal-info #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal-info #collapse > ul >
-  li.open > a.submit, #nima_menu_content .options
-  .open > a.dropdown-toggle.view, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a.view, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a.view, #nima_menu_content .rating_badge
-  .open > a.dropdown-toggle, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-  li.open > a,
+  .open > .dropdown-toggle.submit, #journal-info
+  .open > .dropdown-toggle.submit, #nima_menu_content .options
+  .open > a.dropdown-toggle.view, #nima_menu_content .rating_badge
+  .open > a.dropdown-toggle,
   #nima_menu_content .rating_badge
-  .open > span.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-primary {
+  .open > span.dropdown-toggle {
     color: #fff;
     background-color: #286090;
     border-color: #204d74; }
@@ -3474,53 +3440,26 @@ fieldset[disabled] a {
     #nima_menu_content .rating_badge span.active:focus, .btn-primary.active.focus, #journal_introduction .content .active.focus.submit, #journal-info .active.focus.submit, #nima_menu_content .options a.active.focus.view, #nima_menu_content .rating_badge a.active.focus,
     #nima_menu_content .rating_badge span.active.focus,
     .open > .btn-primary.dropdown-toggle:hover, #journal_introduction .content
-    .open > .dropdown-toggle.submit:hover, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.submit:hover, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.submit:hover, #journal-info
-    .open > .dropdown-toggle.submit:hover, #journal-info #dn_nav #collapse > ul >
-    li.open > a.submit:hover, #dn_nav #journal-info #collapse > ul >
-    li.open > a.submit:hover, #nima_menu_content .options
-    .open > a.dropdown-toggle.view:hover, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.view:hover, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.view:hover, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle:hover, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a:hover,
+    .open > .dropdown-toggle.submit:hover, #journal-info
+    .open > .dropdown-toggle.submit:hover, #nima_menu_content .options
+    .open > a.dropdown-toggle.view:hover, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle:hover,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-primary:hover,
+    .open > span.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus, #journal_introduction .content
-    .open > .dropdown-toggle.submit:focus, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.submit:focus, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.submit:focus, #journal-info
-    .open > .dropdown-toggle.submit:focus, #journal-info #dn_nav #collapse > ul >
-    li.open > a.submit:focus, #dn_nav #journal-info #collapse > ul >
-    li.open > a.submit:focus, #nima_menu_content .options
-    .open > a.dropdown-toggle.view:focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.view:focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.view:focus, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle:focus, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a:focus,
+    .open > .dropdown-toggle.submit:focus, #journal-info
+    .open > .dropdown-toggle.submit:focus, #nima_menu_content .options
+    .open > a.dropdown-toggle.view:focus, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle:focus,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-primary:focus,
+    .open > span.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus, #journal_introduction .content
-    .open > .dropdown-toggle.focus.submit, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.focus.submit, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.focus.submit, #journal-info
-    .open > .dropdown-toggle.focus.submit, #journal-info #dn_nav #collapse > ul >
-    li.open > a.focus.submit, #dn_nav #journal-info #collapse > ul >
-    li.open > a.focus.submit, #nima_menu_content .options
-    .open > a.dropdown-toggle.focus.view, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.focus.view, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.focus.view, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle.focus, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a.focus,
+    .open > .dropdown-toggle.focus.submit, #journal-info
+    .open > .dropdown-toggle.focus.submit, #nima_menu_content .options
+    .open > a.dropdown-toggle.focus.view, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle.focus,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-primary.focus {
+    .open > span.dropdown-toggle.focus {
       color: #fff;
       background-color: #204d74;
       border-color: #122b40; }
@@ -3528,21 +3467,12 @@ fieldset[disabled] a {
   #nima_menu_content .rating_badge span:active, .btn-primary.active, #journal_introduction .content .active.submit, #journal-info .active.submit, #nima_menu_content .options a.active.view, #nima_menu_content .rating_badge a.active,
   #nima_menu_content .rating_badge span.active,
   .open > .btn-primary.dropdown-toggle, #journal_introduction .content
-  .open > .dropdown-toggle.submit, #journal_introduction .content #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal_introduction .content #collapse > ul >
-  li.open > a.submit, #journal-info
-  .open > .dropdown-toggle.submit, #journal-info #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal-info #collapse > ul >
-  li.open > a.submit, #nima_menu_content .options
-  .open > a.dropdown-toggle.view, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a.view, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a.view, #nima_menu_content .rating_badge
-  .open > a.dropdown-toggle, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-  li.open > a,
+  .open > .dropdown-toggle.submit, #journal-info
+  .open > .dropdown-toggle.submit, #nima_menu_content .options
+  .open > a.dropdown-toggle.view, #nima_menu_content .rating_badge
+  .open > a.dropdown-toggle,
   #nima_menu_content .rating_badge
-  .open > span.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-primary {
+  .open > span.dropdown-toggle {
     background-image: none; }
   .btn-primary.disabled:hover, #journal_introduction .content .disabled.submit:hover, #journal-info .disabled.submit:hover, #nima_menu_content .options a.disabled.view:hover, #nima_menu_content .rating_badge a.disabled:hover,
   #nima_menu_content .rating_badge span:hover, .btn-primary.disabled:focus, #journal_introduction .content .disabled.submit:focus, #journal-info .disabled.submit:focus, #nima_menu_content .options a.disabled.view:focus, #nima_menu_content .rating_badge a.disabled:focus,
@@ -3655,38 +3585,23 @@ fieldset[disabled] a {
     border-color: #398439; }
   .btn-success:active, #admin_bar p a:active, .btn-success.active, #admin_bar p a.active,
   .open > .btn-success.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-success {
+  .open > a.dropdown-toggle {
     color: #fff;
     background-color: #449d44;
     border-color: #398439; }
     .btn-success:active:hover, #admin_bar p a:active:hover, .btn-success:active:focus, #admin_bar p a:active:focus, .btn-success:active.focus, #admin_bar p a:active.focus, .btn-success.active:hover, #admin_bar p a.active:hover, .btn-success.active:focus, #admin_bar p a.active:focus, .btn-success.active.focus, #admin_bar p a.active.focus,
     .open > .btn-success.dropdown-toggle:hover, #admin_bar p
-    .open > a.dropdown-toggle:hover, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-success:hover,
+    .open > a.dropdown-toggle:hover,
     .open > .btn-success.dropdown-toggle:focus, #admin_bar p
-    .open > a.dropdown-toggle:focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-success:focus,
+    .open > a.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus, #admin_bar p
-    .open > a.dropdown-toggle.focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-success.focus {
+    .open > a.dropdown-toggle.focus {
       color: #fff;
       background-color: #398439;
       border-color: #255625; }
   .btn-success:active, #admin_bar p a:active, .btn-success.active, #admin_bar p a.active,
   .open > .btn-success.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-success {
+  .open > a.dropdown-toggle {
     background-image: none; }
   .btn-success.disabled:hover, #admin_bar p a.disabled:hover, #nima_menu_content .rating_badge span.btn-success:hover, .btn-success.disabled:focus, #admin_bar p a.disabled:focus, #nima_menu_content .rating_badge span.btn-success:focus, .btn-success.disabled.focus, #admin_bar p a.disabled.focus, #nima_menu_content .rating_badge span.btn-success.focus, .btn-success[disabled]:hover, #admin_bar p a[disabled]:hover, .btn-success[disabled]:focus, #admin_bar p a[disabled]:focus, .btn-success[disabled].focus, #admin_bar p a[disabled].focus,
   fieldset[disabled] .btn-success:hover,
@@ -3725,24 +3640,19 @@ fieldset[disabled] a {
     background-color: #31b0d5;
     border-color: #269abc; }
   .btn-info:active, .btn-info.active,
-  .open > .btn-info.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-info {
+  .open > .btn-info.dropdown-toggle {
     color: #fff;
     background-color: #31b0d5;
     border-color: #269abc; }
     .btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus,
-    .open > .btn-info.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-info:hover,
-    .open > .btn-info.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-info:focus,
-    .open > .btn-info.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-info.focus {
+    .open > .btn-info.dropdown-toggle:hover,
+    .open > .btn-info.dropdown-toggle:focus,
+    .open > .btn-info.dropdown-toggle.focus {
       color: #fff;
       background-color: #269abc;
       border-color: #1b6d85; }
   .btn-info:active, .btn-info.active,
-  .open > .btn-info.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-info {
+  .open > .btn-info.dropdown-toggle {
     background-image: none; }
   .btn-info.disabled:hover, #nima_menu_content .rating_badge span.btn-info:hover, .btn-info.disabled:focus, #nima_menu_content .rating_badge span.btn-info:focus, .btn-info.disabled.focus, #nima_menu_content .rating_badge span.btn-info.focus, .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus,
   fieldset[disabled] .btn-info:hover,
@@ -3772,38 +3682,23 @@ fieldset[disabled] a {
     border-color: #d58512; }
   .btn-warning:active, #nima_menu_content .incomplete-profile .update:active, .btn-warning.active, #nima_menu_content .incomplete-profile .active.update,
   .open > .btn-warning.dropdown-toggle, #nima_menu_content .incomplete-profile
-  .open > .dropdown-toggle.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-  li.open > a.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-  li.open > a.update, #dn_nav #collapse > ul >
-  li.open > a.btn-warning {
+  .open > .dropdown-toggle.update {
     color: #fff;
     background-color: #ec971f;
     border-color: #d58512; }
     .btn-warning:active:hover, #nima_menu_content .incomplete-profile .update:active:hover, .btn-warning:active:focus, #nima_menu_content .incomplete-profile .update:active:focus, .btn-warning:active.focus, #nima_menu_content .incomplete-profile .update:active.focus, .btn-warning.active:hover, #nima_menu_content .incomplete-profile .active.update:hover, .btn-warning.active:focus, #nima_menu_content .incomplete-profile .active.update:focus, .btn-warning.active.focus, #nima_menu_content .incomplete-profile .active.focus.update,
     .open > .btn-warning.dropdown-toggle:hover, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.update:hover, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.update:hover, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.update:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-warning:hover,
+    .open > .dropdown-toggle.update:hover,
     .open > .btn-warning.dropdown-toggle:focus, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.update:focus, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.update:focus, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.update:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-warning:focus,
+    .open > .dropdown-toggle.update:focus,
     .open > .btn-warning.dropdown-toggle.focus, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.focus.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.focus.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.focus.update, #dn_nav #collapse > ul >
-    li.open > a.btn-warning.focus {
+    .open > .dropdown-toggle.focus.update {
       color: #fff;
       background-color: #d58512;
       border-color: #985f0d; }
   .btn-warning:active, #nima_menu_content .incomplete-profile .update:active, .btn-warning.active, #nima_menu_content .incomplete-profile .active.update,
   .open > .btn-warning.dropdown-toggle, #nima_menu_content .incomplete-profile
-  .open > .dropdown-toggle.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-  li.open > a.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-  li.open > a.update, #dn_nav #collapse > ul >
-  li.open > a.btn-warning {
+  .open > .dropdown-toggle.update {
     background-image: none; }
   .btn-warning.disabled:hover, #nima_menu_content .incomplete-profile .disabled.update:hover, #nima_menu_content .incomplete-profile .rating_badge span.update:hover, #nima_menu_content .rating_badge .incomplete-profile span.update:hover, #nima_menu_content .rating_badge span.btn-warning:hover, .btn-warning.disabled:focus, #nima_menu_content .incomplete-profile .disabled.update:focus, #nima_menu_content .incomplete-profile .rating_badge span.update:focus, #nima_menu_content .rating_badge .incomplete-profile span.update:focus, #nima_menu_content .rating_badge span.btn-warning:focus, .btn-warning.disabled.focus, #nima_menu_content .incomplete-profile .disabled.focus.update, #nima_menu_content .incomplete-profile .rating_badge span.focus.update, #nima_menu_content .rating_badge .incomplete-profile span.focus.update, #nima_menu_content .rating_badge span.btn-warning.focus, .btn-warning[disabled]:hover, #nima_menu_content .incomplete-profile [disabled].update:hover, .btn-warning[disabled]:focus, #nima_menu_content .incomplete-profile [disabled].update:focus, .btn-warning[disabled].focus, #nima_menu_content .incomplete-profile [disabled].focus.update,
   fieldset[disabled] .btn-warning:hover,
@@ -3843,38 +3738,23 @@ fieldset[disabled] a {
     border-color: #ac2925; }
   .btn-danger:active, #admin_bar p a.unpublished:active, .btn-danger.active, #admin_bar p a.active.unpublished,
   .open > .btn-danger.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle.unpublished, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a.unpublished, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a.unpublished, #dn_nav #collapse > ul >
-  li.open > a.btn-danger {
+  .open > a.dropdown-toggle.unpublished {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
     .btn-danger:active:hover, #admin_bar p a.unpublished:active:hover, .btn-danger:active:focus, #admin_bar p a.unpublished:active:focus, .btn-danger:active.focus, #admin_bar p a.unpublished:active.focus, .btn-danger.active:hover, #admin_bar p a.active.unpublished:hover, .btn-danger.active:focus, #admin_bar p a.active.unpublished:focus, .btn-danger.active.focus, #admin_bar p a.active.focus.unpublished,
     .open > .btn-danger.dropdown-toggle:hover, #admin_bar p
-    .open > a.dropdown-toggle.unpublished:hover, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.unpublished:hover, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.unpublished:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-danger:hover,
+    .open > a.dropdown-toggle.unpublished:hover,
     .open > .btn-danger.dropdown-toggle:focus, #admin_bar p
-    .open > a.dropdown-toggle.unpublished:focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.unpublished:focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.unpublished:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-danger:focus,
+    .open > a.dropdown-toggle.unpublished:focus,
     .open > .btn-danger.dropdown-toggle.focus, #admin_bar p
-    .open > a.dropdown-toggle.focus.unpublished, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.focus.unpublished, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.focus.unpublished, #dn_nav #collapse > ul >
-    li.open > a.btn-danger.focus {
+    .open > a.dropdown-toggle.focus.unpublished {
       color: #fff;
       background-color: #ac2925;
       border-color: #761c19; }
   .btn-danger:active, #admin_bar p a.unpublished:active, .btn-danger.active, #admin_bar p a.active.unpublished,
   .open > .btn-danger.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle.unpublished, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a.unpublished, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a.unpublished, #dn_nav #collapse > ul >
-  li.open > a.btn-danger {
+  .open > a.dropdown-toggle.unpublished {
     background-image: none; }
   .btn-danger.disabled:hover, #admin_bar p a.disabled.unpublished:hover, #nima_menu_content .rating_badge span.btn-danger:hover, .btn-danger.disabled:focus, #admin_bar p a.disabled.unpublished:focus, #nima_menu_content .rating_badge span.btn-danger:focus, .btn-danger.disabled.focus, #admin_bar p a.disabled.focus.unpublished, #nima_menu_content .rating_badge span.btn-danger.focus, .btn-danger[disabled]:hover, #admin_bar p a[disabled].unpublished:hover, .btn-danger[disabled]:focus, #admin_bar p a[disabled].unpublished:focus, .btn-danger[disabled].focus, #admin_bar p a[disabled].focus.unpublished,
   fieldset[disabled] .btn-danger:hover,
@@ -4000,7 +3880,7 @@ tbody.collapse.in, tbody.collapse#language_message, #dn_nav tbody.in#collapse {
 #dn_nav #collapse > ul > li {
   position: relative; }
 
-.dropdown-toggle:focus, #dn_nav #collapse > ul > li > a:focus {
+.dropdown-toggle:focus {
   outline: 0; }
 
 .dropdown-menu {
@@ -4353,22 +4233,21 @@ tbody.collapse.in, tbody.collapse#language_message, #dn_nav tbody.in#collapse {
   .btn-toolbar > .input-group {
     margin-left: 5px; }
 
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile .btn-group > .update:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
-#nima_menu_content .rating_badge .btn-group > span:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), #admin_bar p .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_introduction .content .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle), .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_sidebar .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal-info .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile .btn-group > .update:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .options .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle),
+#nima_menu_content .rating_badge .btn-group > span:not(:first-child):not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0; }
 
 .btn-group > .btn:first-child, #admin_bar p .btn-group > a:first-child, #journal_introduction .content .btn-group > .submit:first-child, .more .btn-group > a:first-child, #journal_sidebar .more .btn-group > a:first-child, #journal-info .btn-group > .submit:first-child, #journal_footer_wall p.more .btn-group > a:first-child, #nima_menu_content .incomplete-profile .btn-group > .update:first-child, #nima_menu_content .options .btn-group > a:first-child, #nima_menu_content .rating_badge .btn-group > a:first-child,
 #nima_menu_content .rating_badge .btn-group > span:first-child, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child {
   margin-left: 0; }
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile .btn-group > .update:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
-  #nima_menu_content .rating_badge .btn-group > span:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), #admin_bar p .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal_introduction .content .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle), .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal_sidebar .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal-info .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile .btn-group > .update:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .options .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle),
+  #nima_menu_content .rating_badge .btn-group > span:first-child:not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child:not(:last-child):not(.dropdown-toggle) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
 
 .btn-group > .btn:last-child:not(:first-child), #admin_bar p .btn-group > a:last-child:not(:first-child), #journal_introduction .content .btn-group > .submit:last-child:not(:first-child), .more .btn-group > a:last-child:not(:first-child), #journal_sidebar .more .btn-group > a:last-child:not(:first-child), #journal-info .btn-group > .submit:last-child:not(:first-child), #journal_footer_wall p.more .btn-group > a:last-child:not(:first-child), #nima_menu_content .incomplete-profile .btn-group > .update:last-child:not(:first-child), #nima_menu_content .options .btn-group > a:last-child:not(:first-child), #nima_menu_content .rating_badge .btn-group > a:last-child:not(:first-child),
 #nima_menu_content .rating_badge .btn-group > span:last-child:not(:first-child), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:last-child:not(:first-child),
-.btn-group > .dropdown-toggle:not(:first-child), #dn_nav #collapse > ul >
-li.btn-group > a:not(:first-child) {
+.btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4381,8 +4260,7 @@ li.btn-group > a:not(:first-child) {
 
 .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, #admin_bar p .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal_introduction .content .btn-group > .btn-group:first-child:not(:last-child) > .submit:last-child, .more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal_sidebar .more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal-info .btn-group > .btn-group:first-child:not(:last-child) > .submit:last-child, #journal_footer_wall p.more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #nima_menu_content .incomplete-profile .btn-group > .btn-group:first-child:not(:last-child) > .update:last-child, #nima_menu_content .options .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #nima_menu_content .rating_badge .btn-group > .btn-group:first-child:not(:last-child) > a:last-child,
 #nima_menu_content .rating_badge .btn-group > .btn-group:first-child:not(:last-child) > span:last-child, #dn_nav #collapse form[role="search"] .btn-group > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child,
-.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #dn_nav #collapse >
-ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
+.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
@@ -4391,30 +4269,24 @@ ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
-.btn-group .dropdown-toggle:active, .btn-group #dn_nav #collapse > ul > li > a:active, #dn_nav .btn-group #collapse > ul > li > a:active,
-.btn-group.open .dropdown-toggle,
-.btn-group.open #dn_nav #collapse > ul > li > a, #dn_nav
-.btn-group.open #collapse > ul > li > a {
+.btn-group .dropdown-toggle:active,
+.btn-group.open .dropdown-toggle {
   outline: 0; }
 
 .btn-group > .btn + .dropdown-toggle, #admin_bar p .btn-group > a + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, .more .btn-group > a + .dropdown-toggle, #journal_sidebar .more .btn-group > a + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle, #journal_footer_wall p.more .btn-group > a + .dropdown-toggle, #nima_menu_content .incomplete-profile .btn-group > .update + .dropdown-toggle, #nima_menu_content .options .btn-group > a + .dropdown-toggle, #nima_menu_content .rating_badge .btn-group > a + .dropdown-toggle,
-#nima_menu_content .rating_badge .btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"] + .dropdown-toggle, #dn_nav #collapse > ul > li.btn-group > .btn + a, #admin_bar p #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #admin_bar p #collapse > ul > li.btn-group > a + a, #journal_introduction .content #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal_introduction .content #collapse > ul > li.btn-group > .submit + a, .more #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav .more #collapse > ul > li.btn-group > a + a, #journal-info #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal-info #collapse > ul > li.btn-group > .submit + a, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul > li.btn-group > .update + a, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul > li.btn-group > .update + a, #nima_menu_content .options #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #nima_menu_content .options #collapse > ul > li.btn-group > a + a, #nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #nima_menu_content .rating_badge #collapse > ul > li.btn-group > a + a,
-#nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group > span + a, #dn_nav
-#nima_menu_content .rating_badge #collapse > ul > li.btn-group > span + a, #dn_nav #collapse form[role="search"] #collapse > ul > li.btn-group > button[type="submit"] + a {
+#nima_menu_content .rating_badge .btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"] + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px; }
 
 .btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, #admin_bar p .btn-group-lg.btn-group > a + .dropdown-toggle, .more .btn-group-lg.btn-group > a + .dropdown-toggle, #journal_sidebar .more .btn-group-lg.btn-group > a + .dropdown-toggle, #journal_footer_wall p.more .btn-group-lg.btn-group > a + .dropdown-toggle, #nima_menu_content .incomplete-profile .btn-group-lg.btn-group > .update + .dropdown-toggle, #nima_menu_content .options .btn-group-lg.btn-group > a + .dropdown-toggle, #nima_menu_content .rating_badge .btn-group-lg.btn-group > a + .dropdown-toggle,
-#nima_menu_content .rating_badge .btn-group-lg.btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group-lg.btn-group > button[type="submit"] + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle, #dn_nav #collapse > ul > li.btn-group > .btn-lg + a, #dn_nav #collapse > ul > li.btn-group-lg.btn-group > .btn + a, #admin_bar p #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #admin_bar p #collapse > ul > li.btn-group-lg.btn-group > a + a, .more #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav .more #collapse > ul > li.btn-group-lg.btn-group > a + a, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul > li.btn-group-lg.btn-group > .update + a, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul > li.btn-group-lg.btn-group > .update + a, #nima_menu_content .options #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #nima_menu_content .options #collapse > ul > li.btn-group-lg.btn-group > a + a, #nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #nima_menu_content .rating_badge #collapse > ul > li.btn-group-lg.btn-group > a + a,
-#nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group-lg.btn-group > span + a, #dn_nav
-#nima_menu_content .rating_badge #collapse > ul > li.btn-group-lg.btn-group > span + a, #dn_nav #collapse form[role="search"] #collapse > ul > li.btn-group-lg.btn-group > button[type="submit"] + a, #journal_introduction .content #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal_introduction .content #collapse > ul > li.btn-group > .submit + a, #journal-info #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal-info #collapse > ul > li.btn-group > .submit + a {
+#nima_menu_content .rating_badge .btn-group-lg.btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group-lg.btn-group > button[type="submit"] + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px; }
 
-.btn-group.open .dropdown-toggle, .btn-group.open #dn_nav #collapse > ul > li > a, #dn_nav .btn-group.open #collapse > ul > li > a {
+.btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-  .btn-group.open .dropdown-toggle.btn-link, .btn-group.open #dn_nav #collapse > ul > li > a.btn-link, #dn_nav .btn-group.open #collapse > ul > li > a.btn-link {
+  .btn-group.open .dropdown-toggle.btn-link {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
@@ -4625,8 +4497,7 @@ ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
 #nima_menu_content .rating_badge .btn-group-vertical > .btn-group:first-child:not(:last-child) > span:last-child, #admin_bar
 #nima_menu_content .rating_badge p > .btn-group:first-child:not(:last-child) > span:last-child,
 #nima_menu_content .rating_badge #admin_bar p > .btn-group:first-child:not(:last-child) > span:last-child, #dn_nav #collapse form[role="search"] .btn-group-vertical > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child, #admin_bar #dn_nav #collapse form[role="search"] p > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child, #dn_nav #collapse form[role="search"] #admin_bar p > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child,
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #admin_bar p > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #dn_nav #collapse >
-ul.btn-group-vertical > li.btn-group:first-child:not(:last-child) > a {
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #admin_bar p > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -4836,21 +4707,20 @@ ul.btn-group-vertical > li.btn-group:first-child:not(:last-child) > a {
 #nima_menu_content .rating_badge
 .input-group-btn:first-child > .btn-group > span, #dn_nav #collapse form[role="search"]
 .input-group-btn:first-child > .btn-group > button[type="submit"],
-.input-group-btn:first-child > .dropdown-toggle, #dn_nav #collapse > ul >
-li.input-group-btn:first-child > a,
-.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content
-.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info
-.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile
-.input-group-btn:last-child > .update:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), #admin_bar p
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal_introduction .content
+.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle), .more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal_sidebar .more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal-info
+.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile
+.input-group-btn:last-child > .update:not(:last-child):not(.dropdown-toggle), #nima_menu_content .options
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle),
 #nima_menu_content .rating_badge
-.input-group-btn:last-child > span:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"]
-.input-group-btn:last-child > button[type="submit"]:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
+.input-group-btn:last-child > span:not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"]
+.input-group-btn:last-child > button[type="submit"]:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, #admin_bar p
 .input-group-btn:last-child > .btn-group:not(:last-child) > a, #journal_introduction .content
 .input-group-btn:last-child > .btn-group:not(:last-child) > .submit, .more
@@ -4898,8 +4768,7 @@ li.input-group-btn:first-child > a,
 #nima_menu_content .rating_badge
 .input-group-btn:last-child > .btn-group > span, #dn_nav #collapse form[role="search"]
 .input-group-btn:last-child > .btn-group > button[type="submit"],
-.input-group-btn:last-child > .dropdown-toggle, #dn_nav #collapse > ul >
-li.input-group-btn:last-child > a,
+.input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child), #admin_bar p
 .input-group-btn:first-child > a:not(:first-child), #journal_introduction .content
 .input-group-btn:first-child > .submit:not(:first-child), .more
@@ -6984,7 +6853,7 @@ button.list-group-item-danger {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px; }
-  .panel-heading > .dropdown .dropdown-toggle, .author .cover > .dropdown .dropdown-toggle, .nima_card .cover > .dropdown .dropdown-toggle, #dn_nav #collapse > ul.panel-heading > li .dropdown-toggle, .author #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .author #collapse > ul.cover > li .dropdown-toggle, .nima_card #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .nima_card #collapse > ul.cover > li .dropdown-toggle, .panel-heading > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .panel-heading > .dropdown #collapse > ul > li > a, .author .cover > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .author .cover > .dropdown #collapse > ul > li > a, .nima_card .cover > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .nima_card .cover > .dropdown #collapse > ul > li > a, #dn_nav #collapse > ul.panel-heading > li > a, .author #dn_nav #collapse > ul.cover > li > a, #dn_nav .author #collapse > ul.cover > li > a, .nima_card #dn_nav #collapse > ul.cover > li > a, #dn_nav .nima_card #collapse > ul.cover > li > a {
+  .panel-heading > .dropdown .dropdown-toggle, .author .cover > .dropdown .dropdown-toggle, .nima_card .cover > .dropdown .dropdown-toggle, #dn_nav #collapse > ul.panel-heading > li .dropdown-toggle, .author #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .author #collapse > ul.cover > li .dropdown-toggle, .nima_card #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .nima_card #collapse > ul.cover > li .dropdown-toggle {
     color: inherit; }
 
 .panel-title {
@@ -12963,67 +12832,42 @@ fieldset[disabled] a {
     border-color: #adadad; }
   .btn-default:active, .more a:active, #journal_sidebar .more a:active, #journal_footer_wall p.more a:active, #nima_menu_content .options a:active, #dn_nav #collapse form[role="search"] button[type="submit"]:active, .btn-default.active, .more a.active, #journal_sidebar .more a.active, #journal_footer_wall p.more a.active, #nima_menu_content .options a.active, #dn_nav #collapse form[role="search"] button.active[type="submit"],
   .open > .btn-default.dropdown-toggle, .more
-  .open > a.dropdown-toggle, .more #dn_nav #collapse > ul >
-  li.open > a, #dn_nav .more #collapse > ul >
-  li.open > a, #journal_sidebar .more
+  .open > a.dropdown-toggle, #journal_sidebar .more
   .open > a.dropdown-toggle, #journal_footer_wall p.more
   .open > a.dropdown-toggle, #nima_menu_content .options
-  .open > a.dropdown-toggle, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-default, #dn_nav #collapse form[role="search"]
+  .open > a.dropdown-toggle, #dn_nav #collapse form[role="search"]
   .open > button.dropdown-toggle[type="submit"] {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad; }
     .btn-default:active:hover, .more a:active:hover, #journal_sidebar .more a:active:hover, #journal_footer_wall p.more a:active:hover, #nima_menu_content .options a:active:hover, #dn_nav #collapse form[role="search"] button[type="submit"]:active:hover, .btn-default:active:focus, .more a:active:focus, #journal_sidebar .more a:active:focus, #journal_footer_wall p.more a:active:focus, #nima_menu_content .options a:active:focus, #dn_nav #collapse form[role="search"] button[type="submit"]:active:focus, .btn-default:active.focus, .more a:active.focus, #journal_sidebar .more a:active.focus, #journal_footer_wall p.more a:active.focus, #nima_menu_content .options a:active.focus, #dn_nav #collapse form[role="search"] button[type="submit"]:active.focus, .btn-default.active:hover, .more a.active:hover, #journal_sidebar .more a.active:hover, #journal_footer_wall p.more a.active:hover, #nima_menu_content .options a.active:hover, #dn_nav #collapse form[role="search"] button.active[type="submit"]:hover, .btn-default.active:focus, .more a.active:focus, #journal_sidebar .more a.active:focus, #journal_footer_wall p.more a.active:focus, #nima_menu_content .options a.active:focus, #dn_nav #collapse form[role="search"] button.active[type="submit"]:focus, .btn-default.active.focus, .more a.active.focus, #journal_sidebar .more a.active.focus, #journal_footer_wall p.more a.active.focus, #nima_menu_content .options a.active.focus, #dn_nav #collapse form[role="search"] button.active.focus[type="submit"],
     .open > .btn-default.dropdown-toggle:hover, .more
-    .open > a.dropdown-toggle:hover, .more #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav .more #collapse > ul >
-    li.open > a:hover, #journal_sidebar .more
+    .open > a.dropdown-toggle:hover, #journal_sidebar .more
     .open > a.dropdown-toggle:hover, #journal_footer_wall p.more
     .open > a.dropdown-toggle:hover, #nima_menu_content .options
-    .open > a.dropdown-toggle:hover, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-default:hover, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle:hover, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle[type="submit"]:hover,
     .open > .btn-default.dropdown-toggle:focus, .more
-    .open > a.dropdown-toggle:focus, .more #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav .more #collapse > ul >
-    li.open > a:focus, #journal_sidebar .more
+    .open > a.dropdown-toggle:focus, #journal_sidebar .more
     .open > a.dropdown-toggle:focus, #journal_footer_wall p.more
     .open > a.dropdown-toggle:focus, #nima_menu_content .options
-    .open > a.dropdown-toggle:focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-default:focus, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle:focus, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle[type="submit"]:focus,
     .open > .btn-default.dropdown-toggle.focus, .more
-    .open > a.dropdown-toggle.focus, .more #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav .more #collapse > ul >
-    li.open > a.focus, #journal_sidebar .more
+    .open > a.dropdown-toggle.focus, #journal_sidebar .more
     .open > a.dropdown-toggle.focus, #journal_footer_wall p.more
     .open > a.dropdown-toggle.focus, #nima_menu_content .options
-    .open > a.dropdown-toggle.focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-default.focus, #dn_nav #collapse form[role="search"]
+    .open > a.dropdown-toggle.focus, #dn_nav #collapse form[role="search"]
     .open > button.dropdown-toggle.focus[type="submit"] {
       color: #333;
       background-color: #d4d4d4;
       border-color: #8c8c8c; }
   .btn-default:active, .more a:active, #journal_sidebar .more a:active, #journal_footer_wall p.more a:active, #nima_menu_content .options a:active, #dn_nav #collapse form[role="search"] button[type="submit"]:active, .btn-default.active, .more a.active, #journal_sidebar .more a.active, #journal_footer_wall p.more a.active, #nima_menu_content .options a.active, #dn_nav #collapse form[role="search"] button.active[type="submit"],
   .open > .btn-default.dropdown-toggle, .more
-  .open > a.dropdown-toggle, .more #dn_nav #collapse > ul >
-  li.open > a, #dn_nav .more #collapse > ul >
-  li.open > a, #journal_sidebar .more
+  .open > a.dropdown-toggle, #journal_sidebar .more
   .open > a.dropdown-toggle, #journal_footer_wall p.more
   .open > a.dropdown-toggle, #nima_menu_content .options
-  .open > a.dropdown-toggle, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-default, #dn_nav #collapse form[role="search"]
+  .open > a.dropdown-toggle, #dn_nav #collapse form[role="search"]
   .open > button.dropdown-toggle[type="submit"] {
     background-image: none; }
   .btn-default.disabled:hover, .more a.disabled:hover, #journal_sidebar .more a.disabled:hover, #journal_footer_wall p.more a.disabled:hover, #nima_menu_content .options a.disabled:hover, #nima_menu_content .rating_badge span.btn-default:hover, #dn_nav #collapse form[role="search"] button.disabled[type="submit"]:hover, .btn-default.disabled:focus, .more a.disabled:focus, #journal_sidebar .more a.disabled:focus, #journal_footer_wall p.more a.disabled:focus, #nima_menu_content .options a.disabled:focus, #nima_menu_content .rating_badge span.btn-default:focus, #dn_nav #collapse form[role="search"] button.disabled[type="submit"]:focus, .btn-default.disabled.focus, .more a.disabled.focus, #journal_sidebar .more a.disabled.focus, #journal_footer_wall p.more a.disabled.focus, #nima_menu_content .options a.disabled.focus, #nima_menu_content .rating_badge span.btn-default.focus, #dn_nav #collapse form[role="search"] button.disabled.focus[type="submit"], .btn-default[disabled]:hover, .more a[disabled]:hover, #journal_sidebar .more a[disabled]:hover, #journal_footer_wall p.more a[disabled]:hover, #nima_menu_content .options a[disabled]:hover, #dn_nav #collapse form[role="search"] button[disabled][type="submit"]:hover, .btn-default[disabled]:focus, .more a[disabled]:focus, #journal_sidebar .more a[disabled]:focus, #journal_footer_wall p.more a[disabled]:focus, #nima_menu_content .options a[disabled]:focus, #dn_nav #collapse form[role="search"] button[disabled][type="submit"]:focus, .btn-default[disabled].focus, .more a[disabled].focus, #journal_sidebar .more a[disabled].focus, #journal_footer_wall p.more a[disabled].focus, #nima_menu_content .options a[disabled].focus, #dn_nav #collapse form[role="search"] button[disabled].focus[type="submit"],
@@ -13114,21 +12958,12 @@ fieldset[disabled] a {
   #nima_menu_content .rating_badge span:active, .btn-primary.active, #journal_introduction .content .active.submit, #journal-info .active.submit, #nima_menu_content .options a.active.view, #nima_menu_content .rating_badge a.active,
   #nima_menu_content .rating_badge span.active,
   .open > .btn-primary.dropdown-toggle, #journal_introduction .content
-  .open > .dropdown-toggle.submit, #journal_introduction .content #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal_introduction .content #collapse > ul >
-  li.open > a.submit, #journal-info
-  .open > .dropdown-toggle.submit, #journal-info #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal-info #collapse > ul >
-  li.open > a.submit, #nima_menu_content .options
-  .open > a.dropdown-toggle.view, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a.view, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a.view, #nima_menu_content .rating_badge
-  .open > a.dropdown-toggle, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-  li.open > a,
+  .open > .dropdown-toggle.submit, #journal-info
+  .open > .dropdown-toggle.submit, #nima_menu_content .options
+  .open > a.dropdown-toggle.view, #nima_menu_content .rating_badge
+  .open > a.dropdown-toggle,
   #nima_menu_content .rating_badge
-  .open > span.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-primary {
+  .open > span.dropdown-toggle {
     color: #fff;
     background-color: #286090;
     border-color: #204d74; }
@@ -13140,53 +12975,26 @@ fieldset[disabled] a {
     #nima_menu_content .rating_badge span.active:focus, .btn-primary.active.focus, #journal_introduction .content .active.focus.submit, #journal-info .active.focus.submit, #nima_menu_content .options a.active.focus.view, #nima_menu_content .rating_badge a.active.focus,
     #nima_menu_content .rating_badge span.active.focus,
     .open > .btn-primary.dropdown-toggle:hover, #journal_introduction .content
-    .open > .dropdown-toggle.submit:hover, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.submit:hover, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.submit:hover, #journal-info
-    .open > .dropdown-toggle.submit:hover, #journal-info #dn_nav #collapse > ul >
-    li.open > a.submit:hover, #dn_nav #journal-info #collapse > ul >
-    li.open > a.submit:hover, #nima_menu_content .options
-    .open > a.dropdown-toggle.view:hover, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.view:hover, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.view:hover, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle:hover, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a:hover,
+    .open > .dropdown-toggle.submit:hover, #journal-info
+    .open > .dropdown-toggle.submit:hover, #nima_menu_content .options
+    .open > a.dropdown-toggle.view:hover, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle:hover,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-primary:hover,
+    .open > span.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus, #journal_introduction .content
-    .open > .dropdown-toggle.submit:focus, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.submit:focus, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.submit:focus, #journal-info
-    .open > .dropdown-toggle.submit:focus, #journal-info #dn_nav #collapse > ul >
-    li.open > a.submit:focus, #dn_nav #journal-info #collapse > ul >
-    li.open > a.submit:focus, #nima_menu_content .options
-    .open > a.dropdown-toggle.view:focus, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.view:focus, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.view:focus, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle:focus, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a:focus,
+    .open > .dropdown-toggle.submit:focus, #journal-info
+    .open > .dropdown-toggle.submit:focus, #nima_menu_content .options
+    .open > a.dropdown-toggle.view:focus, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle:focus,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-primary:focus,
+    .open > span.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus, #journal_introduction .content
-    .open > .dropdown-toggle.focus.submit, #journal_introduction .content #dn_nav #collapse > ul >
-    li.open > a.focus.submit, #dn_nav #journal_introduction .content #collapse > ul >
-    li.open > a.focus.submit, #journal-info
-    .open > .dropdown-toggle.focus.submit, #journal-info #dn_nav #collapse > ul >
-    li.open > a.focus.submit, #dn_nav #journal-info #collapse > ul >
-    li.open > a.focus.submit, #nima_menu_content .options
-    .open > a.dropdown-toggle.focus.view, #nima_menu_content .options #dn_nav #collapse > ul >
-    li.open > a.focus.view, #dn_nav #nima_menu_content .options #collapse > ul >
-    li.open > a.focus.view, #nima_menu_content .rating_badge
-    .open > a.dropdown-toggle.focus, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-    li.open > a.focus,
+    .open > .dropdown-toggle.focus.submit, #journal-info
+    .open > .dropdown-toggle.focus.submit, #nima_menu_content .options
+    .open > a.dropdown-toggle.focus.view, #nima_menu_content .rating_badge
+    .open > a.dropdown-toggle.focus,
     #nima_menu_content .rating_badge
-    .open > span.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-primary.focus {
+    .open > span.dropdown-toggle.focus {
       color: #fff;
       background-color: #204d74;
       border-color: #122b40; }
@@ -13194,21 +13002,12 @@ fieldset[disabled] a {
   #nima_menu_content .rating_badge span:active, .btn-primary.active, #journal_introduction .content .active.submit, #journal-info .active.submit, #nima_menu_content .options a.active.view, #nima_menu_content .rating_badge a.active,
   #nima_menu_content .rating_badge span.active,
   .open > .btn-primary.dropdown-toggle, #journal_introduction .content
-  .open > .dropdown-toggle.submit, #journal_introduction .content #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal_introduction .content #collapse > ul >
-  li.open > a.submit, #journal-info
-  .open > .dropdown-toggle.submit, #journal-info #dn_nav #collapse > ul >
-  li.open > a.submit, #dn_nav #journal-info #collapse > ul >
-  li.open > a.submit, #nima_menu_content .options
-  .open > a.dropdown-toggle.view, #nima_menu_content .options #dn_nav #collapse > ul >
-  li.open > a.view, #dn_nav #nima_menu_content .options #collapse > ul >
-  li.open > a.view, #nima_menu_content .rating_badge
-  .open > a.dropdown-toggle, #nima_menu_content .rating_badge #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #nima_menu_content .rating_badge #collapse > ul >
-  li.open > a,
+  .open > .dropdown-toggle.submit, #journal-info
+  .open > .dropdown-toggle.submit, #nima_menu_content .options
+  .open > a.dropdown-toggle.view, #nima_menu_content .rating_badge
+  .open > a.dropdown-toggle,
   #nima_menu_content .rating_badge
-  .open > span.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-primary {
+  .open > span.dropdown-toggle {
     background-image: none; }
   .btn-primary.disabled:hover, #journal_introduction .content .disabled.submit:hover, #journal-info .disabled.submit:hover, #nima_menu_content .options a.disabled.view:hover, #nima_menu_content .rating_badge a.disabled:hover,
   #nima_menu_content .rating_badge span:hover, .btn-primary.disabled:focus, #journal_introduction .content .disabled.submit:focus, #journal-info .disabled.submit:focus, #nima_menu_content .options a.disabled.view:focus, #nima_menu_content .rating_badge a.disabled:focus,
@@ -13321,38 +13120,23 @@ fieldset[disabled] a {
     border-color: #398439; }
   .btn-success:active, #admin_bar p a:active, .btn-success.active, #admin_bar p a.active,
   .open > .btn-success.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-success {
+  .open > a.dropdown-toggle {
     color: #fff;
     background-color: #449d44;
     border-color: #398439; }
     .btn-success:active:hover, #admin_bar p a:active:hover, .btn-success:active:focus, #admin_bar p a:active:focus, .btn-success:active.focus, #admin_bar p a:active.focus, .btn-success.active:hover, #admin_bar p a.active:hover, .btn-success.active:focus, #admin_bar p a.active:focus, .btn-success.active.focus, #admin_bar p a.active.focus,
     .open > .btn-success.dropdown-toggle:hover, #admin_bar p
-    .open > a.dropdown-toggle:hover, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a:hover, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-success:hover,
+    .open > a.dropdown-toggle:hover,
     .open > .btn-success.dropdown-toggle:focus, #admin_bar p
-    .open > a.dropdown-toggle:focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a:focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-success:focus,
+    .open > a.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus, #admin_bar p
-    .open > a.dropdown-toggle.focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-success.focus {
+    .open > a.dropdown-toggle.focus {
       color: #fff;
       background-color: #398439;
       border-color: #255625; }
   .btn-success:active, #admin_bar p a:active, .btn-success.active, #admin_bar p a.active,
   .open > .btn-success.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a, #dn_nav #collapse > ul >
-  li.open > a.btn-success {
+  .open > a.dropdown-toggle {
     background-image: none; }
   .btn-success.disabled:hover, #admin_bar p a.disabled:hover, #nima_menu_content .rating_badge span.btn-success:hover, .btn-success.disabled:focus, #admin_bar p a.disabled:focus, #nima_menu_content .rating_badge span.btn-success:focus, .btn-success.disabled.focus, #admin_bar p a.disabled.focus, #nima_menu_content .rating_badge span.btn-success.focus, .btn-success[disabled]:hover, #admin_bar p a[disabled]:hover, .btn-success[disabled]:focus, #admin_bar p a[disabled]:focus, .btn-success[disabled].focus, #admin_bar p a[disabled].focus,
   fieldset[disabled] .btn-success:hover,
@@ -13391,24 +13175,19 @@ fieldset[disabled] a {
     background-color: #31b0d5;
     border-color: #269abc; }
   .btn-info:active, .btn-info.active,
-  .open > .btn-info.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-info {
+  .open > .btn-info.dropdown-toggle {
     color: #fff;
     background-color: #31b0d5;
     border-color: #269abc; }
     .btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus,
-    .open > .btn-info.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-info:hover,
-    .open > .btn-info.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-info:focus,
-    .open > .btn-info.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-info.focus {
+    .open > .btn-info.dropdown-toggle:hover,
+    .open > .btn-info.dropdown-toggle:focus,
+    .open > .btn-info.dropdown-toggle.focus {
       color: #fff;
       background-color: #269abc;
       border-color: #1b6d85; }
   .btn-info:active, .btn-info.active,
-  .open > .btn-info.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-info {
+  .open > .btn-info.dropdown-toggle {
     background-image: none; }
   .btn-info.disabled:hover, #nima_menu_content .rating_badge span.btn-info:hover, .btn-info.disabled:focus, #nima_menu_content .rating_badge span.btn-info:focus, .btn-info.disabled.focus, #nima_menu_content .rating_badge span.btn-info.focus, .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus,
   fieldset[disabled] .btn-info:hover,
@@ -13438,38 +13217,23 @@ fieldset[disabled] a {
     border-color: #d58512; }
   .btn-warning:active, #nima_menu_content .incomplete-profile .update:active, .btn-warning.active, #nima_menu_content .incomplete-profile .active.update,
   .open > .btn-warning.dropdown-toggle, #nima_menu_content .incomplete-profile
-  .open > .dropdown-toggle.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-  li.open > a.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-  li.open > a.update, #dn_nav #collapse > ul >
-  li.open > a.btn-warning {
+  .open > .dropdown-toggle.update {
     color: #fff;
     background-color: #ec971f;
     border-color: #d58512; }
     .btn-warning:active:hover, #nima_menu_content .incomplete-profile .update:active:hover, .btn-warning:active:focus, #nima_menu_content .incomplete-profile .update:active:focus, .btn-warning:active.focus, #nima_menu_content .incomplete-profile .update:active.focus, .btn-warning.active:hover, #nima_menu_content .incomplete-profile .active.update:hover, .btn-warning.active:focus, #nima_menu_content .incomplete-profile .active.update:focus, .btn-warning.active.focus, #nima_menu_content .incomplete-profile .active.focus.update,
     .open > .btn-warning.dropdown-toggle:hover, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.update:hover, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.update:hover, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.update:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-warning:hover,
+    .open > .dropdown-toggle.update:hover,
     .open > .btn-warning.dropdown-toggle:focus, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.update:focus, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.update:focus, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.update:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-warning:focus,
+    .open > .dropdown-toggle.update:focus,
     .open > .btn-warning.dropdown-toggle.focus, #nima_menu_content .incomplete-profile
-    .open > .dropdown-toggle.focus.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-    li.open > a.focus.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-    li.open > a.focus.update, #dn_nav #collapse > ul >
-    li.open > a.btn-warning.focus {
+    .open > .dropdown-toggle.focus.update {
       color: #fff;
       background-color: #d58512;
       border-color: #985f0d; }
   .btn-warning:active, #nima_menu_content .incomplete-profile .update:active, .btn-warning.active, #nima_menu_content .incomplete-profile .active.update,
   .open > .btn-warning.dropdown-toggle, #nima_menu_content .incomplete-profile
-  .open > .dropdown-toggle.update, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul >
-  li.open > a.update, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul >
-  li.open > a.update, #dn_nav #collapse > ul >
-  li.open > a.btn-warning {
+  .open > .dropdown-toggle.update {
     background-image: none; }
   .btn-warning.disabled:hover, #nima_menu_content .incomplete-profile .disabled.update:hover, #nima_menu_content .incomplete-profile .rating_badge span.update:hover, #nima_menu_content .rating_badge .incomplete-profile span.update:hover, #nima_menu_content .rating_badge span.btn-warning:hover, .btn-warning.disabled:focus, #nima_menu_content .incomplete-profile .disabled.update:focus, #nima_menu_content .incomplete-profile .rating_badge span.update:focus, #nima_menu_content .rating_badge .incomplete-profile span.update:focus, #nima_menu_content .rating_badge span.btn-warning:focus, .btn-warning.disabled.focus, #nima_menu_content .incomplete-profile .disabled.focus.update, #nima_menu_content .incomplete-profile .rating_badge span.focus.update, #nima_menu_content .rating_badge .incomplete-profile span.focus.update, #nima_menu_content .rating_badge span.btn-warning.focus, .btn-warning[disabled]:hover, #nima_menu_content .incomplete-profile [disabled].update:hover, .btn-warning[disabled]:focus, #nima_menu_content .incomplete-profile [disabled].update:focus, .btn-warning[disabled].focus, #nima_menu_content .incomplete-profile [disabled].focus.update,
   fieldset[disabled] .btn-warning:hover,
@@ -13509,38 +13273,23 @@ fieldset[disabled] a {
     border-color: #ac2925; }
   .btn-danger:active, #admin_bar p a.unpublished:active, .btn-danger.active, #admin_bar p a.active.unpublished,
   .open > .btn-danger.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle.unpublished, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a.unpublished, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a.unpublished, #dn_nav #collapse > ul >
-  li.open > a.btn-danger {
+  .open > a.dropdown-toggle.unpublished {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
     .btn-danger:active:hover, #admin_bar p a.unpublished:active:hover, .btn-danger:active:focus, #admin_bar p a.unpublished:active:focus, .btn-danger:active.focus, #admin_bar p a.unpublished:active.focus, .btn-danger.active:hover, #admin_bar p a.active.unpublished:hover, .btn-danger.active:focus, #admin_bar p a.active.unpublished:focus, .btn-danger.active.focus, #admin_bar p a.active.focus.unpublished,
     .open > .btn-danger.dropdown-toggle:hover, #admin_bar p
-    .open > a.dropdown-toggle.unpublished:hover, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.unpublished:hover, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.unpublished:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-danger:hover,
+    .open > a.dropdown-toggle.unpublished:hover,
     .open > .btn-danger.dropdown-toggle:focus, #admin_bar p
-    .open > a.dropdown-toggle.unpublished:focus, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.unpublished:focus, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.unpublished:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-danger:focus,
+    .open > a.dropdown-toggle.unpublished:focus,
     .open > .btn-danger.dropdown-toggle.focus, #admin_bar p
-    .open > a.dropdown-toggle.focus.unpublished, #admin_bar p #dn_nav #collapse > ul >
-    li.open > a.focus.unpublished, #dn_nav #admin_bar p #collapse > ul >
-    li.open > a.focus.unpublished, #dn_nav #collapse > ul >
-    li.open > a.btn-danger.focus {
+    .open > a.dropdown-toggle.focus.unpublished {
       color: #fff;
       background-color: #ac2925;
       border-color: #761c19; }
   .btn-danger:active, #admin_bar p a.unpublished:active, .btn-danger.active, #admin_bar p a.active.unpublished,
   .open > .btn-danger.dropdown-toggle, #admin_bar p
-  .open > a.dropdown-toggle.unpublished, #admin_bar p #dn_nav #collapse > ul >
-  li.open > a.unpublished, #dn_nav #admin_bar p #collapse > ul >
-  li.open > a.unpublished, #dn_nav #collapse > ul >
-  li.open > a.btn-danger {
+  .open > a.dropdown-toggle.unpublished {
     background-image: none; }
   .btn-danger.disabled:hover, #admin_bar p a.disabled.unpublished:hover, #nima_menu_content .rating_badge span.btn-danger:hover, .btn-danger.disabled:focus, #admin_bar p a.disabled.unpublished:focus, #nima_menu_content .rating_badge span.btn-danger:focus, .btn-danger.disabled.focus, #admin_bar p a.disabled.focus.unpublished, #nima_menu_content .rating_badge span.btn-danger.focus, .btn-danger[disabled]:hover, #admin_bar p a[disabled].unpublished:hover, .btn-danger[disabled]:focus, #admin_bar p a[disabled].unpublished:focus, .btn-danger[disabled].focus, #admin_bar p a[disabled].focus.unpublished,
   fieldset[disabled] .btn-danger:hover,
@@ -13666,7 +13415,7 @@ tbody.collapse.in, tbody.collapse#language_message, #dn_nav tbody.in#collapse {
 #dn_nav #collapse > ul > li {
   position: relative; }
 
-.dropdown-toggle:focus, #dn_nav #collapse > ul > li > a:focus {
+.dropdown-toggle:focus {
   outline: 0; }
 
 .dropdown-menu {
@@ -14019,22 +13768,21 @@ tbody.collapse.in, tbody.collapse#language_message, #dn_nav tbody.in#collapse {
   .btn-toolbar > .input-group {
     margin-left: 5px; }
 
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile .btn-group > .update:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
-#nima_menu_content .rating_badge .btn-group > span:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:not(:first-child):not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), #admin_bar p .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_introduction .content .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle), .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_sidebar .more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal-info .btn-group > .submit:not(:first-child):not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile .btn-group > .update:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .options .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle),
+#nima_menu_content .rating_badge .btn-group > span:not(:first-child):not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0; }
 
 .btn-group > .btn:first-child, #admin_bar p .btn-group > a:first-child, #journal_introduction .content .btn-group > .submit:first-child, .more .btn-group > a:first-child, #journal_sidebar .more .btn-group > a:first-child, #journal-info .btn-group > .submit:first-child, #journal_footer_wall p.more .btn-group > a:first-child, #nima_menu_content .incomplete-profile .btn-group > .update:first-child, #nima_menu_content .options .btn-group > a:first-child, #nima_menu_content .rating_badge .btn-group > a:first-child,
 #nima_menu_content .rating_badge .btn-group > span:first-child, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child {
   margin-left: 0; }
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile .btn-group > .update:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
-  #nima_menu_content .rating_badge .btn-group > span:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), #admin_bar p .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal_introduction .content .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle), .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal_sidebar .more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #journal-info .btn-group > .submit:first-child:not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile .btn-group > .update:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .options .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle),
+  #nima_menu_content .rating_badge .btn-group > span:first-child:not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:first-child:not(:last-child):not(.dropdown-toggle) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
 
 .btn-group > .btn:last-child:not(:first-child), #admin_bar p .btn-group > a:last-child:not(:first-child), #journal_introduction .content .btn-group > .submit:last-child:not(:first-child), .more .btn-group > a:last-child:not(:first-child), #journal_sidebar .more .btn-group > a:last-child:not(:first-child), #journal-info .btn-group > .submit:last-child:not(:first-child), #journal_footer_wall p.more .btn-group > a:last-child:not(:first-child), #nima_menu_content .incomplete-profile .btn-group > .update:last-child:not(:first-child), #nima_menu_content .options .btn-group > a:last-child:not(:first-child), #nima_menu_content .rating_badge .btn-group > a:last-child:not(:first-child),
 #nima_menu_content .rating_badge .btn-group > span:last-child:not(:first-child), #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"]:last-child:not(:first-child),
-.btn-group > .dropdown-toggle:not(:first-child), #dn_nav #collapse > ul >
-li.btn-group > a:not(:first-child) {
+.btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -14047,8 +13795,7 @@ li.btn-group > a:not(:first-child) {
 
 .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, #admin_bar p .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal_introduction .content .btn-group > .btn-group:first-child:not(:last-child) > .submit:last-child, .more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal_sidebar .more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #journal-info .btn-group > .btn-group:first-child:not(:last-child) > .submit:last-child, #journal_footer_wall p.more .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #nima_menu_content .incomplete-profile .btn-group > .btn-group:first-child:not(:last-child) > .update:last-child, #nima_menu_content .options .btn-group > .btn-group:first-child:not(:last-child) > a:last-child, #nima_menu_content .rating_badge .btn-group > .btn-group:first-child:not(:last-child) > a:last-child,
 #nima_menu_content .rating_badge .btn-group > .btn-group:first-child:not(:last-child) > span:last-child, #dn_nav #collapse form[role="search"] .btn-group > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child,
-.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #dn_nav #collapse >
-ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
+.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
@@ -14057,30 +13804,24 @@ ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
-.btn-group .dropdown-toggle:active, .btn-group #dn_nav #collapse > ul > li > a:active, #dn_nav .btn-group #collapse > ul > li > a:active,
-.btn-group.open .dropdown-toggle,
-.btn-group.open #dn_nav #collapse > ul > li > a, #dn_nav
-.btn-group.open #collapse > ul > li > a {
+.btn-group .dropdown-toggle:active,
+.btn-group.open .dropdown-toggle {
   outline: 0; }
 
 .btn-group > .btn + .dropdown-toggle, #admin_bar p .btn-group > a + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, .more .btn-group > a + .dropdown-toggle, #journal_sidebar .more .btn-group > a + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle, #journal_footer_wall p.more .btn-group > a + .dropdown-toggle, #nima_menu_content .incomplete-profile .btn-group > .update + .dropdown-toggle, #nima_menu_content .options .btn-group > a + .dropdown-toggle, #nima_menu_content .rating_badge .btn-group > a + .dropdown-toggle,
-#nima_menu_content .rating_badge .btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"] + .dropdown-toggle, #dn_nav #collapse > ul > li.btn-group > .btn + a, #admin_bar p #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #admin_bar p #collapse > ul > li.btn-group > a + a, #journal_introduction .content #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal_introduction .content #collapse > ul > li.btn-group > .submit + a, .more #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav .more #collapse > ul > li.btn-group > a + a, #journal-info #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal-info #collapse > ul > li.btn-group > .submit + a, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul > li.btn-group > .update + a, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul > li.btn-group > .update + a, #nima_menu_content .options #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #nima_menu_content .options #collapse > ul > li.btn-group > a + a, #nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group > a + a, #dn_nav #nima_menu_content .rating_badge #collapse > ul > li.btn-group > a + a,
-#nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group > span + a, #dn_nav
-#nima_menu_content .rating_badge #collapse > ul > li.btn-group > span + a, #dn_nav #collapse form[role="search"] #collapse > ul > li.btn-group > button[type="submit"] + a {
+#nima_menu_content .rating_badge .btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group > button[type="submit"] + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px; }
 
 .btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, #admin_bar p .btn-group-lg.btn-group > a + .dropdown-toggle, .more .btn-group-lg.btn-group > a + .dropdown-toggle, #journal_sidebar .more .btn-group-lg.btn-group > a + .dropdown-toggle, #journal_footer_wall p.more .btn-group-lg.btn-group > a + .dropdown-toggle, #nima_menu_content .incomplete-profile .btn-group-lg.btn-group > .update + .dropdown-toggle, #nima_menu_content .options .btn-group-lg.btn-group > a + .dropdown-toggle, #nima_menu_content .rating_badge .btn-group-lg.btn-group > a + .dropdown-toggle,
-#nima_menu_content .rating_badge .btn-group-lg.btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group-lg.btn-group > button[type="submit"] + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle, #dn_nav #collapse > ul > li.btn-group > .btn-lg + a, #dn_nav #collapse > ul > li.btn-group-lg.btn-group > .btn + a, #admin_bar p #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #admin_bar p #collapse > ul > li.btn-group-lg.btn-group > a + a, .more #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav .more #collapse > ul > li.btn-group-lg.btn-group > a + a, #nima_menu_content .incomplete-profile #dn_nav #collapse > ul > li.btn-group-lg.btn-group > .update + a, #dn_nav #nima_menu_content .incomplete-profile #collapse > ul > li.btn-group-lg.btn-group > .update + a, #nima_menu_content .options #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #nima_menu_content .options #collapse > ul > li.btn-group-lg.btn-group > a + a, #nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group-lg.btn-group > a + a, #dn_nav #nima_menu_content .rating_badge #collapse > ul > li.btn-group-lg.btn-group > a + a,
-#nima_menu_content .rating_badge #dn_nav #collapse > ul > li.btn-group-lg.btn-group > span + a, #dn_nav
-#nima_menu_content .rating_badge #collapse > ul > li.btn-group-lg.btn-group > span + a, #dn_nav #collapse form[role="search"] #collapse > ul > li.btn-group-lg.btn-group > button[type="submit"] + a, #journal_introduction .content #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal_introduction .content #collapse > ul > li.btn-group > .submit + a, #journal-info #dn_nav #collapse > ul > li.btn-group > .submit + a, #dn_nav #journal-info #collapse > ul > li.btn-group > .submit + a {
+#nima_menu_content .rating_badge .btn-group-lg.btn-group > span + .dropdown-toggle, #dn_nav #collapse form[role="search"] .btn-group-lg.btn-group > button[type="submit"] + .dropdown-toggle, #journal_introduction .content .btn-group > .submit + .dropdown-toggle, #journal-info .btn-group > .submit + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px; }
 
-.btn-group.open .dropdown-toggle, .btn-group.open #dn_nav #collapse > ul > li > a, #dn_nav .btn-group.open #collapse > ul > li > a {
+.btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-  .btn-group.open .dropdown-toggle.btn-link, .btn-group.open #dn_nav #collapse > ul > li > a.btn-link, #dn_nav .btn-group.open #collapse > ul > li > a.btn-link {
+  .btn-group.open .dropdown-toggle.btn-link {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
@@ -14291,8 +14032,7 @@ ul.btn-group > li.btn-group:first-child:not(:last-child) > a {
 #nima_menu_content .rating_badge .btn-group-vertical > .btn-group:first-child:not(:last-child) > span:last-child, #admin_bar
 #nima_menu_content .rating_badge p > .btn-group:first-child:not(:last-child) > span:last-child,
 #nima_menu_content .rating_badge #admin_bar p > .btn-group:first-child:not(:last-child) > span:last-child, #dn_nav #collapse form[role="search"] .btn-group-vertical > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child, #admin_bar #dn_nav #collapse form[role="search"] p > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child, #dn_nav #collapse form[role="search"] #admin_bar p > .btn-group:first-child:not(:last-child) > button[type="submit"]:last-child,
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #admin_bar p > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #dn_nav #collapse >
-ul.btn-group-vertical > li.btn-group:first-child:not(:last-child) > a {
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle, #admin_bar p > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -14502,21 +14242,20 @@ ul.btn-group-vertical > li.btn-group:first-child:not(:last-child) > a {
 #nima_menu_content .rating_badge
 .input-group-btn:first-child > .btn-group > span, #dn_nav #collapse form[role="search"]
 .input-group-btn:first-child > .btn-group > button[type="submit"],
-.input-group-btn:first-child > .dropdown-toggle, #dn_nav #collapse > ul >
-li.input-group-btn:first-child > a,
-.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #admin_bar p
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_introduction .content
-.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), .more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_sidebar .more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal-info
-.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #journal_footer_wall p.more
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .incomplete-profile
-.input-group-btn:last-child > .update:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .options
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #nima_menu_content .rating_badge
-.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), #admin_bar p
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal_introduction .content
+.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle), .more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal_sidebar .more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #journal-info
+.input-group-btn:last-child > .submit:not(:last-child):not(.dropdown-toggle), #journal_footer_wall p.more
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #nima_menu_content .incomplete-profile
+.input-group-btn:last-child > .update:not(:last-child):not(.dropdown-toggle), #nima_menu_content .options
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle), #nima_menu_content .rating_badge
+.input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle),
 #nima_menu_content .rating_badge
-.input-group-btn:last-child > span:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a), #dn_nav #collapse form[role="search"]
-.input-group-btn:last-child > button[type="submit"]:not(:last-child):not(.dropdown-toggle):not(#dn_nav #collapse > ul > li > a),
+.input-group-btn:last-child > span:not(:last-child):not(.dropdown-toggle), #dn_nav #collapse form[role="search"]
+.input-group-btn:last-child > button[type="submit"]:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, #admin_bar p
 .input-group-btn:last-child > .btn-group:not(:last-child) > a, #journal_introduction .content
 .input-group-btn:last-child > .btn-group:not(:last-child) > .submit, .more
@@ -14564,8 +14303,7 @@ li.input-group-btn:first-child > a,
 #nima_menu_content .rating_badge
 .input-group-btn:last-child > .btn-group > span, #dn_nav #collapse form[role="search"]
 .input-group-btn:last-child > .btn-group > button[type="submit"],
-.input-group-btn:last-child > .dropdown-toggle, #dn_nav #collapse > ul >
-li.input-group-btn:last-child > a,
+.input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child), #admin_bar p
 .input-group-btn:first-child > a:not(:first-child), #journal_introduction .content
 .input-group-btn:first-child > .submit:not(:first-child), .more
@@ -16650,7 +16388,7 @@ button.list-group-item-danger {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px; }
-  .panel-heading > .dropdown .dropdown-toggle, .author .cover > .dropdown .dropdown-toggle, .nima_card .cover > .dropdown .dropdown-toggle, #dn_nav #collapse > ul.panel-heading > li .dropdown-toggle, .author #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .author #collapse > ul.cover > li .dropdown-toggle, .nima_card #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .nima_card #collapse > ul.cover > li .dropdown-toggle, .panel-heading > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .panel-heading > .dropdown #collapse > ul > li > a, .author .cover > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .author .cover > .dropdown #collapse > ul > li > a, .nima_card .cover > .dropdown #dn_nav #collapse > ul > li > a, #dn_nav .nima_card .cover > .dropdown #collapse > ul > li > a, #dn_nav #collapse > ul.panel-heading > li > a, .author #dn_nav #collapse > ul.cover > li > a, #dn_nav .author #collapse > ul.cover > li > a, .nima_card #dn_nav #collapse > ul.cover > li > a, #dn_nav .nima_card #collapse > ul.cover > li > a {
+  .panel-heading > .dropdown .dropdown-toggle, .author .cover > .dropdown .dropdown-toggle, .nima_card .cover > .dropdown .dropdown-toggle, #dn_nav #collapse > ul.panel-heading > li .dropdown-toggle, .author #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .author #collapse > ul.cover > li .dropdown-toggle, .nima_card #dn_nav #collapse > ul.cover > li .dropdown-toggle, #dn_nav .nima_card #collapse > ul.cover > li .dropdown-toggle {
     color: inherit; }
 
 .panel-title {
@@ -18119,24 +17857,19 @@ button.close {
     background-color: #ce563f;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-adn:active, .btn-adn.active,
-  .open > .btn-adn.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-adn {
+  .open > .btn-adn.dropdown-toggle {
     color: #fff;
     background-color: #ce563f;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-adn:active:hover, .btn-adn:active:focus, .btn-adn:active.focus, .btn-adn.active:hover, .btn-adn.active:focus, .btn-adn.active.focus,
-    .open > .btn-adn.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-adn:hover,
-    .open > .btn-adn.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-adn:focus,
-    .open > .btn-adn.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-adn.focus {
+    .open > .btn-adn.dropdown-toggle:hover,
+    .open > .btn-adn.dropdown-toggle:focus,
+    .open > .btn-adn.dropdown-toggle.focus {
       color: #fff;
       background-color: #b94630;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-adn:active, .btn-adn.active,
-  .open > .btn-adn.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-adn {
+  .open > .btn-adn.dropdown-toggle {
     background-image: none; }
   .btn-adn.disabled:hover, #nima_menu_content .rating_badge span.btn-adn:hover, .btn-adn.disabled:focus, #nima_menu_content .rating_badge span.btn-adn:focus, .btn-adn.disabled.focus, #nima_menu_content .rating_badge span.btn-adn.focus, .btn-adn[disabled]:hover, .btn-adn[disabled]:focus, .btn-adn[disabled].focus,
   fieldset[disabled] .btn-adn:hover,
@@ -18166,24 +17899,19 @@ button.close {
     background-color: #163758;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-bitbucket:active, .btn-bitbucket.active,
-  .open > .btn-bitbucket.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-bitbucket {
+  .open > .btn-bitbucket.dropdown-toggle {
     color: #fff;
     background-color: #163758;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-bitbucket:active:hover, .btn-bitbucket:active:focus, .btn-bitbucket:active.focus, .btn-bitbucket.active:hover, .btn-bitbucket.active:focus, .btn-bitbucket.active.focus,
-    .open > .btn-bitbucket.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-bitbucket:hover,
-    .open > .btn-bitbucket.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-bitbucket:focus,
-    .open > .btn-bitbucket.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-bitbucket.focus {
+    .open > .btn-bitbucket.dropdown-toggle:hover,
+    .open > .btn-bitbucket.dropdown-toggle:focus,
+    .open > .btn-bitbucket.dropdown-toggle.focus {
       color: #fff;
       background-color: #0f253c;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-bitbucket:active, .btn-bitbucket.active,
-  .open > .btn-bitbucket.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-bitbucket {
+  .open > .btn-bitbucket.dropdown-toggle {
     background-image: none; }
   .btn-bitbucket.disabled:hover, #nima_menu_content .rating_badge span.btn-bitbucket:hover, .btn-bitbucket.disabled:focus, #nima_menu_content .rating_badge span.btn-bitbucket:focus, .btn-bitbucket.disabled.focus, #nima_menu_content .rating_badge span.btn-bitbucket.focus, .btn-bitbucket[disabled]:hover, .btn-bitbucket[disabled]:focus, .btn-bitbucket[disabled].focus,
   fieldset[disabled] .btn-bitbucket:hover,
@@ -18213,24 +17941,19 @@ button.close {
     background-color: #0d6aad;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-dropbox:active, .btn-dropbox.active,
-  .open > .btn-dropbox.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-dropbox {
+  .open > .btn-dropbox.dropdown-toggle {
     color: #fff;
     background-color: #0d6aad;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-dropbox:active:hover, .btn-dropbox:active:focus, .btn-dropbox:active.focus, .btn-dropbox.active:hover, .btn-dropbox.active:focus, .btn-dropbox.active.focus,
-    .open > .btn-dropbox.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-dropbox:hover,
-    .open > .btn-dropbox.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-dropbox:focus,
-    .open > .btn-dropbox.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-dropbox.focus {
+    .open > .btn-dropbox.dropdown-toggle:hover,
+    .open > .btn-dropbox.dropdown-toggle:focus,
+    .open > .btn-dropbox.dropdown-toggle.focus {
       color: #fff;
       background-color: #0a568c;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-dropbox:active, .btn-dropbox.active,
-  .open > .btn-dropbox.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-dropbox {
+  .open > .btn-dropbox.dropdown-toggle {
     background-image: none; }
   .btn-dropbox.disabled:hover, #nima_menu_content .rating_badge span.btn-dropbox:hover, .btn-dropbox.disabled:focus, #nima_menu_content .rating_badge span.btn-dropbox:focus, .btn-dropbox.disabled.focus, #nima_menu_content .rating_badge span.btn-dropbox.focus, .btn-dropbox[disabled]:hover, .btn-dropbox[disabled]:focus, .btn-dropbox[disabled].focus,
   fieldset[disabled] .btn-dropbox:hover,
@@ -18261,33 +17984,23 @@ button.close {
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-facebook:active, #facebook_login_button:active, .btn-facebook.active, .active#facebook_login_button,
   .open > .btn-facebook.dropdown-toggle,
-  .open > .dropdown-toggle#facebook_login_button, #dn_nav #collapse > ul >
-  li.open > a#facebook_login_button, #dn_nav #collapse > ul >
-  li.open > a.btn-facebook {
+  .open > .dropdown-toggle#facebook_login_button {
     color: #fff;
     background-color: #2d4373;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-facebook:active:hover, #facebook_login_button:active:hover, .btn-facebook:active:focus, #facebook_login_button:active:focus, .btn-facebook:active.focus, #facebook_login_button:active.focus, .btn-facebook.active:hover, .active#facebook_login_button:hover, .btn-facebook.active:focus, .active#facebook_login_button:focus, .btn-facebook.active.focus, .active.focus#facebook_login_button,
     .open > .btn-facebook.dropdown-toggle:hover,
-    .open > .dropdown-toggle#facebook_login_button:hover, #dn_nav #collapse > ul >
-    li.open > a#facebook_login_button:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-facebook:hover,
+    .open > .dropdown-toggle#facebook_login_button:hover,
     .open > .btn-facebook.dropdown-toggle:focus,
-    .open > .dropdown-toggle#facebook_login_button:focus, #dn_nav #collapse > ul >
-    li.open > a#facebook_login_button:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-facebook:focus,
+    .open > .dropdown-toggle#facebook_login_button:focus,
     .open > .btn-facebook.dropdown-toggle.focus,
-    .open > .dropdown-toggle.focus#facebook_login_button, #dn_nav #collapse > ul >
-    li.open > a.focus#facebook_login_button, #dn_nav #collapse > ul >
-    li.open > a.btn-facebook.focus {
+    .open > .dropdown-toggle.focus#facebook_login_button {
       color: #fff;
       background-color: #23345a;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-facebook:active, #facebook_login_button:active, .btn-facebook.active, .active#facebook_login_button,
   .open > .btn-facebook.dropdown-toggle,
-  .open > .dropdown-toggle#facebook_login_button, #dn_nav #collapse > ul >
-  li.open > a#facebook_login_button, #dn_nav #collapse > ul >
-  li.open > a.btn-facebook {
+  .open > .dropdown-toggle#facebook_login_button {
     background-image: none; }
   .btn-facebook.disabled:hover, #nima_menu_content .rating_badge span.btn-facebook:hover, #nima_menu_content .rating_badge span#facebook_login_button:hover, .disabled#facebook_login_button:hover, .btn-facebook.disabled:focus, #nima_menu_content .rating_badge span.btn-facebook:focus, #nima_menu_content .rating_badge span#facebook_login_button:focus, .disabled#facebook_login_button:focus, .btn-facebook.disabled.focus, #nima_menu_content .rating_badge span.btn-facebook.focus, #nima_menu_content .rating_badge span.focus#facebook_login_button, .disabled.focus#facebook_login_button, .btn-facebook[disabled]:hover, [disabled]#facebook_login_button:hover, .btn-facebook[disabled]:focus, [disabled]#facebook_login_button:focus, .btn-facebook[disabled].focus, [disabled].focus#facebook_login_button,
   fieldset[disabled] .btn-facebook:hover,
@@ -18324,24 +18037,19 @@ button.close {
     background-color: #cc006a;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-flickr:active, .btn-flickr.active,
-  .open > .btn-flickr.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-flickr {
+  .open > .btn-flickr.dropdown-toggle {
     color: #fff;
     background-color: #cc006a;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-flickr:active:hover, .btn-flickr:active:focus, .btn-flickr:active.focus, .btn-flickr.active:hover, .btn-flickr.active:focus, .btn-flickr.active.focus,
-    .open > .btn-flickr.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-flickr:hover,
-    .open > .btn-flickr.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-flickr:focus,
-    .open > .btn-flickr.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-flickr.focus {
+    .open > .btn-flickr.dropdown-toggle:hover,
+    .open > .btn-flickr.dropdown-toggle:focus,
+    .open > .btn-flickr.dropdown-toggle.focus {
       color: #fff;
       background-color: #a80057;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-flickr:active, .btn-flickr.active,
-  .open > .btn-flickr.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-flickr {
+  .open > .btn-flickr.dropdown-toggle {
     background-image: none; }
   .btn-flickr.disabled:hover, #nima_menu_content .rating_badge span.btn-flickr:hover, .btn-flickr.disabled:focus, #nima_menu_content .rating_badge span.btn-flickr:focus, .btn-flickr.disabled.focus, #nima_menu_content .rating_badge span.btn-flickr.focus, .btn-flickr[disabled]:hover, .btn-flickr[disabled]:focus, .btn-flickr[disabled].focus,
   fieldset[disabled] .btn-flickr:hover,
@@ -18371,24 +18079,19 @@ button.close {
     background-color: #f71752;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-foursquare:active, .btn-foursquare.active,
-  .open > .btn-foursquare.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-foursquare {
+  .open > .btn-foursquare.dropdown-toggle {
     color: #fff;
     background-color: #f71752;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-foursquare:active:hover, .btn-foursquare:active:focus, .btn-foursquare:active.focus, .btn-foursquare.active:hover, .btn-foursquare.active:focus, .btn-foursquare.active.focus,
-    .open > .btn-foursquare.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-foursquare:hover,
-    .open > .btn-foursquare.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-foursquare:focus,
-    .open > .btn-foursquare.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-foursquare.focus {
+    .open > .btn-foursquare.dropdown-toggle:hover,
+    .open > .btn-foursquare.dropdown-toggle:focus,
+    .open > .btn-foursquare.dropdown-toggle.focus {
       color: #fff;
       background-color: #e30742;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-foursquare:active, .btn-foursquare.active,
-  .open > .btn-foursquare.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-foursquare {
+  .open > .btn-foursquare.dropdown-toggle {
     background-image: none; }
   .btn-foursquare.disabled:hover, #nima_menu_content .rating_badge span.btn-foursquare:hover, .btn-foursquare.disabled:focus, #nima_menu_content .rating_badge span.btn-foursquare:focus, .btn-foursquare.disabled.focus, #nima_menu_content .rating_badge span.btn-foursquare.focus, .btn-foursquare[disabled]:hover, .btn-foursquare[disabled]:focus, .btn-foursquare[disabled].focus,
   fieldset[disabled] .btn-foursquare:hover,
@@ -18418,24 +18121,19 @@ button.close {
     background-color: #2b2b2b;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-github:active, .btn-github.active,
-  .open > .btn-github.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-github {
+  .open > .btn-github.dropdown-toggle {
     color: #fff;
     background-color: #2b2b2b;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-github:active:hover, .btn-github:active:focus, .btn-github:active.focus, .btn-github.active:hover, .btn-github.active:focus, .btn-github.active.focus,
-    .open > .btn-github.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-github:hover,
-    .open > .btn-github.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-github:focus,
-    .open > .btn-github.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-github.focus {
+    .open > .btn-github.dropdown-toggle:hover,
+    .open > .btn-github.dropdown-toggle:focus,
+    .open > .btn-github.dropdown-toggle.focus {
       color: #fff;
       background-color: #191919;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-github:active, .btn-github.active,
-  .open > .btn-github.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-github {
+  .open > .btn-github.dropdown-toggle {
     background-image: none; }
   .btn-github.disabled:hover, #nima_menu_content .rating_badge span.btn-github:hover, .btn-github.disabled:focus, #nima_menu_content .rating_badge span.btn-github:focus, .btn-github.disabled.focus, #nima_menu_content .rating_badge span.btn-github.focus, .btn-github[disabled]:hover, .btn-github[disabled]:focus, .btn-github[disabled].focus,
   fieldset[disabled] .btn-github:hover,
@@ -18465,24 +18163,19 @@ button.close {
     background-color: #c23321;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-google:active, .btn-google.active,
-  .open > .btn-google.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-google {
+  .open > .btn-google.dropdown-toggle {
     color: #fff;
     background-color: #c23321;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-google:active:hover, .btn-google:active:focus, .btn-google:active.focus, .btn-google.active:hover, .btn-google.active:focus, .btn-google.active.focus,
-    .open > .btn-google.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-google:hover,
-    .open > .btn-google.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-google:focus,
-    .open > .btn-google.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-google.focus {
+    .open > .btn-google.dropdown-toggle:hover,
+    .open > .btn-google.dropdown-toggle:focus,
+    .open > .btn-google.dropdown-toggle.focus {
       color: #fff;
       background-color: #a32b1c;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-google:active, .btn-google.active,
-  .open > .btn-google.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-google {
+  .open > .btn-google.dropdown-toggle {
     background-image: none; }
   .btn-google.disabled:hover, #nima_menu_content .rating_badge span.btn-google:hover, .btn-google.disabled:focus, #nima_menu_content .rating_badge span.btn-google:focus, .btn-google.disabled.focus, #nima_menu_content .rating_badge span.btn-google.focus, .btn-google[disabled]:hover, .btn-google[disabled]:focus, .btn-google[disabled].focus,
   fieldset[disabled] .btn-google:hover,
@@ -18512,24 +18205,19 @@ button.close {
     background-color: #305777;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-instagram:active, .btn-instagram.active,
-  .open > .btn-instagram.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-instagram {
+  .open > .btn-instagram.dropdown-toggle {
     color: #fff;
     background-color: #305777;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-instagram:active:hover, .btn-instagram:active:focus, .btn-instagram:active.focus, .btn-instagram.active:hover, .btn-instagram.active:focus, .btn-instagram.active.focus,
-    .open > .btn-instagram.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-instagram:hover,
-    .open > .btn-instagram.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-instagram:focus,
-    .open > .btn-instagram.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-instagram.focus {
+    .open > .btn-instagram.dropdown-toggle:hover,
+    .open > .btn-instagram.dropdown-toggle:focus,
+    .open > .btn-instagram.dropdown-toggle.focus {
       color: #fff;
       background-color: #26455d;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-instagram:active, .btn-instagram.active,
-  .open > .btn-instagram.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-instagram {
+  .open > .btn-instagram.dropdown-toggle {
     background-image: none; }
   .btn-instagram.disabled:hover, #nima_menu_content .rating_badge span.btn-instagram:hover, .btn-instagram.disabled:focus, #nima_menu_content .rating_badge span.btn-instagram:focus, .btn-instagram.disabled.focus, #nima_menu_content .rating_badge span.btn-instagram.focus, .btn-instagram[disabled]:hover, .btn-instagram[disabled]:focus, .btn-instagram[disabled].focus,
   fieldset[disabled] .btn-instagram:hover,
@@ -18559,24 +18247,19 @@ button.close {
     background-color: #005983;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-linkedin:active, .btn-linkedin.active,
-  .open > .btn-linkedin.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-linkedin {
+  .open > .btn-linkedin.dropdown-toggle {
     color: #fff;
     background-color: #005983;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-linkedin:active:hover, .btn-linkedin:active:focus, .btn-linkedin:active.focus, .btn-linkedin.active:hover, .btn-linkedin.active:focus, .btn-linkedin.active.focus,
-    .open > .btn-linkedin.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-linkedin:hover,
-    .open > .btn-linkedin.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-linkedin:focus,
-    .open > .btn-linkedin.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-linkedin.focus {
+    .open > .btn-linkedin.dropdown-toggle:hover,
+    .open > .btn-linkedin.dropdown-toggle:focus,
+    .open > .btn-linkedin.dropdown-toggle.focus {
       color: #fff;
       background-color: #00405f;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-linkedin:active, .btn-linkedin.active,
-  .open > .btn-linkedin.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-linkedin {
+  .open > .btn-linkedin.dropdown-toggle {
     background-image: none; }
   .btn-linkedin.disabled:hover, #nima_menu_content .rating_badge span.btn-linkedin:hover, .btn-linkedin.disabled:focus, #nima_menu_content .rating_badge span.btn-linkedin:focus, .btn-linkedin.disabled.focus, #nima_menu_content .rating_badge span.btn-linkedin.focus, .btn-linkedin[disabled]:hover, .btn-linkedin[disabled]:focus, .btn-linkedin[disabled].focus,
   fieldset[disabled] .btn-linkedin:hover,
@@ -18606,24 +18289,19 @@ button.close {
     background-color: #125acd;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-microsoft:active, .btn-microsoft.active,
-  .open > .btn-microsoft.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-microsoft {
+  .open > .btn-microsoft.dropdown-toggle {
     color: #fff;
     background-color: #125acd;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-microsoft:active:hover, .btn-microsoft:active:focus, .btn-microsoft:active.focus, .btn-microsoft.active:hover, .btn-microsoft.active:focus, .btn-microsoft.active.focus,
-    .open > .btn-microsoft.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-microsoft:hover,
-    .open > .btn-microsoft.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-microsoft:focus,
-    .open > .btn-microsoft.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-microsoft.focus {
+    .open > .btn-microsoft.dropdown-toggle:hover,
+    .open > .btn-microsoft.dropdown-toggle:focus,
+    .open > .btn-microsoft.dropdown-toggle.focus {
       color: #fff;
       background-color: #0f4bac;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-microsoft:active, .btn-microsoft.active,
-  .open > .btn-microsoft.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-microsoft {
+  .open > .btn-microsoft.dropdown-toggle {
     background-image: none; }
   .btn-microsoft.disabled:hover, #nima_menu_content .rating_badge span.btn-microsoft:hover, .btn-microsoft.disabled:focus, #nima_menu_content .rating_badge span.btn-microsoft:focus, .btn-microsoft.disabled.focus, #nima_menu_content .rating_badge span.btn-microsoft.focus, .btn-microsoft[disabled]:hover, .btn-microsoft[disabled]:focus, .btn-microsoft[disabled].focus,
   fieldset[disabled] .btn-microsoft:hover,
@@ -18653,24 +18331,19 @@ button.close {
     background-color: #d35b0a;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-odnoklassniki:active, .btn-odnoklassniki.active,
-  .open > .btn-odnoklassniki.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-odnoklassniki {
+  .open > .btn-odnoklassniki.dropdown-toggle {
     color: #fff;
     background-color: #d35b0a;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-odnoklassniki:active:hover, .btn-odnoklassniki:active:focus, .btn-odnoklassniki:active.focus, .btn-odnoklassniki.active:hover, .btn-odnoklassniki.active:focus, .btn-odnoklassniki.active.focus,
-    .open > .btn-odnoklassniki.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-odnoklassniki:hover,
-    .open > .btn-odnoklassniki.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-odnoklassniki:focus,
-    .open > .btn-odnoklassniki.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-odnoklassniki.focus {
+    .open > .btn-odnoklassniki.dropdown-toggle:hover,
+    .open > .btn-odnoklassniki.dropdown-toggle:focus,
+    .open > .btn-odnoklassniki.dropdown-toggle.focus {
       color: #fff;
       background-color: #b14c09;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-odnoklassniki:active, .btn-odnoklassniki.active,
-  .open > .btn-odnoklassniki.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-odnoklassniki {
+  .open > .btn-odnoklassniki.dropdown-toggle {
     background-image: none; }
   .btn-odnoklassniki.disabled:hover, #nima_menu_content .rating_badge span.btn-odnoklassniki:hover, .btn-odnoklassniki.disabled:focus, #nima_menu_content .rating_badge span.btn-odnoklassniki:focus, .btn-odnoklassniki.disabled.focus, #nima_menu_content .rating_badge span.btn-odnoklassniki.focus, .btn-odnoklassniki[disabled]:hover, .btn-odnoklassniki[disabled]:focus, .btn-odnoklassniki[disabled].focus,
   fieldset[disabled] .btn-odnoklassniki:hover,
@@ -18700,24 +18373,19 @@ button.close {
     background-color: #da7908;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-openid:active, .btn-openid.active,
-  .open > .btn-openid.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-openid {
+  .open > .btn-openid.dropdown-toggle {
     color: #fff;
     background-color: #da7908;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-openid:active:hover, .btn-openid:active:focus, .btn-openid:active.focus, .btn-openid.active:hover, .btn-openid.active:focus, .btn-openid.active.focus,
-    .open > .btn-openid.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-openid:hover,
-    .open > .btn-openid.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-openid:focus,
-    .open > .btn-openid.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-openid.focus {
+    .open > .btn-openid.dropdown-toggle:hover,
+    .open > .btn-openid.dropdown-toggle:focus,
+    .open > .btn-openid.dropdown-toggle.focus {
       color: #fff;
       background-color: #b86607;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-openid:active, .btn-openid.active,
-  .open > .btn-openid.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-openid {
+  .open > .btn-openid.dropdown-toggle {
     background-image: none; }
   .btn-openid.disabled:hover, #nima_menu_content .rating_badge span.btn-openid:hover, .btn-openid.disabled:focus, #nima_menu_content .rating_badge span.btn-openid:focus, .btn-openid.disabled.focus, #nima_menu_content .rating_badge span.btn-openid.focus, .btn-openid[disabled]:hover, .btn-openid[disabled]:focus, .btn-openid[disabled].focus,
   fieldset[disabled] .btn-openid:hover,
@@ -18747,24 +18415,19 @@ button.close {
     background-color: #9f191f;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-pinterest:active, .btn-pinterest.active,
-  .open > .btn-pinterest.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-pinterest {
+  .open > .btn-pinterest.dropdown-toggle {
     color: #fff;
     background-color: #9f191f;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-pinterest:active:hover, .btn-pinterest:active:focus, .btn-pinterest:active.focus, .btn-pinterest.active:hover, .btn-pinterest.active:focus, .btn-pinterest.active.focus,
-    .open > .btn-pinterest.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-pinterest:hover,
-    .open > .btn-pinterest.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-pinterest:focus,
-    .open > .btn-pinterest.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-pinterest.focus {
+    .open > .btn-pinterest.dropdown-toggle:hover,
+    .open > .btn-pinterest.dropdown-toggle:focus,
+    .open > .btn-pinterest.dropdown-toggle.focus {
       color: #fff;
       background-color: #801419;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-pinterest:active, .btn-pinterest.active,
-  .open > .btn-pinterest.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-pinterest {
+  .open > .btn-pinterest.dropdown-toggle {
     background-image: none; }
   .btn-pinterest.disabled:hover, #nima_menu_content .rating_badge span.btn-pinterest:hover, .btn-pinterest.disabled:focus, #nima_menu_content .rating_badge span.btn-pinterest:focus, .btn-pinterest.disabled.focus, #nima_menu_content .rating_badge span.btn-pinterest.focus, .btn-pinterest[disabled]:hover, .btn-pinterest[disabled]:focus, .btn-pinterest[disabled].focus,
   fieldset[disabled] .btn-pinterest:hover,
@@ -18794,24 +18457,19 @@ button.close {
     background-color: #bcdeff;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-reddit:active, .btn-reddit.active,
-  .open > .btn-reddit.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-reddit {
+  .open > .btn-reddit.dropdown-toggle {
     color: #000;
     background-color: #bcdeff;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-reddit:active:hover, .btn-reddit:active:focus, .btn-reddit:active.focus, .btn-reddit.active:hover, .btn-reddit.active:focus, .btn-reddit.active.focus,
-    .open > .btn-reddit.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-reddit:hover,
-    .open > .btn-reddit.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-reddit:focus,
-    .open > .btn-reddit.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-reddit.focus {
+    .open > .btn-reddit.dropdown-toggle:hover,
+    .open > .btn-reddit.dropdown-toggle:focus,
+    .open > .btn-reddit.dropdown-toggle.focus {
       color: #000;
       background-color: #98ccff;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-reddit:active, .btn-reddit.active,
-  .open > .btn-reddit.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-reddit {
+  .open > .btn-reddit.dropdown-toggle {
     background-image: none; }
   .btn-reddit.disabled:hover, #nima_menu_content .rating_badge span.btn-reddit:hover, .btn-reddit.disabled:focus, #nima_menu_content .rating_badge span.btn-reddit:focus, .btn-reddit.disabled.focus, #nima_menu_content .rating_badge span.btn-reddit.focus, .btn-reddit[disabled]:hover, .btn-reddit[disabled]:focus, .btn-reddit[disabled].focus,
   fieldset[disabled] .btn-reddit:hover,
@@ -18841,24 +18499,19 @@ button.close {
     background-color: #cc4400;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-soundcloud:active, .btn-soundcloud.active,
-  .open > .btn-soundcloud.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-soundcloud {
+  .open > .btn-soundcloud.dropdown-toggle {
     color: #fff;
     background-color: #cc4400;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-soundcloud:active:hover, .btn-soundcloud:active:focus, .btn-soundcloud:active.focus, .btn-soundcloud.active:hover, .btn-soundcloud.active:focus, .btn-soundcloud.active.focus,
-    .open > .btn-soundcloud.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-soundcloud:hover,
-    .open > .btn-soundcloud.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-soundcloud:focus,
-    .open > .btn-soundcloud.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-soundcloud.focus {
+    .open > .btn-soundcloud.dropdown-toggle:hover,
+    .open > .btn-soundcloud.dropdown-toggle:focus,
+    .open > .btn-soundcloud.dropdown-toggle.focus {
       color: #fff;
       background-color: #a83800;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-soundcloud:active, .btn-soundcloud.active,
-  .open > .btn-soundcloud.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-soundcloud {
+  .open > .btn-soundcloud.dropdown-toggle {
     background-image: none; }
   .btn-soundcloud.disabled:hover, #nima_menu_content .rating_badge span.btn-soundcloud:hover, .btn-soundcloud.disabled:focus, #nima_menu_content .rating_badge span.btn-soundcloud:focus, .btn-soundcloud.disabled.focus, #nima_menu_content .rating_badge span.btn-soundcloud.focus, .btn-soundcloud[disabled]:hover, .btn-soundcloud[disabled]:focus, .btn-soundcloud[disabled].focus,
   fieldset[disabled] .btn-soundcloud:hover,
@@ -18888,24 +18541,19 @@ button.close {
     background-color: #1c2e3f;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-tumblr:active, .btn-tumblr.active,
-  .open > .btn-tumblr.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-tumblr {
+  .open > .btn-tumblr.dropdown-toggle {
     color: #fff;
     background-color: #1c2e3f;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-tumblr:active:hover, .btn-tumblr:active:focus, .btn-tumblr:active.focus, .btn-tumblr.active:hover, .btn-tumblr.active:focus, .btn-tumblr.active.focus,
-    .open > .btn-tumblr.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-tumblr:hover,
-    .open > .btn-tumblr.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-tumblr:focus,
-    .open > .btn-tumblr.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-tumblr.focus {
+    .open > .btn-tumblr.dropdown-toggle:hover,
+    .open > .btn-tumblr.dropdown-toggle:focus,
+    .open > .btn-tumblr.dropdown-toggle.focus {
       color: #fff;
       background-color: #111c26;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-tumblr:active, .btn-tumblr.active,
-  .open > .btn-tumblr.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-tumblr {
+  .open > .btn-tumblr.dropdown-toggle {
     background-image: none; }
   .btn-tumblr.disabled:hover, #nima_menu_content .rating_badge span.btn-tumblr:hover, .btn-tumblr.disabled:focus, #nima_menu_content .rating_badge span.btn-tumblr:focus, .btn-tumblr.disabled.focus, #nima_menu_content .rating_badge span.btn-tumblr.focus, .btn-tumblr[disabled]:hover, .btn-tumblr[disabled]:focus, .btn-tumblr[disabled].focus,
   fieldset[disabled] .btn-tumblr:hover,
@@ -18935,24 +18583,19 @@ button.close {
     background-color: #2795e9;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-twitter:active, .btn-twitter.active,
-  .open > .btn-twitter.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-twitter {
+  .open > .btn-twitter.dropdown-toggle {
     color: #fff;
     background-color: #2795e9;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-twitter:active:hover, .btn-twitter:active:focus, .btn-twitter:active.focus, .btn-twitter.active:hover, .btn-twitter.active:focus, .btn-twitter.active.focus,
-    .open > .btn-twitter.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-twitter:hover,
-    .open > .btn-twitter.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-twitter:focus,
-    .open > .btn-twitter.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-twitter.focus {
+    .open > .btn-twitter.dropdown-toggle:hover,
+    .open > .btn-twitter.dropdown-toggle:focus,
+    .open > .btn-twitter.dropdown-toggle.focus {
       color: #fff;
       background-color: #1583d7;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-twitter:active, .btn-twitter.active,
-  .open > .btn-twitter.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-twitter {
+  .open > .btn-twitter.dropdown-toggle {
     background-image: none; }
   .btn-twitter.disabled:hover, #nima_menu_content .rating_badge span.btn-twitter:hover, .btn-twitter.disabled:focus, #nima_menu_content .rating_badge span.btn-twitter:focus, .btn-twitter.disabled.focus, #nima_menu_content .rating_badge span.btn-twitter.focus, .btn-twitter[disabled]:hover, .btn-twitter[disabled]:focus, .btn-twitter[disabled].focus,
   fieldset[disabled] .btn-twitter:hover,
@@ -18982,24 +18625,19 @@ button.close {
     background-color: #1295bf;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-vimeo:active, .btn-vimeo.active,
-  .open > .btn-vimeo.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-vimeo {
+  .open > .btn-vimeo.dropdown-toggle {
     color: #fff;
     background-color: #1295bf;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-vimeo:active:hover, .btn-vimeo:active:focus, .btn-vimeo:active.focus, .btn-vimeo.active:hover, .btn-vimeo.active:focus, .btn-vimeo.active.focus,
-    .open > .btn-vimeo.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-vimeo:hover,
-    .open > .btn-vimeo.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-vimeo:focus,
-    .open > .btn-vimeo.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-vimeo.focus {
+    .open > .btn-vimeo.dropdown-toggle:hover,
+    .open > .btn-vimeo.dropdown-toggle:focus,
+    .open > .btn-vimeo.dropdown-toggle.focus {
       color: #fff;
       background-color: #0f7b9f;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-vimeo:active, .btn-vimeo.active,
-  .open > .btn-vimeo.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-vimeo {
+  .open > .btn-vimeo.dropdown-toggle {
     background-image: none; }
   .btn-vimeo.disabled:hover, #nima_menu_content .rating_badge span.btn-vimeo:hover, .btn-vimeo.disabled:focus, #nima_menu_content .rating_badge span.btn-vimeo:focus, .btn-vimeo.disabled.focus, #nima_menu_content .rating_badge span.btn-vimeo.focus, .btn-vimeo[disabled]:hover, .btn-vimeo[disabled]:focus, .btn-vimeo[disabled].focus,
   fieldset[disabled] .btn-vimeo:hover,
@@ -19029,24 +18667,19 @@ button.close {
     background-color: #466482;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-vk:active, .btn-vk.active,
-  .open > .btn-vk.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-vk {
+  .open > .btn-vk.dropdown-toggle {
     color: #fff;
     background-color: #466482;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-vk:active:hover, .btn-vk:active:focus, .btn-vk:active.focus, .btn-vk.active:hover, .btn-vk.active:focus, .btn-vk.active.focus,
-    .open > .btn-vk.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-vk:hover,
-    .open > .btn-vk.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-vk:focus,
-    .open > .btn-vk.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-vk.focus {
+    .open > .btn-vk.dropdown-toggle:hover,
+    .open > .btn-vk.dropdown-toggle:focus,
+    .open > .btn-vk.dropdown-toggle.focus {
       color: #fff;
       background-color: #3a526b;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-vk:active, .btn-vk.active,
-  .open > .btn-vk.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-vk {
+  .open > .btn-vk.dropdown-toggle {
     background-image: none; }
   .btn-vk.disabled:hover, #nima_menu_content .rating_badge span.btn-vk:hover, .btn-vk.disabled:focus, #nima_menu_content .rating_badge span.btn-vk:focus, .btn-vk.disabled.focus, #nima_menu_content .rating_badge span.btn-vk.focus, .btn-vk[disabled]:hover, .btn-vk[disabled]:focus, .btn-vk[disabled].focus,
   fieldset[disabled] .btn-vk:hover,
@@ -19076,24 +18709,19 @@ button.close {
     background-color: #500a6f;
     border-color: rgba(0, 0, 0, 0.2); }
   .btn-yahoo:active, .btn-yahoo.active,
-  .open > .btn-yahoo.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-yahoo {
+  .open > .btn-yahoo.dropdown-toggle {
     color: #fff;
     background-color: #500a6f;
     border-color: rgba(0, 0, 0, 0.2); }
     .btn-yahoo:active:hover, .btn-yahoo:active:focus, .btn-yahoo:active.focus, .btn-yahoo.active:hover, .btn-yahoo.active:focus, .btn-yahoo.active.focus,
-    .open > .btn-yahoo.dropdown-toggle:hover, #dn_nav #collapse > ul >
-    li.open > a.btn-yahoo:hover,
-    .open > .btn-yahoo.dropdown-toggle:focus, #dn_nav #collapse > ul >
-    li.open > a.btn-yahoo:focus,
-    .open > .btn-yahoo.dropdown-toggle.focus, #dn_nav #collapse > ul >
-    li.open > a.btn-yahoo.focus {
+    .open > .btn-yahoo.dropdown-toggle:hover,
+    .open > .btn-yahoo.dropdown-toggle:focus,
+    .open > .btn-yahoo.dropdown-toggle.focus {
       color: #fff;
       background-color: #39074e;
       border-color: rgba(0, 0, 0, 0.2); }
   .btn-yahoo:active, .btn-yahoo.active,
-  .open > .btn-yahoo.dropdown-toggle, #dn_nav #collapse > ul >
-  li.open > a.btn-yahoo {
+  .open > .btn-yahoo.dropdown-toggle {
     background-image: none; }
   .btn-yahoo.disabled:hover, #nima_menu_content .rating_badge span.btn-yahoo:hover, .btn-yahoo.disabled:focus, #nima_menu_content .rating_badge span.btn-yahoo:focus, .btn-yahoo.disabled.focus, #nima_menu_content .rating_badge span.btn-yahoo.focus, .btn-yahoo[disabled]:hover, .btn-yahoo[disabled]:focus, .btn-yahoo[disabled].focus,
   fieldset[disabled] .btn-yahoo:hover,
