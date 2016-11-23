@@ -198,12 +198,9 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		vertical-align: top;
 	}
 }
-.activity-feed {
+.btn-group {
 	button {
-		margin-right: 5px;
-	}
-	button:first-child {
-		margin-left: 5px;
+		outline:none !important;
 	}
 }
 

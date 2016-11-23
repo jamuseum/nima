@@ -21769,11 +21769,8 @@ p.complete {
   border-bottom-left-radius: 0px;
   vertical-align: top; }
 
-.activity-feed button {
-  margin-right: 5px; }
-
-.activity-feed button:first-child {
-  margin-left: 5px; }
+.btn-group button {
+  outline: none !important; }
 
 .article-pic {
   background-color: #999;
@@ -21810,12 +21807,24 @@ p.complete {
   background-color: #2e2e2e;
   text-align: left;
   color: #cbcbbe; }
-  #footer h5 {
-    text-transform: uppercase;
-    margin-right: 15px; }
+  #footer .footer_logo {
+    width: 369px;
+    height: 33px; }
+  #footer .border {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #footer .border.top {
+    border-top: 1px solid rgba(78, 78, 78, 0.48); }
+  #footer .border.bottom {
+    border-bottom: 1px solid rgba(78, 78, 78, 0.48); }
+  #footer .footer_logo.en {
+    background: url(http://media.discovernikkei.org/static/img/interface/header-titles.gif) 0px 0px no-repeat;
+    background-size: 75%; }
   #footer .row, #footer #login_options, #footer .nima_switch, #footer #signup_options, #footer #nima_teaser {
-    margin-left: 15px;
-    margin-right: 15px; }
+    margin-left: 0px;
+    margin-right: 0px; }
+  #footer h5 {
+    text-transform: uppercase; }
   #footer a {
     color: #cbcbbe; }
   #footer ul {

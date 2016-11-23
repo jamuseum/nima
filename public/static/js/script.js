@@ -3,7 +3,10 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 	  zoom: 8,
 	  scrollwheel:false,
+	  zoomControl:false,
 	  scaleControl:false,
+	  streetViewControl:false,
+	  mapTypeControl:false,
 	  draggable:false,
 	  center: city
 	});
@@ -13,8 +16,8 @@ function initMap() {
 	});
 }
 
-$(".activity-feed button").click(function(){
-	$(".activity-feed button").removeClass('active');
+$(".btn-group button").click(function(){
+	$(".btn-group button").removeClass('active');
 	$(this).addClass('active');
 });
 
