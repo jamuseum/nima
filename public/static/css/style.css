@@ -21597,7 +21597,9 @@ p.complete {
 
 #journal_introduction {
   width: 100%;
-  font-family: Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif; }
+  font-family: Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 25px; }
 
 .dn-inner-container {
   padding: 0px 10px; }
@@ -21810,6 +21812,9 @@ p.complete {
   #footer .footer_logo {
     width: 369px;
     height: 33px; }
+  #footer .tiny-icon {
+    width: 25px;
+    margin-bottom: 10px; }
   #footer .border {
     padding-top: 10px;
     padding-bottom: 10px; }
