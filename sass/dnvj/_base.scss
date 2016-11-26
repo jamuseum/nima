@@ -239,6 +239,15 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .eventpreviews tr td {
 	vertical-align: top;
 }
+.bio {
+	position: relative;
+	img.profile-pic {
+		position: absolute;
+	    top: -101px;
+   		left: 50%;
+    	margin-left: -40px;
+	}
+}
 
 @media screen and (max-width:1000px){
 	#container {

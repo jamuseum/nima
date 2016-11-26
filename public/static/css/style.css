@@ -21804,6 +21804,14 @@ p.complete {
 .eventpreviews tr td {
   vertical-align: top; }
 
+.bio {
+  position: relative; }
+  .bio img.profile-pic {
+    position: absolute;
+    top: -101px;
+    left: 50%;
+    margin-left: -40px; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }

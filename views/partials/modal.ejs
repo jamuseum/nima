@@ -104,17 +104,23 @@
             
 
             <div class="nima_card" id="nima_card_1">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=United%20States&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyC8tMfHjAZlvWs5Xezt0uv6bORbFFXztlE')"></div>
+                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=United%20States&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
                     <div class="content">
                          <!--    <img src="/media/cache/b7/81/b78147136d5ab7fad78a0aff6cc1da48.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                                <% if(typeof users !== 'undefined') { %>
+                                    <img class="profile-pic" src="<%- users[1].profile.picture.regular %>">
+                                
                                     <div class="title">
-                                            <h4>DavidGizz</h4>
+                                        <h6><%- users[1].profile.firstname %>
+ <%- users[1].profile.lastname %></h6>
+                                          
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png" /> United States</span></p>
+                                   
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
@@ -122,17 +128,23 @@
             
 
             <div class="nima_card" id="nima_card_2">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Peru&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyC8tMfHjAZlvWs5Xezt0uv6bORbFFXztlE')"></div>
+                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Peru&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
                     <div class="content">
                           <!--   <img src="/media/cache/28/07/280791c49f63b83270ddc55acfc9fe96.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                                <% if(typeof users !== 'undefined') { %>
+                                    <img class="profile-pic" src="<%- users[0].profile.picture.regular %>">
+                                
                                     <div class="title">
-                                            <h4>gmss51</h4>
+                                        <h6><%- users[0].profile.firstname %>
+ <%- users[0].profile.lastname %></h6>
+                                          
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/pe.png" /> Peru</span></p>
+                                   
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
@@ -140,21 +152,26 @@
             
 
             <div class="nima_card" id="nima_card_3">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Brazil&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyC8tMfHjAZlvWs5Xezt0uv6bORbFFXztlE')"></div>
+                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Brazil&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
                     <div class="content">
                       <!--       <img src="/media/cache/71/18/7118cbdd2a028268dfb021578301cca5.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                                <% if(typeof users !== 'undefined') { %>
+                                    <img class="profile-pic" src="<%- users[2].profile.picture.regular %>">
+                                
                                     <div class="title">
-                                            <h4>yukinori</h4>
+                                        <h6><%- users[2].profile.firstname %>
+ <%- users[2].profile.lastname %></h6>
+                                          
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/br.png" /> Brazil</span></p>
+                                   
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
-
              
 
              

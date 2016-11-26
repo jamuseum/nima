@@ -21,7 +21,7 @@
 					<div class="row">
 						<div class="col-md-2 col-sm-2 text-center">
 							<img class="nima community_icon" src="static/img/icons/users-100.png">
-							<button class="nima signup">Sign Up</button>
+							<a class="btn btn-primary btn-lg" data-remote="false" data-toggle="modal" data-target="#signup_modal">Sign Up</a>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<h2>Nima</h2>
@@ -43,11 +43,17 @@
                          <!--    <img src="/media/cache/b7/81/b78147136d5ab7fad78a0aff6cc1da48.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                            	<% if(typeof users !== 'undefined') { %>
+                            		<img class="profile-pic" src="<%- users[1].profile.picture.regular %>">
+                            	
                                     <div class="title">
-                                            <h4>DavidGizz</h4>
+                                        <h6><%- users[1].profile.firstname %>
+ <%- users[1].profile.lastname %></h6>
+										  <h6><%- users[1].profile.current_city %></h6>
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> United States</span></p>
+                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
@@ -61,11 +67,17 @@
                           <!--   <img src="/media/cache/28/07/280791c49f63b83270ddc55acfc9fe96.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                            	<% if(typeof users !== 'undefined') { %>
+                            		<img class="profile-pic" src="<%- users[0].profile.picture.regular %>">
+                            	
                                     <div class="title">
-                                            <h4>gmss51</h4>
+                                        <h6><%- users[0].profile.firstname %>
+ <%- users[0].profile.lastname %></h6>
+										  <h6><%- users[0].profile.current_city %></h6>
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/pe.png"> Peru</span></p>
+                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
@@ -79,11 +91,17 @@
                       <!--       <img src="/media/cache/71/18/7118cbdd2a028268dfb021578301cca5.jpg" alt="" class="thumbnail" /> -->
 
                             <div class="bio">
+                            	<% if(typeof users !== 'undefined') { %>
+                            		<img class="profile-pic" src="<%- users[2].profile.picture.regular %>">
+                            	
                                     <div class="title">
-                                            <h4>yukinori</h4>
+                                        <h6><%- users[2].profile.firstname %>
+ <%- users[2].profile.lastname %></h6>
+										  <h6><%- users[2].profile.current_city %></h6>
                                     </div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/br.png"> Brazil</span></p>
+                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+                                <% }%>
                             </div>
                     </div>
             </div> <!-- /nima_card -->
