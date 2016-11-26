@@ -1,26 +1,33 @@
 function initMap() {
 	var city = {lat: 34.05, lng: -118.24};
 	var city2 = {lat: 33.95, lng: -117.396};
+	var city3 = {lat: 33.79, lng: -118.18};
 	var map = new google.maps.Map(document.getElementById('map'), {
-	  zoom: 8,
-	  scrollwheel:false,
-	  zoomControl:false,
+	  zoom: 10,
+	  // scrollwheel:false,
+	  // zoomControl:false,
 	  scaleControl:false,
 	  streetViewControl:false,
 	  mapTypeControl:false,
-	  draggable:false,
+	  // draggable:false,
 	  center: city
 	});
 
 	 var marker = new google.maps.Marker({
             position: city,
-            icon: 'http://localhost:1337/media/cache/susan-tiny.jpg',
+            icon: 'http://localhost:1337/media/cache/susan.jpg',
             map: map
           });
 
-	 var marker = new google.maps.Marker({
+	 var marker2 = new google.maps.Marker({
             position: city2,
-            icon: 'http://localhost:1337/media/cache/edward.jpg',
+            icon: 'http://localhost:1337/media/cache/omar.png',
+            map: map
+          });
+
+	  var marker3 = new google.maps.Marker({
+            position: city3,
+            icon: 'http://localhost:1337/media/cache/edward.png',
             map: map
           });
 }
