@@ -1,5 +1,6 @@
 function initMap() {
 	var city = {lat: 34.05, lng: -118.24};
+	var city2 = {lat: 33.95, lng: -117.396};
 	var map = new google.maps.Map(document.getElementById('map'), {
 	  zoom: 8,
 	  scrollwheel:false,
@@ -10,10 +11,18 @@ function initMap() {
 	  draggable:false,
 	  center: city
 	});
-	var marker = new google.maps.Marker({
-	  position: city,
-	  map: map
-	});
+
+	 var marker = new google.maps.Marker({
+            position: city,
+            icon: 'http://localhost:1337/media/cache/susan-tiny.jpg',
+            map: map
+          });
+
+	 var marker = new google.maps.Marker({
+            position: city2,
+            icon: 'http://localhost:1337/media/cache/edward.jpg',
+            map: map
+          });
 }
 
 $(function(){
