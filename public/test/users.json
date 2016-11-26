@@ -1,0 +1,191 @@
+[{
+	"id":1,
+	"username":"susan2",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"Susan",
+		"lastname":"Bergman",
+		"gender":"female",
+		"current_city":"Gardena, CA United States",
+		"hometown":"Boston, MA United States",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/susan-tiny.jpg",
+			"regular":"http://localhost:1337/media/cache/susan.jpg"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/susan.bergman",
+		"twitter":"http://twitter.com/susan2",
+		"instagram":"http://instagram.com/susan2"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+},
+{
+	"id":2,
+	"username":"omar99",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"Omar",
+		"lastname":"Maro",
+		"gender":"male",
+		"current_city":"London, United Kingdom",
+		"hometown":"New York, NY United States",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/omar-tiny.png",
+			"regular":"http://localhost:1337/media/cache/omar.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/omar",
+		"twitter":"http://twitter.com/omar",
+		"instagram":"http://instagram.com/omar"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+},
+{
+	"id":3,
+	"username":"EdwardOmips",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"Edward",
+		"lastname":"Omips",
+		"gender":"male",
+		"current_city":"London United Kingdom",
+		"hometown":"Boston, MA United States",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/edward-tiny.png",
+			"regular":"http://localhost:1337/media/cache/edward.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+},
+{
+	"id":4,
+	"username":"ScottTen",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"Scott",
+		"lastname":"Ten",
+		"gender":"male",
+		"current_city":"Los Angeles, CA United States",
+		"hometown":"Denver, CO United States",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/scott-tiny.png",
+			"regular":"http://localhost:1337/media/cache/scott.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+},
+{
+	"id":5,
+	"username":"Yamada",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"Yamada",
+		"lastname":"Adamay",
+		"gender":"female",
+		"current_city":"Los Angeles, CA United States",
+		"hometown":"Tokyo, Japan",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/yamada-tiny.png",
+			"regular":"http://localhost:1337/media/cache/yamada.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/yamada",
+		"twitter":"http://twitter.com/yamada",
+		"instagram":"http://instagram.com/yamada"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+},{
+	"id":6,
+	"username":"skawa244",
+	"languages":{
+		"english":true,
+		"japanese":true
+	},
+	"profile":{
+		"firstname":"S",
+		"lastname":"Kawa",
+		"gender":"male",
+		"current_city":"London, United Kingdom",
+		"hometown":"Mumbai, India",
+		"picture":{
+			"thumbnail":"http://localhost:1337/media/cache/skawa-tiny.png",
+			"regular":"http://localhost:1337/media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"community_history":true,
+		"family_stories":true,
+		"festival_matsuri":false,
+		"japantowns":true,
+		"other":{}
+	}
+}]

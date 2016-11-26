@@ -31,66 +31,27 @@
 					<p>No results matched your search</p>
 				<% } %>
 				<div>
-					<div>
-						<div class="row">
-							<div class="col-sm-2">
-								pic
-							</div>
-							<div class="col-sm-10">
-								<h6>omar99</h6>
-								<p>London, United Kingdom</p>
-								<p>Lorem ipsum dolor sit amet, consectur</p>
-							</div>
+					<% if(typeof users !== "undefined") { %>
+
+						<% for(var i=0; i<users.length; i++) { %>
+						
+						<div>
+							<div class="row">
+								<div class="col-sm-2">
+									<img src="<%- users[i].profile.picture.regular %>" style="width:75px;">
+								</div>
+								<div class="col-sm-10">
+									<h6><%- users[i].username %></h6>
+									<p><%- users[i].profile.current_city%></p>
+									<p><%- users[i].profile.hometown %></p>
+								</div>
+							</div>						
 						</div>
-					</div>
-					<div>
-						<div class="row">
-							<div class="col-sm-2">
-								pic
-							</div>
-							<div class="col-sm-10">
-								<h6>EdwardOmips</h6>
-								<p>London, United Kingdom</p>
-								<p>Lorem ipsum dolor sit amet, consectur</p>
-							</div>
-						</div>						
-					</div>
-					<div>
-						<div class="row">
-							<div class="col-sm-2">
-								pic
-							</div>
-							<div class="col-sm-10">
-								<h6>ScottTen</h6>
-								<p>London, United Kingdom</p>
-								<p>Lorem ipsum dolor sit amet, consectur</p>
-							</div>
-						</div>						
-					</div>
-					<div>
-						<div class="row">
-							<div class="col-sm-2">
-								pic
-							</div>
-							<div class="col-sm-10">
-								<h6>YAMADA</h6>
-								<p>London, United Kingdom</p>
-								<p>Lorem ipsum dolor sit amet, consectur</p>
-							</div>
-						</div>						
-					</div>
-					<div>
-						<div class="row">
-							<div class="col-sm-2">
-								pic
-							</div>
-							<div class="col-sm-10">
-								<h6>skawa244</h6>
-								<p>London, United Kingdom</p>
-								<p>Lorem ipsum dolor sit amet, consectur</p>
-							</div>
-						</div>						
-					</div>
+						<%	}	%>
+					<% } else {%>
+					
+					<% } %>
+					
 					<div class="text-center">
 					<br>
 						<div class="btn-group">

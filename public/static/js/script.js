@@ -16,6 +16,13 @@ function initMap() {
 	});
 }
 
+$(function(){
+	$.get('/test/users.json', function(data){
+		console.log(data[0].profile.picture.regular);
+	})
+})
+
+
 $("#activity-all, #load-more").click(function(e){
 	e.preventDefault()
 	$("#events tr").show();
