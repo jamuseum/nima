@@ -2,7 +2,7 @@ function initMap() {
 	var city = {lat: 34.05, lng: -118.24};
 	var city2 = {lat: 33.95, lng: -117.396};
 	var city3 = {lat: 33.79, lng: -118.18};
-	var city4 = {lat: 35.68, lng: -139.67};
+	var city4 = {lat: 35.68, lng: 139.67};
 	var map = new google.maps.Map(document.getElementById('map'), {
 	  zoom: 10,
 	  // scrollwheel:false,
