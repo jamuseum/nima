@@ -21812,6 +21812,9 @@ p.complete {
     left: 50%;
     margin-left: -40px; }
 
+.map-icon img {
+  width: 65px; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
