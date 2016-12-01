@@ -53,7 +53,7 @@ $(function(){
 $("#activity-all, #load-more").click(function(e){
 	e.preventDefault()
 	$("#events tr").show();
-	$("#load-more").hide()
+	//$("#load-more").hide()
 });
 
 $("#activity-journal").click(function(){

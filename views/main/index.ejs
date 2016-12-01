@@ -19,7 +19,7 @@
 				<div id="journal_introduction">
 					
 					<div class="row">
-						<div class="col-md-2 col-sm-2 text-center">
+						<div class="col-md-2 col-sm-2 text-center" style="position:relative; left:10px;">
 							<img class="nima community_icon" src="static/img/icons/users-100.png">
 							<a class="btn btn-primary btn-lg" data-remote="false" data-toggle="modal" data-target="#signup_modal">Sign Up</a>
 						</div>
@@ -29,106 +29,100 @@
 							<p>Nima are members of the Discover Nikkei online community called Nima-kai.  Join our community and share your stories about the Nikkei experience.  Click an icon on the map to connect with Nima around the world!</p>
 							<p>The term "Nima" comes from combining Nikkei and nakama (Japanese for "colleagues", or "fellows", or "circle").</p>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="nima-cards col-md-4 col-sm-4">
 							<div id="nima_examples">
+					            <div class="nima_card" id="nima_card_1">
+					                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=United%20States&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
-            
+					                    <div class="content">
+					                         <!--    <img src="/media/cache/b7/81/b78147136d5ab7fad78a0aff6cc1da48.jpg" alt="" class="thumbnail" /> -->
 
-            
+					                            <div class="bio">
+					                            	<% if(typeof users !== 'undefined') { %>
+					                            		<img class="profile-pic" src="<%- users[1].profile.picture.regular %>">
+					                            	
+					                                    <div class="title">
+					                                        <h6><%- users[1].profile.firstname %>
+					 <%- users[1].profile.lastname %></h6>
+															  <h6><%- users[1].profile.current_city %></h6>
+					                                    </div>
 
-            <div class="nima_card" id="nima_card_1">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=United%20States&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
+					                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+					                                <% }%>
+					                            </div>
+					                    </div>
+					            </div> <!-- /nima_card -->
 
-                    <div class="content">
-                         <!--    <img src="/media/cache/b7/81/b78147136d5ab7fad78a0aff6cc1da48.jpg" alt="" class="thumbnail" /> -->
+					            
 
-                            <div class="bio">
-                            	<% if(typeof users !== 'undefined') { %>
-                            		<img class="profile-pic" src="<%- users[1].profile.picture.regular %>">
-                            	
-                                    <div class="title">
-                                        <h6><%- users[1].profile.firstname %>
- <%- users[1].profile.lastname %></h6>
-										  <h6><%- users[1].profile.current_city %></h6>
-                                    </div>
+					            <div class="nima_card" id="nima_card_2">
+					                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Peru&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
-                                <% }%>
-                            </div>
-                    </div>
-            </div> <!-- /nima_card -->
+					                    <div class="content">
+					                          <!--   <img src="/media/cache/28/07/280791c49f63b83270ddc55acfc9fe96.jpg" alt="" class="thumbnail" /> -->
 
-            
+					                            <div class="bio">
+					                            	<% if(typeof users !== 'undefined') { %>
+					                            		<img class="profile-pic" src="<%- users[0].profile.picture.regular %>">
+					                            	
+					                                    <div class="title">
+					                                        <h6><%- users[0].profile.firstname %>
+					 <%- users[0].profile.lastname %></h6>
+															  <h6><%- users[0].profile.current_city %></h6>
+					                                    </div>
 
-            <div class="nima_card" id="nima_card_2">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Peru&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
+					                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+					                                <% }%>
+					                            </div>
+					                    </div>
+					            </div> <!-- /nima_card -->
 
-                    <div class="content">
-                          <!--   <img src="/media/cache/28/07/280791c49f63b83270ddc55acfc9fe96.jpg" alt="" class="thumbnail" /> -->
+					            
 
-                            <div class="bio">
-                            	<% if(typeof users !== 'undefined') { %>
-                            		<img class="profile-pic" src="<%- users[0].profile.picture.regular %>">
-                            	
-                                    <div class="title">
-                                        <h6><%- users[0].profile.firstname %>
- <%- users[0].profile.lastname %></h6>
-										  <h6><%- users[0].profile.current_city %></h6>
-                                    </div>
+					            <div class="nima_card" id="nima_card_3">
+					                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Brazil&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
 
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
-                                <% }%>
-                            </div>
-                    </div>
-            </div> <!-- /nima_card -->
+					                    <div class="content">
+					                      <!--       <img src="/media/cache/71/18/7118cbdd2a028268dfb021578301cca5.jpg" alt="" class="thumbnail" /> -->
 
-            
+					                            <div class="bio">
+					                            	<% if(typeof users !== 'undefined') { %>
+					                            		<img class="profile-pic" src="<%- users[2].profile.picture.regular %>">
+					                            	
+					                                    <div class="title">
+					                                        <h6><%- users[2].profile.firstname %>
+					 <%- users[2].profile.lastname %></h6>
+															  <h6><%- users[2].profile.current_city %></h6>
+					                                    </div>
 
-            <div class="nima_card" id="nima_card_3">
-                    <div class="cover" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Brazil&amp;zoom=2&amp;size=200x200&amp;key=AIzaSyBwARr4z5n64pS6miXyNyGomJC4xBr-vgc')"></div>
-
-                    <div class="content">
-                      <!--       <img src="/media/cache/71/18/7118cbdd2a028268dfb021578301cca5.jpg" alt="" class="thumbnail" /> -->
-
-                            <div class="bio">
-                            	<% if(typeof users !== 'undefined') { %>
-                            		<img class="profile-pic" src="<%- users[2].profile.picture.regular %>">
-                            	
-                                    <div class="title">
-                                        <h6><%- users[2].profile.firstname %>
- <%- users[2].profile.lastname %></h6>
-										  <h6><%- users[2].profile.current_city %></h6>
-                                    </div>
-
-                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
-                                <% }%>
-                            </div>
-                    </div>
-            </div> <!-- /nima_card -->
-
-             
-
-             
-    </div>
+					                                    <p><span class="country"><img src="http://www.geonames.org/flags/s/us.png"> </span></p>
+					                                <% }%>
+					                            </div>
+					                    </div>
+					            </div> <!-- /nima_card -->     
+						    </div>
 						</div>
 					</div>
 					
 				</div>
 				<div class="nima_search">
 					<div class="row">
-						<div class="col-md-7 col-sm-7">
-							<h2>Nima Map</h2>
+						<div class="col-md-6 col-sm-6">
+							<h3>Nima Map</h3>
 						</div>
-						<div class="col-md-5 col-sm-5 text-right">
+						<div class="col-md-6 col-sm-6 text-right">
 							<form class="form-inline" action="/search/q" method="GET">
-								<div class="form-group">
-									<input class="form-control" type="text" name="search" placeholder="Search Nima"><button class="btn btn-primary">GO</button>
+								<div class="form-group" style="width:100%;">
+									<input class="form-control" type="text" name="search" placeholder="Search Nima" style="width:80%;"><button class="btn btn-primary">GO</button>
 								</div>
 							</form>
 							<p><a href="/search">Advanced Search</a></p>
 						</div>
 					</div>
-					<div id="map"></div>
+					<div class="caption">
+						<div id="map"></div>
+					</div>
+
 				</div>
 				<div class="row">
 			<div class="col-md-6 col-sm-6 spacing_20px">
@@ -143,7 +137,7 @@
 						
 					</div>
 				</div>
-				<% include ../partials/events %>
+				<% include ../partials/events2 %>
 			</div>
 			<div class="col-md-6 col-sm-6 spacing_20px middle-rail">
 				<h3>Latest Comments</h3>
