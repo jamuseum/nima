@@ -280,6 +280,10 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		width:65px;
 	}
 }
+.social_profile {
+	position: relative;
+	top:7px;
+}
 
 @media screen and (max-width:1000px){
 	#container {

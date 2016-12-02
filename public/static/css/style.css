@@ -21836,6 +21836,10 @@ p.complete {
 .map-icon img {
   width: 65px; }
 
+.social_profile {
+  position: relative;
+  top: 7px; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
