@@ -21840,6 +21840,10 @@ p.complete {
   position: relative;
   top: 7px; }
 
+/* Disqus Comments */
+ul.dsq-widget-list {
+  padding-left: 5px; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }
