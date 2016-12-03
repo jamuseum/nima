@@ -108,8 +108,12 @@ s.setAttribute('data-timestamp', +new Date());
 <script type="text/javascript">
 	function initMap() {
 
+		var directionsDisplay;
+		var directionsService = new google.maps.DirectionsService();
+
+		directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
+
 		var map = new google.maps.Map(document.getElementById('map'), {
-		  zoom: 3,
 		  // scrollwheel:false,
 		  // zoomControl:false,
 		  scaleControl:false,
@@ -118,39 +122,65 @@ s.setAttribute('data-timestamp', +new Date());
 		  // draggable:false,
 		  center: {lat:38.93, lng:-94.58}
 		});
+		directionsDisplay.setMap(map);
 
 		$.get('/test/users.json', function(data){
 		
 			var home_icon = "media/cache/home-icon.png";
 			var current_city_icon = "media/cache/star-icon.png";
+
+			var icons = {
+				start: new google.maps.MarkerImage(
+					home_icon,
+					new google.maps.Size(32,32),
+					new google.maps.Point(0,0),
+					new google.maps.Point(22,32)
+				),
+				end: new google.maps.MarkerImage(
+					current_city_icon,
+					new google.maps.Size(32, 32),
+					new google.maps.Point(0,0),
+					new google.maps.Point(22,32)
+				)
+			}
 			var user = data[0].profile.firstname;
 			var home = data[0].profile.hometown;
 			var current_city = data[0].profile.current_city;
 			
-			getCityAddMarker(home, home_icon);
-			getCityAddMarker(current_city, current_city_icon);
+		//	getCityAddMarker(home, home_icon);
+		//	getCityAddMarker(current_city, current_city_icon);
+			var request = {
+				origin: home,
+				destination: current_city,
+				travelMode: "DRIVING"
+			};
 
+			directionsService.route(request, function(result, status){
+				if(status == "OK"){
+					directionsDisplay.setDirections(result);
+					var leg = result.routes[0].legs[0];
+					console.log(leg);
+					makeMarker( leg.start_location, icons.start, "Home");
+					makeMarker( leg.end_location, icons.end, "Current City");
+				}
+			});
+			directionsDisplay.setOptions({
+				polylineOptions: {
+			            strokeWeight: 4,
+			            strokeOpacity: 1,
+			            strokeColor:  'orange' 
+			        }
+			});
 			
 		});
 
-		function getCityAddMarker(city, icon){
-			var geocoder =  new google.maps.Geocoder();
-    		geocoder.geocode( { 'address': city}, function(results, status) {
-	          if (status == google.maps.GeocoderStatus.OK) {
-	            console.log("location : " + results[0].geometry.location.lat() + " " +results[0].geometry.location.lng()); 
-	           
-	            var city = {lat:results[0].geometry.location.lat(), lng:results[0].geometry.location.lng() };
-				var marker = new google.maps.Marker({
-		            position: city,
-		            icon: icon,
-		            map: map,
-		            content:"<div class='map-icon'></div>"
-		        });
-
-	          } else {
-	            console.log("Something got wrong " + status);
-	          }
-	        });
+		function makeMarker(position, icon, title){
+			new google.maps.Marker({
+				position: position,
+				map:map,
+				icon: icon,
+				title:title
+			});
 		}
 	}
 </script>
