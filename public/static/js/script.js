@@ -37,35 +37,35 @@ function initMap() {
 	            console.log("Something got wrong " + status);
 	          }
 	        });
-		})(i);
-
-			
+		})(i);	
 		
 	});
-
 }
 
 
-$("#activity-all, #load-more").click(function(e){
+$("#activity-all").click(function(e){
 	e.preventDefault()
-	$("#events tr").show();
-	//$("#load-more").hide()
+	$(".item").show();
 });
 
 $("#activity-journal").click(function(){
-	$("#events tr").not('.spacer.first').hide();
+	$(".item").hide();
 	$(".item-journal").show();
 });
 
 $("#activity-event").click(function(){
-	$("#events tr").not('.spacer.first').hide();
+	$(".item").hide();
 	$(".item-event").show();
 });
 
 $("#activity-album").click(function(){
-	$("#events tr").not('.spacer.first').hide();
+	$(".item").hide()
 	$(".item-album").show();
 });
+
+$("#load-more").click(function(){
+	
+})
 
 $(".btn-group button").click(function(){
 	$(".btn-group button").removeClass('active');

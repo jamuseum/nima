@@ -21605,6 +21605,14 @@ p.complete {
   #journal_introduction p {
     max-width: 360px; }
 
+.item {
+  padding-top: 10px !important; }
+  .item img {
+    max-width: 180px; }
+
+.item-event {
+  padding-top: 20px !important; }
+
 #journal_promos {
   position: relative;
   right: -10px; }

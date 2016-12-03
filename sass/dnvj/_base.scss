@@ -12,6 +12,16 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	p {
 		max-width: 360px;
 	}
+
+}
+.item {
+	padding-top: 10px !important;
+	img {
+		max-width: 180px;
+	}
+}
+.item-event {
+	padding-top: 20px !important;
 }
 
 #journal_promos {
