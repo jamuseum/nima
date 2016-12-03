@@ -73,7 +73,7 @@
 		"firstname":"Edward",
 		"lastname":"Omips",
 		"gender":"male",
-		"current_city":"Austin, Texas",
+		"current_city":"Mexico City, Mexico",
 		"hometown":"Boston, MA United States",
 		"picture":{
 			"thumbnail":"media/cache/edward-tiny.png",
@@ -105,7 +105,7 @@
 		"firstname":"Scott",
 		"lastname":"Ten",
 		"gender":"male",
-		"current_city":"San Diego, CA United States",
+		"current_city":"Houston, TX United States",
 		"hometown":"Denver, CO United States",
 		"picture":{
 			"thumbnail":"media/cache/scott-tiny.png",
@@ -137,7 +137,7 @@
 		"firstname":"Yamada",
 		"lastname":"Adamay",
 		"gender":"female",
-		"current_city":"Irvine, CA United States",
+		"current_city":"Orlando, FL United States",
 		"hometown":"Tokyo, Japan",
 		"picture":{
 			"thumbnail":"media/cache/yamada-tiny.png",
@@ -168,7 +168,7 @@
 		"firstname":"S",
 		"lastname":"Kawa",
 		"gender":"male",
-		"current_city":"Mumbai, India",
+		"current_city":"Tokyo, Japan",
 		"hometown":"Mumbai, India",
 		"picture":{
 			"thumbnail":"media/cache/skawa-tiny.png",

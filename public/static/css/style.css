@@ -21694,6 +21694,9 @@ p.complete {
   top: 10px;
   left: 10px; }
 
+.dn-inner-container .block {
+  margin-bottom: 0px; }
+
 .dn-inner-container .nima_card {
   width: 152px !important; }
   .dn-inner-container .nima_card .cover {

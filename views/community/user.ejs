@@ -13,9 +13,9 @@
 
 	<%- include ../partials/modal %>
 	<div class="dn-inner-container">
-		<div class="row text-center">
+		<div class="row">
 			<div class="col-md-10 col-sm-10">
-				<div class="navigation block">
+				<div class="navigation block ">
 					<ol class="breadcrumb">
 						<li><a href="#">Community</a></li>
 						<li><a href="#">Nima</a></li>
@@ -25,8 +25,8 @@
 				<div class="nima profile-pic-map">
 					<img src="/media/cache/susan.jpg">
 				</div>
-				<div id="map"></div>
-				<div class="row">
+				<div class="caption"><div id="map"></div></div>
+				<div class="row text-center">
 					<% if(typeof user !== "undefined"){ %>
 					
 					<h2><%- user %></h2>
@@ -38,50 +38,49 @@
 					<p>Nima since 2015</p>
 				</div>
 				<div class="row">
-			<div class="col-md-6">
-				<h3>Stream</h3>
-				<div class="activity-feed spacing_20px">
-					<div class="btn-group">
-					<button type="button" id="activity-all" class="btn btn-default active">All</button>
-					<button type="button" id="activity-journal" class="btn btn-default">Journals</button>
-					<button type="button" id="activity-event" class="btn btn-default">Events</button>
-					<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
+					<div class="col-md-8 col-sm-8">
+						<h3>Stream</h3>
+						<div class="activity-feed spacing_20px">
+							<div class="btn-group">
+							<button type="button" id="activity-all" class="btn btn-default active">All</button>
+							<button type="button" id="activity-journal" class="btn btn-default">Journals</button>
+							<button type="button" id="activity-event" class="btn btn-default">Events</button>
+							<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
+							</div>
+						</div>
+						<% include ../partials/events %>
+						
 					</div>
-				</div>
-				<% include ../partials/events %>
-				
-			</div>
-			<div class="col-md-4 col-sm-4 middle-rail">
-				<div >
-					<h3>General Information</h3>
-					<div class="general-info">
-						<hr>
-						<p>Lorem ipsum <a href="#">(read more)</a></p>
-						<p>Current City: Los Angeles - United States</p>
-						<p>Hometown: Boston - United States</p>
-						<p>Nikkei Interests: Japantowns, Food</p>
-						<p>Facebook</p>
-						<p>Communication Preferences</p>
-						<button class="btn btn-default">English</button>
-						<button class="btn btn-default">日本語</button>
-					</div>
-				</div>
-				<div>
-					<h3>Send message to susan2</h3>
-					<div id="disqus_thread"></div>
-			
-				</div>
+					<div class="col-md-4 col-sm-4 middle-rail">
+						<div >
+							<h3>General Information</h3>
+							<div class="general-info">
+								<hr>
+								<p>Lorem ipsum <a href="#">(read more)</a></p>
+								<p>Current City: Los Angeles - United States</p>
+								<p>Hometown: Boston - United States</p>
+								<p>Nikkei Interests: Japantowns, Food</p>
+								<p>Facebook</p>
+								<p>Communication Preferences</p>
+								<button class="btn btn-default">English</button>
+								<button class="btn btn-default">日本語</button>
+							</div>
+						</div>
+						<div>
+							<h3>Send message to susan2</h3>
+							<div id="disqus_thread"></div>
+					
+						</div>
 
-			</div>
+					</div>
 			
-		</div>
+				</div>
 			</div>
 			<div class="col-md-2 col-sm-2">
-				<%- include ../partials/sidebar %>
-			</div>
+					<%- include ../partials/sidebar %>
+				</div>
+			</div>			
 		</div>
-				
-		
 	</div><!-- dn inner container -->
 	<% include ../partials/footer %>
  <script async defer
@@ -107,3 +106,52 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//nimatest.disqus.com/count.js" async></script>
+<script type="text/javascript">
+	function initMap() {
+
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  zoom: 3,
+		  // scrollwheel:false,
+		  // zoomControl:false,
+		  scaleControl:false,
+		  streetViewControl:false,
+		  mapTypeControl:false,
+		  // draggable:false,
+		  center: {lat:38.93, lng:-94.58}
+		});
+
+		$.get('/test/users.json', function(data){
+		
+			var home_icon = "media/cache/home-icon.png";
+			var current_city_icon = "media/cache/star-icon.png";
+			var user = data[0].profile.firstname;
+			var home = data[0].profile.hometown;
+			var current_city = data[0].profile.current_city;
+			
+			getCityAddMarker(home, home_icon);
+			getCityAddMarker(current_city, current_city_icon);
+
+			
+		});
+
+		function getCityAddMarker(city, icon){
+			var geocoder =  new google.maps.Geocoder();
+    		geocoder.geocode( { 'address': city}, function(results, status) {
+	          if (status == google.maps.GeocoderStatus.OK) {
+	            console.log("location : " + results[0].geometry.location.lat() + " " +results[0].geometry.location.lng()); 
+	           
+	            var city = {lat:results[0].geometry.location.lat(), lng:results[0].geometry.location.lng() };
+				var marker = new google.maps.Marker({
+		            position: city,
+		            icon: icon,
+		            map: map,
+		            content:"<div class='map-icon'></div>"
+		        });
+
+	          } else {
+	            console.log("Something got wrong " + status);
+	          }
+	        });
+		}
+	}
+</script>

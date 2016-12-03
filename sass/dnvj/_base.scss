@@ -121,6 +121,9 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 }
 
 .dn-inner-container{
+	.block {
+		margin-bottom: 0px;
+	}
 	.nima_card {
 		.cover {
 			height:90px;
