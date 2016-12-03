@@ -21679,19 +21679,35 @@ p.complete {
   padding-left: 0;
   padding-right: 0; }
 
+.nima-cards #nima_examples {
+  position: relative;
+  top: 10px;
+  left: 10px; }
+
+.dn-inner-container .nima_card {
+  width: 152px !important; }
+  .dn-inner-container .nima_card .cover {
+    height: 90px; }
+  .dn-inner-container .nima_card .content {
+    padding: 0 !important; }
+  .dn-inner-container .nima_card h5 {
+    margin-top: 10px !important;
+    font-size: 12px;
+    font-weight: 700; }
+  .dn-inner-container .nima_card h6 {
+    font-size: 9px; }
+
 .dn-inner-container #nima_card_3 {
   position: absolute;
   top: 8px;
   right: 0px;
-  z-index: 1;
-  width: 145px; }
+  z-index: 1; }
 
 .dn-inner-container #nima_card_2 {
   position: absolute;
   top: 8px;
-  left: 100px;
-  z-index: 1;
-  width: 145px; }
+  left: 80px;
+  z-index: 1; }
 
 .nima_form_container {
   margin-bottom: 20px;
@@ -21827,7 +21843,7 @@ p.complete {
 
 .bio-pic {
   position: absolute;
-  top: 11px;
+  top: 1px;
   left: 50%;
   margin-left: -41px;
   background-color: white;

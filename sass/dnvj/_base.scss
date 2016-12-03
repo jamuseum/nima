@@ -99,22 +99,45 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
     padding-left: 0;
     padding-right: 0;
 }
+.nima-cards {
+	#nima_examples {
+		position:relative;
+		top:10px;
+		left:10px;
+	}
+}
 
 .dn-inner-container{
+	.nima_card {
+		.cover {
+			height:90px;
+		}
+		width:152px !important;
+		.content {
+			padding:0 !important;
+		}
+		h5 {
+			margin-top:10px !important;
+			font-size: 12px;
+			font-weight: 700;
+		}
+		h6 {
+			font-size: 9px;
+		}
+	}
+
 	#nima_card_3 {
 		position: absolute;
 	    top: 8px;
 	    right: 0px;
 	    z-index: 1;
-	    width: 145px;
 	}
 
 	#nima_card_2 {
 		position: absolute;
 	    top: 8px;
-	    left: 100px;
+	    left: 80px;
 	    z-index: 1;
-	    width: 145px;
 	}
 }
 
@@ -268,7 +291,7 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 }
 .bio-pic {
 	position: absolute;
-	top: 11px;
+	top: 1px;
 	left: 50%;
 	margin-left: -41px;
 	background-color: white;
