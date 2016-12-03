@@ -12,8 +12,8 @@
 		"current_city":"Gardena, CA United States",
 		"hometown":"Boston, MA United States",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/susan-tiny.jpg",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/susan.jpg"
+			"thumbnail":"media/cache/susan-tiny.png",
+			"regular":"media/cache/susan.png"
 		}
 	},
 	"social": {
@@ -44,8 +44,8 @@
 		"current_city":"London, United Kingdom",
 		"hometown":"New York, NY United States",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/omar-tiny.png",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/omar.png"
+			"thumbnail":"media/cache/omar-tiny.png",
+			"regular":"media/cache/omar.png"
 		}
 	},
 	"social": {
@@ -76,8 +76,8 @@
 		"current_city":"London United Kingdom",
 		"hometown":"Boston, MA United States",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/edward-tiny.png",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/edward.png"
+			"thumbnail":"media/cache/edward-tiny.png",
+			"regular":"media/cache/edward.png"
 		}
 	},
 	"social": {
@@ -108,8 +108,8 @@
 		"current_city":"Los Angeles, CA United States",
 		"hometown":"Denver, CO United States",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/scott-tiny.png",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/scott.png"
+			"thumbnail":"media/cache/scott-tiny.png",
+			"regular":"media/cache/scott.png"
 		}
 	},
 	"social": {
@@ -140,8 +140,8 @@
 		"current_city":"Los Angeles, CA United States",
 		"hometown":"Tokyo, Japan",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/yamada-tiny.png",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/yamada.png"
+			"thumbnail":"media/cache/yamada-tiny.png",
+			"regular":"media/cache/yamada.png"
 		}
 	},
 	"social": {
@@ -171,8 +171,8 @@
 		"current_city":"London, United Kingdom",
 		"hometown":"Mumbai, India",
 		"picture":{
-			"thumbnail":"http://nima-dev.herokuapp.com/media/cache/skawa-tiny.png",
-			"regular":"http://nima-dev.herokuapp.com/media/cache/skawa.png"
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
 		}
 	},
 	"social": {

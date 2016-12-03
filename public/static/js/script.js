@@ -16,28 +16,28 @@ function initMap() {
 
 	 var marker = new google.maps.Marker({
             position: city,
-            icon: 'http://localhost:1337/media/cache/susan-tiny.jpg',
+            icon: 'media/cache/susan-tiny.png',
             map: map,
             content:"<div class='map-icon'></div>"
           });
 
 	 var marker2 = new google.maps.Marker({
             position: city2,
-            icon: 'http://localhost:1337/media/cache/omar-tiny.png',
+            icon: 'media/cache/omar-tiny.png',
             map: map,
             content:"<div class='map-icon'></div>"
           });
 
 	  var marker3 = new google.maps.Marker({
             position: city3,
-            icon: 'http://localhost:1337/media/cache/edward-tiny.png',
+            icon: 'media/cache/edward-tiny.png',
             map: map,
             content:"<div class='map-icon'></div>"
           });
 
 	   var marker4 = new google.maps.Marker({
             position: city4,
-            icon: 'http://localhost:1337/media/cache/yamada-tiny.png',
+            icon: 'media/cache/yamada-tiny.png',
             map: map,
             content:"<div class='map-icon'></div>"
           });
