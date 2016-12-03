@@ -39,19 +39,19 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 }
 //calendars in events
 .startdate, .enddate {
-	height: 70px;
-    width: 90px;
+	height: 100px;
+    width: 100%;
     box-sizing: border-box;
 }
 .startdate em, .enddate em, .startdate td.month, .enddate td.month {
-	font-size: 20px;
+	font-size: 32px;
     font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 .startdate b, .enddate b, .startdate td.date, .enddate td.date {
     background: #ffffff;
-    font-size: 24px;
+    font-size: 36px;
     color: #4b66d4;
     font-weight: 200;
     padding-top: 7px;
@@ -266,14 +266,21 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .eventpreviews tr td {
 	vertical-align: top;
 }
-.bio {
-	position: relative;
+.bio-pic {
+	position: absolute;
+	top: 11px;
+	left: 50%;
+	margin-left: -41px;
+	background-color: white;
+	border-radius: 50%;
 	img.profile-pic {
-		position: absolute;
-	    top: -101px;
-   		left: 50%;
-    	margin-left: -40px;
+		 position: relative;
+		 top:-3px;
+	 //    top: -101px;
+  //  		left: 50%;
+  //   	margin-left: -40px;
 	}
+
 }
 .map-icon {
 	img {

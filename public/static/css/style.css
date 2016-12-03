@@ -21626,19 +21626,19 @@ p.complete {
   border: 1px solid black; }
 
 .startdate, .enddate {
-  height: 70px;
-  width: 90px;
+  height: 100px;
+  width: 100%;
   box-sizing: border-box; }
 
 .startdate em, .enddate em, .startdate td.month, .enddate td.month {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 400;
   padding-top: 5px;
   padding-bottom: 5px; }
 
 .startdate b, .enddate b, .startdate td.date, .enddate td.date {
   background: #ffffff;
-  font-size: 24px;
+  font-size: 36px;
   color: #4b66d4;
   font-weight: 200;
   padding-top: 7px; }
@@ -21825,13 +21825,16 @@ p.complete {
 .eventpreviews tr td {
   vertical-align: top; }
 
-.bio {
-  position: relative; }
-  .bio img.profile-pic {
-    position: absolute;
-    top: -101px;
-    left: 50%;
-    margin-left: -40px; }
+.bio-pic {
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  margin-left: -41px;
+  background-color: white;
+  border-radius: 50%; }
+  .bio-pic img.profile-pic {
+    position: relative;
+    top: -3px; }
 
 .map-icon img {
   width: 65px; }
