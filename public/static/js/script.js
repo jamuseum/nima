@@ -1,14 +1,14 @@
 function initMap() {
 
 	var map = new google.maps.Map(document.getElementById('map'), {
-	  zoom: 8,
+	  zoom: 2,
 	  // scrollwheel:false,
 	  // zoomControl:false,
 	  scaleControl:false,
 	  streetViewControl:false,
 	  mapTypeControl:false,
 	  // draggable:false,
-	  center: {lat:34.05, lng:-118.24}
+	  center: {lat:32.89, lng:-97.04}
 	});
 
 	$.get('/test/users.json', function(data){
@@ -63,8 +63,9 @@ $("#activity-album").click(function(){
 	$(".item-album").show();
 });
 
-$("#load-more").click(function(){
-	
+$("#load-more").click(function(e){
+	e.preventDefault();
+	$(".item").show();
 })
 
 $(".btn-group button").click(function(){

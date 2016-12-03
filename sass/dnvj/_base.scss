@@ -19,6 +19,9 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	img {
 		max-width: 180px;
 	}
+	h3 {
+		padding-bottom: 10px;
+	}
 }
 .item-event {
 	padding-top: 20px !important;
@@ -267,6 +270,10 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		border-bottom-left-radius: 0px;
 		vertical-align: top;
 	}
+}
+
+.avatar_s.inline img, .avatar_m.inline img, .avatar_l.inline img, .avatar_xl.inline img {
+    margin-right:10px;
 }
 .btn-group {
 	button {

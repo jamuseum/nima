@@ -21609,6 +21609,8 @@ p.complete {
   padding-top: 10px !important; }
   .item img {
     max-width: 180px; }
+  .item h3 {
+    padding-bottom: 10px; }
 
 .item-event {
   padding-top: 20px !important; }
@@ -21823,6 +21825,9 @@ p.complete {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   vertical-align: top; }
+
+.avatar_s.inline img, .avatar_m.inline img, .avatar_l.inline img, .avatar_xl.inline img {
+  margin-right: 10px; }
 
 .btn-group button {
   outline: none !important; }
