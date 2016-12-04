@@ -27,9 +27,9 @@
 				</div>
 				<div class="caption"><div id="map"></div></div>
 				<div class="row text-center">
-					<% if(typeof user !== "undefined"){ %>
+					<% if(typeof users !== "undefined"){ %>
 					
-					<h2><%- user %></h2>
+					<h2><%- users[0].username %></h2>
 					<% }else { %>
 					<h2>susan2</h2>
 					<% } %>
@@ -48,7 +48,7 @@
 							<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
 							</div>
 						</div>
-						<% include ../partials/events %>
+						<% include ../partials/events_user %>
 						
 					</div>
 					<div class="col-md-4 col-sm-4 middle-rail">
@@ -57,8 +57,8 @@
 							<div class="general-info">
 								<hr>
 								<p>Lorem ipsum <a href="#">(read more)</a></p>
-								<p>Current City: Los Angeles - United States</p>
-								<p>Hometown: Boston - United States</p>
+								<p>Current City: <%- users[0].profile.current_city %></p>
+								<p>Hometown: <%- users[0].profile.hometown %></p>
 								<p>Nikkei Interests: Japantowns, Food</p>
 								<p>Facebook</p>
 								<p>Communication Preferences</p>

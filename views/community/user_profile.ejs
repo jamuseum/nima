@@ -108,7 +108,7 @@
 												<button type="button" class="btn btn-default">Portugues</button>
 											</div>
 											<div class="form-group">
-												<textarea class="form-control input-lg" cols="40" id="id_general_info" name="general_info" rows="6">well this is it</textarea>
+												<textarea class="form-control input-lg" cols="40" id="id_general_info" name="general_info" rows="6">Enter your information here</textarea>
 											</div>
 										</div>
 									</div>
@@ -122,7 +122,8 @@
 												<p>JPEG, GIF or PNG, 10MB max.</p>
 											</div>
 											<div class="col-sm-4">
-												<p>susan2.jpg <input type="file"></p>
+												<p style="margin-top:20px;">susan2.jpg<p>
+												<p><input type="file"></p>
 												<p>Change Image</p>
 											</div>
 											<div class="col-sm-4 text-right">
@@ -138,10 +139,17 @@
 									<div class="row">
 										<div class="col-sm-4">
 											<h4>Hometown</h4>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<input class="form-control input-lg" id="id_hometown" name="hometown" placeholder="Hometown" type="text" value="Boston, MA, United States" autocomplete="off">
+										</div>										
+										<div class="col-sm-8">
+											<div class="row">
+												<div class="col-sm-1">
+													<img src="media/cache/home_icon.png">
+												</div>
+												<div class="col-sm-11">
+													<div class="form-group">
+														<input class="form-control input-lg" id="id_hometown" name="hometown" placeholder="Hometown" type="text" value="Boston, MA, United States" autocomplete="off">
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -150,12 +158,22 @@
 							<li class="list-group-item">
 								<div class="container-fluid">
 									<div class="row">
+										
 										<div class="col-sm-4">
 											<h4>Current Location</h4>
 										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<input class="form-control input-lg" id="id_city" name="city" placeholder="Current City" type="text" value="Gardena, CA, United States" autocomplete="off">
+										<div class="col-sm-8">
+											<div class="row">
+												<div class="col-sm-1">
+													<div class="col-sm-1">
+														<img style="position:relative; left: -13px;" src="media/cache/current_city_icon.png">
+													</div>
+												</div>
+												<div class="col-sm-11">
+													<div class="form-group">
+														<input class="form-control input-lg" id="id_city" name="city" placeholder="Current City" type="text" value="Gardena, CA, United States" autocomplete="off">
+													</div>				
+												</div>
 											</div>
 										</div>
 									</div>

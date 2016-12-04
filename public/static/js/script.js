@@ -1,6 +1,3 @@
-
-
-
 $("#activity-all").click(function(e){
 	e.preventDefault()
 	$(".item").show();
