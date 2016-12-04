@@ -2,8 +2,10 @@
 	"id":1,
 	"username":"susan2",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":true,
+		"日本語":true,
+		"Espanol":true,
+		"Portuguese":false
 	},
 	"profile":{
 		"firstname":"Susan",
@@ -23,19 +25,21 @@
 		"instagram":"http://instagram.com/susan2"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":true,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 },
 {
 	"id":2,
 	"username":"omar99",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":false,
+		"日本語":true,
+		"Espanol":true,
+		"Portuguese":false
 	},
 	"profile":{
 		"firstname":"Omar",
@@ -55,19 +59,21 @@
 		"instagram":"http://instagram.com/omar"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":true,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 },
 {
 	"id":3,
 	"username":"EdwardOmips",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":true,
+		"日本語":true,
+		"Espanol":false,
+		"Portuguese":false
 	},
 	"profile":{
 		"firstname":"Edward",
@@ -87,19 +93,21 @@
 		"instagram":"http://instagram.com/"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":true,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 },
 {
 	"id":4,
 	"username":"ScottTen",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":true,
+		"日本語":false,
+		"Espanol":true,
+		"Portuguese":true
 	},
 	"profile":{
 		"firstname":"Scott",
@@ -119,19 +127,21 @@
 		"instagram":"http://instagram.com/"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":true,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 },
 {
 	"id":5,
 	"username":"Yamada",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":true,
+		"日本語":true,
+		"Espanol":true,
+		"Portuguese":false
 	},
 	"profile":{
 		"firstname":"Yamada",
@@ -151,18 +161,20 @@
 		"instagram":"http://instagram.com/yamada"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":true,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 },{
 	"id":6,
 	"username":"skawa244",
 	"languages":{
-		"english":true,
-		"japanese":true
+		"English":false,
+		"日本語":false,
+		"Espanol":false,
+		"Portuguese":false
 	},
 	"profile":{
 		"firstname":"S",
@@ -182,10 +194,10 @@
 		"instagram":"http://instagram.com/"		
 	},
 	"interests": {
-		"community_history":true,
-		"family_stories":true,
-		"festival_matsuri":false,
-		"japantowns":true,
-		"other":{}
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
 	}
 }]
