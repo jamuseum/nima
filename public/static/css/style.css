@@ -21786,10 +21786,11 @@ p.complete {
   top: 90px;
   left: 50%;
   margin-left: -25px;
-  z-index: 10; }
+  z-index: 10;
+  border-radius: 50%;
+  background-color: white; }
   .nima.profile-pic-map img {
-    border-radius: 50%;
-    border: 6px solid white; }
+    position: relative; }
 
 .nima.menu-icon {
   position: relative;

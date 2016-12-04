@@ -226,9 +226,10 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 		left:50%;
 		margin-left: -25px;
 		z-index: 10;
+		border-radius: 50%;
+		background-color:white;
 		img {
-			border-radius: 50%;
-			border:6px solid white;
+			position:relative;
 		}
 	}
 	&.menu-icon {

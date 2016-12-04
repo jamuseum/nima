@@ -23,13 +23,13 @@
 					</ol>
 				</div>
 				<div class="nima profile-pic-map">
-					<img src="/media/cache/susan.jpg">
+					<img src="<%- users[[0]].profile.picture.regular %>">
 				</div>
 				<div class="caption"><div id="map"></div></div>
 				<div class="row text-center">
 					<% if(typeof users !== "undefined"){ %>
 					
-					<h2><%- users[0].username %></h2>
+					<h2><%- users[[0]].username %></h2>
 					<% }else { %>
 					<h2>susan2</h2>
 					<% } %>
@@ -57,19 +57,19 @@
 							<div class="general-info">
 								<hr>
 								<p>Lorem ipsum <a href="#">(read more)</a></p>
-								<p>Current City: <%- users[0].profile.current_city %></p>
-								<p>Hometown: <%- users[0].profile.hometown %></p>
+								<p>Current City: <%- users[[0]].profile.current_city %></p>
+								<p>Hometown: <%- users[[0]].profile.hometown %></p>
 								<p>Nikkei Interests: 
-								<% for(var i in users[0].interests ) {%>
-									<% if(users[0].interests[i]) {%>
+								<% for(var i in users[[0]].interests ) {%>
+									<% if(users[[0]].interests[i]) {%>
 										<%- i %>
 									<% }%>
 								<% } %>
 								</p>
-								<p><a target="_blank" href="<%- users[0].social.facebook %>">Facebook</a></p>
+								<p><a target="_blank" href="<%- users[[0]].social.facebook %>">Facebook</a></p>
 								<p>Communication Preferences</p>
-								<% for(var i in users[0].languages ) {%>
-									<% if(users[0].languages[i]) {%>
+								<% for(var i in users[[0]].languages ) {%>
+									<% if(users[[0]].languages[i]) {%>
 										<button class="btn btn-default"><%- i %></button>
 									<% }%>
 								<% } %>
@@ -152,9 +152,9 @@ s.setAttribute('data-timestamp', +new Date());
 					new google.maps.Point(12,22)
 				)
 			}
-			var user = data[0].profile.firstname;
-			var home = data[0].profile.hometown;
-			var current_city = data[0].profile.current_city;
+			var user = data[[0]].profile.firstname;
+			var home = data[[0]].profile.hometown;
+			var current_city = data[[0]].profile.current_city;
 			
 		//	getCityAddMarker(home, home_icon);
 		//	getCityAddMarker(current_city, current_city_icon);
@@ -167,7 +167,7 @@ s.setAttribute('data-timestamp', +new Date());
 			directionsService.route(request, function(result, status){
 				if(status == "OK"){
 					directionsDisplay.setDirections(result);
-					var leg = result.routes[0].legs[0];
+					var leg = result.routes[[0]].legs[[0]];
 					console.log(leg);
 					makeMarker( leg.start_location, icons.start, "Home");
 					makeMarker( leg.end_location, icons.end, "Current City");
