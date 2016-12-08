@@ -510,6 +510,16 @@ div.odd {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Search page */
+.search {
+	.middle-rail {
+		background: rgba(16, 0, 255, 0.09);
+	    padding-bottom: 40px;
+    	border-radius: 8px;
+	}
+}
+
+
 @media screen and (max-width:1000px){
 	#container {
 		width:100%;
