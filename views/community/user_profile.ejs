@@ -100,7 +100,7 @@
 													</div>
 													<div class="col-sm-4 col-sm-offset-2">
 														<p class="incomplete">
-															<a href="nikkei_interests">Nikkei Interests</a>
+															<a href="#nikkei_interests">Nikkei Interests</a>
 														</p>
 													</div>
 													<div class="col-sm-1">
@@ -119,14 +119,23 @@
 											<p></p>
 										</div>
 										<div class="col-sm-8 text-center">
-											<div class="btn-group" style="margin-top: 10px; margin-bottom: 10px;">
-												<button type="button" class="btn btn-default active">English</button>
-												<button type="button" class="btn btn-default">日本語</button>
-												<button type="button" class="btn btn-default">Espanol</button>
-												<button type="button" class="btn btn-default">Portugues</button>
+											<div class="editors btn-group" style="margin-top: 10px; margin-bottom: 10px;">
+												<button type="button" class="btn btn-default active" id="btn-choose-english">English</button>
+												<button type="button" class="btn btn-default" id="btn-choose-japanese">日本語</button>
+												<button type="button" class="btn btn-default" id="btn-choose-spanish">Espanol</button>
+												<button type="button" class="btn btn-default" id="btn-choose-portugues">Portugues</button>
 											</div>
-											<div class="form-group">
-												<textarea class="form-control input-lg" cols="40" id="id_general_info" name="general_info" rows="6">Enter your information here</textarea>
+											<div class="form-group editor english">
+												<textarea class="form-control input-lg" cols="40" id="id_general_info_en" name="general_info" rows="6">Enter your information here</textarea>
+											</div>
+											<div class="form-group editor japanese">
+												<textarea class="form-control input-lg" cols="40" id="id_general_info_jp" name="general_info" rows="6">あなたの情報を書いてください。</textarea>
+											</div>
+											<div class="form-group editor spanish">
+												<textarea class="form-control input-lg" cols="40" id="id_general_info_es" name="general_info" rows="6">Ingrese su información aquí</textarea>
+											</div>
+											<div class="form-group editor portugues">
+												<textarea class="form-control input-lg" cols="40" id="id_general_info_pt" name="general_info" rows="6">Digite suas informações aqui</textarea>
 											</div>
 										</div>
 									</div>
@@ -136,13 +145,12 @@
 									<div id="profile_image" class="container-fluid">
 										<div class="row">
 											<div class="col-sm-4">
-												<h4>Profile Image</h4>
+												<h4>Profile Image </h4>
 												<p>JPEG, GIF or PNG, 10MB max.</p>
 											</div>
-											<div class="col-sm-4">
-												<p style="margin-top:20px;">susan2.jpg<p>
-												<p><input type="file"></p>
-												<p>Change Image</p>
+											<div class="col-sm-4 " id="change-pic">
+												<p><input style="display:none;" type="file" id="upload"></p>
+												<p><button id="change-image" class="btn btn-default">Change Image</button></p>
 											</div>
 											<div class="col-sm-4 text-right">
 												
@@ -165,7 +173,7 @@
 												</div>
 												<div class="col-sm-11">
 													<div class="form-group">
-														<input class="form-control input-lg" id="id_hometown" name="hometown" placeholder="Hometown" type="text" value="Boston, MA, United States" autocomplete="off">
+														<input class="form-control input-lg" id="id_hometown" name="hometown" placeholder="Boston, MA, United States" type="text" value="" autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -189,7 +197,7 @@
 												</div>
 												<div class="col-sm-11">
 													<div class="form-group">
-														<input class="form-control input-lg" id="id_city" name="city" placeholder="Current City" type="text" value="Gardena, CA, United States" autocomplete="off">
+														<input class="form-control input-lg" id="id_city" name="city" placeholder="Gardena, CA United States" type="text" value="" autocomplete="off">
 													</div>				
 												</div>
 											</div>
@@ -248,9 +256,6 @@
 												</div>
 											</div>
 												
-										
-											
-											
 										</div>
 									</div>
 								</div>
@@ -283,7 +288,7 @@
 										<h4>Nikkei Interests</h4>
 										
 									</div>
-									<div class="col-sm-8">
+									<div class="col-sm-8" id="interests_area">
 										<input type="checkbox" name=""> Community History
 										<br>
 										<input type="checkbox" name=""> Family Stories
@@ -294,7 +299,7 @@
 										<br>
 										<input type="checkbox" name=""> Taiko
 										<br>
-										<input type="checkbox" name=""> Other
+										<input id="other" type="checkbox" name=""> Other
 									</div>
 								</div>
 							</div>
@@ -428,7 +433,12 @@
 
 </div>
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-<script>tinymce.init({ selector:'#id_general_info' });</script>
+<script>
+tinymce.init({ selector:'#id_general_info_en' });
+tinymce.init({ selector:'#id_general_info_jp' });
+tinymce.init({ selector:'#id_general_info_es' });
+tinymce.init({ selector:'#id_general_info_pt' });
+</script>
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzycUlwH3NrMq_i3ohLDzJHPjZe4FsMQc&libraries=places&callback=initAutoComplete"></script>
 <script type="text/javascript">
@@ -438,8 +448,5 @@ function initAutoComplete(){
 
 	 var autocomplete = new google.maps.places.Autocomplete(inputHome);
 	 var autocomplete = new google.maps.places.Autocomplete(inputCurr);
-     
-     
-
 }
 </script>

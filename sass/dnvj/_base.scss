@@ -486,6 +486,13 @@ div.odd {
 	}
 }
 
+.form-group.editor {
+	display: none;
+}
+.form-group.editor.english {
+	display: block;
+}
+
 #nima_form_container, .nima_form_container {
 	box-shadow: none;
 	-webkit-box-shadow:none;
@@ -493,6 +500,14 @@ div.odd {
 }
 .error {
 	border:1px solid red;
+}
+.other-textarea {
+	display: block;
+	width: 100%;
+	height:250px;
+	margin-top:20px;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width:1000px){

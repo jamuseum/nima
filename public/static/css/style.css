@@ -21993,6 +21993,16 @@ div.odd {
   margin-top: 10px;
   font-size: 8px; }
 
+.form-group.editor, #login_modal form p.editor,
+#signup_modal form p.editor,
+#password_modal form p.editor, body.nima .block.form p.editor {
+  display: none; }
+
+.form-group.editor.english, #login_modal form p.editor.english,
+#signup_modal form p.editor.english,
+#password_modal form p.editor.english, body.nima .block.form p.editor.english {
+  display: block; }
+
 #nima_form_container, .nima_form_container {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -22000,6 +22010,14 @@ div.odd {
 
 .error {
   border: 1px solid red; }
+
+.other-textarea {
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif; }
 
 @media screen and (max-width: 1000px) {
   #container {

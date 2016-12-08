@@ -58,3 +58,27 @@ $("#nima_menu_trigger").click(function(e){
 	    }
 	  });
 	});
+
+$("#other").one('click', function(){
+	var $textarea = $("<textarea></textarea>");
+	$textarea.addClass('other-textarea');
+	$textarea.prop('placeholder', 'Enter additional interests here, separated by commas');
+	$("#interests_area").append($textarea);
+});
+
+$('#change-image').click(function(e){ 
+	e.preventDefault(); $('#upload').trigger('click'); 
+});
+
+ $(":file").change(function(){
+    $("#change-pic").append("<p>"+$(":file").val()+"</p>")
+  });
+
+ $(".editors.btn-group").click(function(e){
+ 	e.preventDefault();
+ 	var id = e.target.id;
+ 	id = id.split("-")[2];
+ 	$(".form-group.editor").hide();
+ 	$(".form-group.editor."+id).show();
+
+ })
