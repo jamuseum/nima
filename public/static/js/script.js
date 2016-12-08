@@ -67,7 +67,8 @@ $("#other").one('click', function(){
 });
 
 $('#change-image').click(function(e){ 
-	e.preventDefault(); $('#upload').trigger('click'); 
+	e.preventDefault(); 
+	$('#upload').trigger('click'); 
 });
 
  $(":file").change(function(){
