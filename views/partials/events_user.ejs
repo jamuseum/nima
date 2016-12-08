@@ -1,20 +1,20 @@
 <div class="feed" style="width:100%;">
 <% for(var i=0; i< 5; i++) {%>
 	
-	<div class="item item-<%- articles[i].type%>">
-		<a href="<%- articles[i].url %>">
-			<div class="info image spacing_20px">
+	<div class="<% if(i %2 == 1) {%>odd<%}%> item item-<%- articles[i].type%>" style="<% if(i >4 ) {%>display:none;<%}%>">
+		
+			<div class="info image spacing_20px" >
 				<div class="row">
 					<div class="col-md-4">
 					
 						<div>
 							
-								<span class="languages"><span style="background: black !important;"><%- articles[i].languages[0] %></span> </span>
+								<span class="languages"><span><%- articles[i].languages[0] %></span> </span>
 							<% if(articles[i].type === "journal" || articles[i].type == "album"){ %>
 								<span class="nima pill inactive" ><%- articles[i].type %></span>
 							<% } %>
 							<% if(articles[i].type === "journal" || articles[i].type == "album"){ %>
-								<img class="feed-img" src="<%- articles[i].thumbnail %>" alt="">
+								<a href="<%- articles[i].url %>"><img class="feed-img"  src="<%- articles[i].thumbnail %>" alt=""></a>
 							<% } else if(articles[i].type === "event" ){ %>
 								<span class="dates">
 									<div class="startdate">
@@ -25,10 +25,10 @@
 							<% } %>
 						</div> <!-- /image -->
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5" style="padding-left:20px;">
 						<div>
 							
-							<h3><%- articles[i].title %></h3>
+							<h3><a href="<%- articles[i].url %>"><%- articles[i].title %></a></h3>
 							<% if(articles[i].type === "event") { %>
 								<p><%- articles[i].tag%></p>
 							<% } %>
@@ -39,22 +39,22 @@
 						</div>
 					</div>
 					<div class="col-md-3">
-						<p>By <%- users[0].username %></p>
+						<p><img src="<%- users[0].profile.picture.thumbnail %>"></p>
+						<p class="nima username"><%- users[0].username %></p>
 						<% if(articles[i].type === "event") { %>
 						<% for(var j=0; j<articles[i].locations.length; j++) {%>
-							<p><%- articles[i].locations[j]%></p>
+							<a class="event-locations" href="#"><%- articles[i].locations[j]%></a>
 						<% } %>
 						<% } %>
-						<p><%- articles[i].publish_date %></p>
+						<br>
+						<p class="nima publish_date"><%- articles[i].publish_date %></p>
 					</ul>
 					</div>
 				</div>
 			</div>
-		</a>
 	</div>
 
 <% } %>
-
-</div>
 						
-	
+	<p class="more"><a id="load-more" href="#">More articles</a></p>
+</div>

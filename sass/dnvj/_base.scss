@@ -414,51 +414,51 @@ div.odd {
 
 /* Disqus Comments */
 
+.home {
+	ul.dsq-widget-list {
+		padding-left:5px;
+	}
+	li.dsq-widget-item {
+		margin:40px 0 !important;
+		padding:20px;
+		border-radius: 14px;
+		position:relative;
+		background-color: white;
+		box-shadow: 0px 1px 2px -1px black;
+	}
+	li.dsq-widget-item:before {
+		content:" ";
+		display:block;
+		height:0px;
+		width:0px;
+		position:relative;
+		border-top: 30px solid transparent;
+		border-right: 30px solid white;
+		border-bottom: 30px solid transparent;
+		top:-50px;
+		left:-10px;
+	}
+	img.dsq-widget-avatar {
+		width:64px !important;
+		height:64px !important;
+		padding:0 !important;
+		position:absolute;
+		top:12px;
+		left:17px;
+		border:3px solid rgba(0, 0, 0, 0.18) !important;
+		border-radius:8px;
+	}
+	a.dsq-widget-user {
+		font-size: 14px;
+	    color: white;
+	    background: rgba(0, 0, 0, 0.66);
+	    padding: 2px 10px;
+	    border-radius: 8px;
+	    position: absolute;
+	    top: 20px;
+	    right: 11px;
+	}
 
-ul.dsq-widget-list {
-	padding-left:5px;
-}
-li.dsq-widget-item {
-	margin:40px 0 !important;
-	padding:20px;
-	border-radius: 14px;
-	position:relative;
-	background-color: white;
-	box-shadow: 0px 1px 2px -1px black;
-}
-li.dsq-widget-item:before {
-	content:" ";
-	display:block;
-	height:0px;
-	width:0px;
-	position:relative;
-	border-top: 30px solid transparent;
-	border-right: 30px solid white;
-	border-bottom: 30px solid transparent;
-	top:-50px;
-	left:-10px;
-}
-img.dsq-widget-avatar {
-	width:64px !important;
-	height:64px !important;
-	padding:0 !important;
-	position:absolute;
-	top:12px;
-	left:17px;
-	border:3px solid rgba(0, 0, 0, 0.18) !important;
-	border-radius:8px;
-}
-a.dsq-widget-user {
-	font-size: 14px;
-    color: white;
-    background: rgba(0, 0, 0, 0.66);
-    padding: 2px 10px;
-    border-radius: 8px;
-    position: absolute;
-    top: 20px;
-    right: 11px;
-}
-.middle-rail {
 	.dsq-widget-comment p {
 	    display: inline;
 	    font-size: 16px;
@@ -468,15 +468,19 @@ a.dsq-widget-user {
 	    	display: none; /* Hide links otherwise break layout */
 	    }
 	}
-}
 
-.dsq-widget-comment p:before {
-	content:"“";
-	font-size:30px;
-}
-.dsq-widget-comment p:after {
-	content:"”";
-	font-size:18px;
+	.dsq-widget-comment p:before {
+		content:"“";
+		font-size:30px;
+	}
+	.dsq-widget-comment p:after {
+		content:"”";
+		font-size:18px;
+	}
+	p.dsq-widget-meta {
+		margin-top:10px;
+		font-size:8px;
+	}
 }
 
 @media screen and (max-width:1000px){

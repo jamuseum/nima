@@ -21929,10 +21929,10 @@ div.odd {
   margin-top: 40px; }
 
 /* Disqus Comments */
-ul.dsq-widget-list {
+.home ul.dsq-widget-list {
   padding-left: 5px; }
 
-li.dsq-widget-item {
+.home li.dsq-widget-item {
   margin: 40px 0 !important;
   padding: 20px;
   border-radius: 14px;
@@ -21940,7 +21940,7 @@ li.dsq-widget-item {
   background-color: white;
   box-shadow: 0px 1px 2px -1px black; }
 
-li.dsq-widget-item:before {
+.home li.dsq-widget-item:before {
   content: " ";
   display: block;
   height: 0px;
@@ -21952,7 +21952,7 @@ li.dsq-widget-item:before {
   top: -50px;
   left: -10px; }
 
-img.dsq-widget-avatar {
+.home img.dsq-widget-avatar {
   width: 64px !important;
   height: 64px !important;
   padding: 0 !important;
@@ -21962,7 +21962,7 @@ img.dsq-widget-avatar {
   border: 3px solid rgba(0, 0, 0, 0.18) !important;
   border-radius: 8px; }
 
-a.dsq-widget-user {
+.home a.dsq-widget-user {
   font-size: 14px;
   color: white;
   background: rgba(0, 0, 0, 0.66);
@@ -21972,22 +21972,26 @@ a.dsq-widget-user {
   top: 20px;
   right: 11px; }
 
-.middle-rail .dsq-widget-comment p {
+.home .dsq-widget-comment p {
   display: inline;
   font-size: 16px;
   font-family: Helvetica;
   letter-spacing: 0.9px; }
-  .middle-rail .dsq-widget-comment p a {
+  .home .dsq-widget-comment p a {
     display: none;
     /* Hide links otherwise break layout */ }
 
-.dsq-widget-comment p:before {
+.home .dsq-widget-comment p:before {
   content: "“";
   font-size: 30px; }
 
-.dsq-widget-comment p:after {
+.home .dsq-widget-comment p:after {
   content: "”";
   font-size: 18px; }
+
+.home p.dsq-widget-meta {
+  margin-top: 10px;
+  font-size: 8px; }
 
 @media screen and (max-width: 1000px) {
   #container {
