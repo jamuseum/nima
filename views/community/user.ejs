@@ -26,30 +26,31 @@
 					<img src="<%- users[0].profile.picture.regular %>">
 				</div>
 				<div class="caption"><div id="map"></div></div>
-				<div class="row text-center">
-					<% if(typeof users !== "undefined"){ %>
-					
-					<h2><%- users[0].username %></h2>
-					<% }else { %>
-					<h2>susan2</h2>
-					<% } %>
-
-					<p>Los Angeles - United States</p>
-					<p>Nima since 2015</p>
-				</div>
-				<div class="row">
+				<div class="row ">
 					<div class="col-md-8 col-sm-8">
-						<h3>Stream</h3>
-						<div class="activity-feed spacing_20px">
-							<div class="btn-group">
-							<button type="button" id="activity-all" class="btn btn-default active">All</button>
-							<button type="button" id="activity-journal" class="btn btn-default">Journals</button>
-							<button type="button" id="activity-event" class="btn btn-default">Events</button>
-							<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
-							</div>
-						</div>
-						<% include ../partials/events_user %>
+						<% if(typeof users !== "undefined"){ %>
 						
+						<h2><%- users[0].username %></h2>
+						<% }else { %>
+						<h2>susan2</h2>
+						<% } %>
+
+						<p>Los Angeles - United States</p>
+						<p>Nima since 2015</p>
+						<div >
+						
+							<h3>Stream</h3>
+							<div class="activity-feed spacing_20px">
+								<div class="btn-group">
+								<button type="button" id="activity-all" class="btn btn-default active">All</button>
+								<button type="button" id="activity-journal" class="btn btn-default">Journals</button>
+								<button type="button" id="activity-event" class="btn btn-default">Events</button>
+								<button type="button" id="activity-album" class="btn btn-default">Nikkei Album</button>
+								</div>
+							</div>
+							<% include ../partials/events_user %>
+							
+						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 middle-rail" style="background-color: white;">
 						<div >
