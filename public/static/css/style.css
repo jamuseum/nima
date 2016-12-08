@@ -21607,8 +21607,11 @@ p.complete {
 
 .item {
   padding-top: 10px !important; }
+  .item .languages {
+    right: -2px !important; }
   .item img {
-    max-width: 180px; }
+    max-width: 180px;
+    border: 3px solid rgba(128, 128, 128, 0.29); }
   .item h3 {
     padding-bottom: 10px; }
 
@@ -21722,6 +21725,9 @@ p.complete {
   left: 80px;
   z-index: 1; }
 
+.byline li {
+  font-size: 16px; }
+
 .nima_form_container {
   margin-bottom: 20px;
   background-color: #fff;
@@ -21748,20 +21754,22 @@ p.complete {
   cursor: pointer; }
 
 .nima.pill {
-  border-radius: 2px;
-  border: 1px solid #979797;
-  background-color: #999;
+  background-color: rgba(187, 187, 187, 0.72);
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
   box-sizing: border-box;
-  padding: 2px;
   outline: none;
   display: inline-block;
   text-align: center;
-  font-weight: 500;
-  margin-bottom: 9px; }
+  font-weight: bold;
+  margin-bottom: 9px;
+  padding: .2em .6em .3em;
+  border-radius: .25em;
+  position: absolute;
+  top: 60px;
+  left: 20px; }
 
 .nima.toggle {
   border-radius: 8px;

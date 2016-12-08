@@ -29,7 +29,7 @@
 		"Family Stories":true,
 		"Festival Matsuri":false,
 		"Japantowns":true,
-		"Other":false
+		"Other":[]
 	}
 },
 {
@@ -200,4 +200,175 @@
 		"Japantowns":true,
 		"Other":false
 	}
-}]
+},
+{
+	"id":7,
+	"username":"skawa244",
+	"languages":{
+		"English":false,
+		"日本語":false,
+		"Espanol":false,
+		"Portuguese":false
+	},
+	"profile":{
+		"firstname":"Masayuki",
+		"lastname":"Fukasawa",
+		"gender":"male",
+		"current_city":"Tokyo, Japan",
+		"hometown":"Mumbai, India",
+		"picture":{
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
+	}
+},
+{
+	"id":8,
+	"username":"sgalindo",
+	"languages":{
+		"English":false,
+		"日本語":false,
+		"Espanol":true,
+		"Portuguese":false
+	},
+	"profile":{
+		"firstname":"Sergio",
+		"lastname":"Hernandez Galindo",
+		"gender":"male",
+		"current_city":"Boise, ID",
+		"hometown":"Detroit, MI",
+		"picture":{
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
+	}
+},
+{
+	"id":9,
+	"username":"takakoday",
+	"languages":{
+		"English":true,
+		"日本語":true,
+		"Espanol":false,
+		"Portuguese":false
+	},
+	"profile":{
+		"firstname":"Takako",
+		"lastname":"Day",
+		"gender":"female",
+		"current_city":"Riverside, CA",
+		"hometown":"Redlands, CA",
+		"picture":{
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
+	}
+},
+{
+	"id":10,
+	"username":"nhirahara",
+	"languages":{
+		"English":true,
+		"日本語":true,
+		"Espanol":false,
+		"Portuguese":false
+	},
+	"profile":{
+		"firstname":"Naomi",
+		"lastname":"Hirahara",
+		"gender":"female",
+		"current_city":"Redlands, CA",
+		"hometown":"San Bernardino, CA",
+		"picture":{
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
+	}
+},
+{
+	"id":11,
+	"username":"nyamamoto",
+	"languages":{
+		"English":true,
+		"日本語":true,
+		"Espanol":false,
+		"Portuguese":false
+	},
+	"profile":{
+		"firstname":"Neil",
+		"lastname":"Yamamoto",
+		"gender":"male",
+		"current_city":"Osaka, Japan",
+		"hometown":"Los Angeles, CA",
+		"picture":{
+			"thumbnail":"media/cache/skawa-tiny.png",
+			"regular":"media/cache/skawa.png"
+		}
+	},
+	"social": {
+		"youtube":"http://youtube.com",
+		"facebook":"http://facebook.com/",
+		"twitter":"http://twitter.com/",
+		"instagram":"http://instagram.com/"		
+	},
+	"interests": {
+		"Community History":false,
+		"Family Stories":true,
+		"Festival Matsuri":false,
+		"Japantowns":true,
+		"Other":false
+	}
+}
+]

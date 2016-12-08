@@ -1,0 +1,171 @@
+[{
+	"id":1,
+	"type":"journal",
+	"url":"http://www.discovernikkei.org/en/journal/2016/12/7/guerra-de-oido/",
+	"title":"La guerra de odio y persecución contra los emigrantes japoneses en América. ¡NUNCA OLVIDAR¡",
+	"author_id":8,
+	"publish_date":"7 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/articles/6496/FOTO6_sm_jpg_180x90_crop_upscale_q85.jpg",
+	"languages":["es"]
+},
+{
+	"id":2,
+	"type":"event",
+	"url":"http://www.discovernikkei.org/en/events/2016/12/08/5258/",
+	"title":"National Park Service Public Meeting for Tule Lake Unit",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"",
+	"languages":["en"],
+	"tag":"Community Event",
+	"locations":["United States", "California", "San Jose"]
+},
+{
+	"id":3,
+	"type":"album",
+	"url":"http://www.discovernikkei.org/en/nikkeialbum/albums/615/",
+	"title":"Elly Kleinman Album",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/album/items/8097/kfhec22_png_200x200_detail_q85.jpg",
+	"languages":["en"],
+	"desc":"Elly Kleinman's Holocaust Album of pictures"
+},
+{
+	"id":4,
+	"type":"journal",
+	"url":"http://www.discovernikkei.org/en/journal/2016/12/6/post-election-reactions/",
+	"title":"Michitaro Ongawa: The First Japanese American Chicagoan - Part 1",
+	"author_id":9,
+	"publish_date":"6 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/articles/6499/Ongawa2_jpg_180x90_crop-,0_upscale_q85.jpg",
+	"languages":["en"]
+},
+{
+	"id":5,
+	"type":"event",
+	"url":"http://www.discovernikkei.org/en/events/2016/12/08/5258/",
+	"title":"Hanasaka Jiisan (The Old Man Who Made Flowers Bloom)",
+	"author_id":9,
+	"publish_date":"10 Dec 2016",
+	"thumbnail":"",
+	"languages":["en"],
+	"tag":"Community Event",
+	"locations":["United States", "New York", "New York"]
+},
+{
+	"id":6,
+	"type":"album",
+	"url":"http://www.discovernikkei.org/en/nikkeialbum/albums/616/",
+	"title":"Poston (Colorado River Relocation Center) Years Later",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/album/items/8108/poston-2_jpg_515x515_detail_q85.jpg",
+	"languages":["en"],
+	"desc":"Four photos show the some of the Poston Camp I barracks, About 10 years after camp closure.  Photos taken by George Yoshiro Kakuda who was at Poston 5/15/42 to 9/15/45.  Most of",
+	"tag":"online exhibition"
+},
+
+{
+	"id":7,
+	"type":"journal",
+	"url":"http://www.discovernikkei.org/en/journal/2016/12/5/mark-oshima/",
+	"title":"歌舞伎研究家・翻訳者、米コロラド生まれの日系二世 ～大島明マークさん～",
+	"author_id":10,
+	"publish_date":"5 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/articles/6498/Voting_jpg_180x90_crop_upscale_q85.jpg",
+	"languages":["ja"]
+},
+{
+	"id":8,
+	"type":"event",
+	"url":"http://www.discovernikkei.org/en/events/2016/12/13/5227/",
+	"title":"The Little Girl Who Conquered Time",
+	"author_id":9,
+	"publish_date":"13 Dec 2016",
+	"thumbnail":"",
+	"languages":["en"],
+	"tag":"Community Event",
+	"locations":["United States", "New York", "New York"]
+},
+{
+	"id":9,
+	"type":"album",
+	"url":"http://www.discovernikkei.org/en/nikkeialbum/albums/618/",
+	"title":"Make it Manzanar. By David Toyoshima",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/album/items/8118/going-to-camp_jpg_200x250_crop_detail_q85.jpg",
+	"languages":["en"],
+	"desc":"'Make it Manzanar' is a series of posters (24in x 36in) presented at my MFA (Master of Fine Arts) Advancement Show (10/09/16) at California State University, Long Beach. The poster",
+	"tag":"online exhibition"
+},
+{
+	"id":10,
+	"type":"journal",
+	"url":"http://www.discovernikkei.org/en/journal/2016/12/4/as-you-like-it-4/",
+	"title":"As You Like It: Chapter Four—Deep Like the Rivers",
+	"author_id":10,
+	"publish_date":"4 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/articles/series/Okonomiyaki_square_jpg_180x90_crop_upscale_q85.jpg",
+	"languages":["en"]
+},
+{
+	"id":11,
+	"type":"event",
+	"url":"http://www.discovernikkei.org/en/events/2016/12/17/5228/",
+	"title":"Kadokawa &amp; The Shaping of Japanese Popular Culture",
+	"author_id":9,
+	"publish_date":"17 Dec 2016",
+	"thumbnail":"",
+	"languages":["en"],
+	"tag":"Community Event",
+	"locations":["United States", "New York", "New York"]
+},
+{
+	"id":12,
+	"type":"album",
+	"url":"http://www.discovernikkei.org/en/nikkeialbum/albums/604/",
+	"title":"A Day in Liberdade: The Nihon Machi of São Paulo",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/album/items/7979/liberdade-13_jpg_200x200_detail_q85.jpg",
+	"languages":["en"],
+	"desc":"I first became aware of the Japanese community in Brazil when I attended a judo event at the 1984 Olympics in Los Angeles, California. There I was intrigued to see",
+	"tag":"community history"
+},
+{
+	"id":13,
+	"type":"journal",
+	"url":"http://www.discovernikkei.org/en/journal/2016/12/4/as-you-like-it-4/",
+	"title":"As You Like It: Chapter Four—Deep Like the Rivers",
+	"author_id":11,
+	"publish_date":"3 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/articles/6481/Journal_Entry_Silent_Since_1974_jpg_180x90_crop_upscale_q85.jpg",
+	"languages":["en"]
+},
+{
+	"id":14,
+	"type":"event",
+	"url":"http://www.discovernikkei.org/en/events/2016/12/17/5229/",
+	"title":"W's Tragedy Wの悲劇 (W no Higeki)",
+	"author_id":9,
+	"publish_date":"17 Dec 2016",
+	"thumbnail":"",
+	"languages":["en"],
+	"tag":"Community Event",
+	"locations":["United States", "New York", "New York"]
+},
+{
+	"id":15,
+	"type":"album",
+	"url":"http://www.discovernikkei.org/en/nikkeialbum/albums/602/",
+	"title":"End of Year Luncheon",
+	"author_id":9,
+	"publish_date":"8 Dec 2016",
+	"thumbnail":"http://media.discovernikkei.org/album/items/7970/mvi_3516_00_00_18_00_9_JPG_200x200_detail_q85.jpg",
+	"languages":["en"],
+	"desc":"California Agricultural Trainee (カリフォルニア農業研修生) (Supplemental Japanese Agricultural Workers Program, 1956-1965) End of Year Luncheon @ Shin-Yokohama Prince Hotel December 11, 2014 (11AM to 2PM) (https://www.facebook.com/jalivinglegacy) Supplemental Japanese Agricultural Workers Program ",
+	"tag":"community history"
+}
+]
