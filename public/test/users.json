@@ -252,7 +252,7 @@
 		"hometown":"Detroit, MI",
 		"picture":{
 			"thumbnail":"media/cache/users-50.png",
-			"regular":"media/cache/skawa.png"
+			"regular":"media/cache/users-100.png"
 		}
 	},
 	"social": {
@@ -286,7 +286,7 @@
 		"hometown":"Redlands, CA",
 		"picture":{
 			"thumbnail":"media/cache/users-50.png",
-			"regular":"media/cache/skawa.png"
+			"regular":"media/cache/users-100.png"
 		}
 	},
 	"social": {
@@ -320,7 +320,7 @@
 		"hometown":"San Bernardino, CA",
 		"picture":{
 			"thumbnail":"media/cache/users-50.png",
-			"regular":"media/cache/skawa.png"
+			"regular":"media/cache/users-100.png"
 		}
 	},
 	"social": {
@@ -354,7 +354,7 @@
 		"hometown":"Los Angeles, CA",
 		"picture":{
 			"thumbnail":"media/cache/users-50.png",
-			"regular":"media/cache/skawa.png"
+			"regular":"media/cache/users-100.png"
 		}
 	},
 	"social": {

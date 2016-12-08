@@ -146,12 +146,15 @@ div.odd {
 	border:1px solid black;
 	padding:10px;
 }
-.middle-rail {
-	position:relative;
-	left:-10px;
-	background: rgba(238, 130, 150, 0.31);
-	border-radius: 4px;
+.home {
+	.middle-rail {
+		position:relative;
+		left:-10px;
+		background: rgba(238, 130, 150, 0.31);
+		border-radius: 4px;
+	}	
 }
+
 .comments {
 	h3 {
 		text-align: center;
