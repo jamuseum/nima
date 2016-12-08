@@ -30,16 +30,16 @@
 					<div class="col-md-8 col-sm-8">
 						<% if(typeof users !== "undefined"){ %>
 						
-						<h2><%- users[0].username %></h2>
+						<h2 class="nima username"><%- users[0].username %></h2>
 						<% }else { %>
-						<h2>susan2</h2>
+						<h2 class="nima username">susan2</h2>
 						<% } %>
 
 						<p>Los Angeles - United States</p>
 						<p>Nima since 2015</p>
 						<div >
 						
-							<h3>Stream</h3>
+							<h3 class="subtitle">Stream</h3>
 							<div class="activity-feed spacing_20px">
 								<div class="btn-group">
 								<button type="button" id="activity-all" class="btn btn-default active">All</button>
@@ -54,7 +54,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4 middle-rail" style="background-color: white;">
 						<div >
-							<h3 class="text-center">General Information</h3>
+							<h3 class="text-center subtitle">General Information</h3>
 							<div class="general-info">
 								<hr>
 								<p>Lorem ipsum <a href="#">(read more)</a></p>
