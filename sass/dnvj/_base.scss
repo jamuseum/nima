@@ -1,4 +1,4 @@
-$default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
+$default_font: Ubuntu, Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 
 //modifications
 #journal_introduction {
@@ -93,6 +93,7 @@ div.odd {
 
 	h3.subtitle {
 		font-style: italic;
+		font-size:20px;
 	}
 }
 .caption {
