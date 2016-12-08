@@ -96,13 +96,13 @@
 				<div>
 					<h3>Current City</h3>
 					<div class="form-group" style="position:relative;">
-						<img src="media/cache/current_city_icon.png" style="position:absolute; top:5px; left:5px;"><input style="padding-left:30px;" class="form-control" type="text" name="" placeholder="">
+						<img src="media/cache/current_city_icon.png" style="position:absolute; top:5px; left:5px;"><input id="id_city" style="padding-left:30px;" class="form-control" type="text" name="" placeholder="">
 					</div>
 				</div>
 				<div>
 					<h3>Hometown</h3>
 					<div class="form-group" style="position:relative;">
-						<img src="media/cache/home_icon.png" style="position:absolute; top:5px; left:5px;"> <input style="padding-left:30px;" class="form-control" type="text" name="" placeholder="">
+						<img src="media/cache/home_icon.png" style="position:absolute; top:5px; left:5px;"> <input id="id_hometown" style="padding-left:30px;" class="form-control" type="text" name="" placeholder="">
 					</div>
 				</div>
 				<div>
@@ -127,5 +127,18 @@
 		
 	</div><!-- dn inner container -->
 	<% include ../partials/footer %>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzycUlwH3NrMq_i3ohLDzJHPjZe4FsMQc&libraries=places&callback=initAutoComplete"></script>
+<script type="text/javascript">
+function initAutoComplete(){
+	 var inputHome = document.getElementById('id_hometown');
+	 var inputCurr = document.getElementById('id_city');
 
+	 var autocomplete = new google.maps.places.Autocomplete(inputHome);
+	 var autocomplete = new google.maps.places.Autocomplete(inputCurr);
+     
+     
+
+}
+</script>
 </div>

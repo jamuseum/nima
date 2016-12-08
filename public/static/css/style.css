@@ -21993,6 +21993,14 @@ div.odd {
   margin-top: 10px;
   font-size: 8px; }
 
+#nima_form_container, .nima_form_container {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none; }
+
+.error {
+  border: 1px solid red; }
+
 @media screen and (max-width: 1000px) {
   #container {
     width: 100%; } }

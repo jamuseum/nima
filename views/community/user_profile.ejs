@@ -50,13 +50,13 @@
 											<div class="container-fluid">
 												<div class="row">
 													<div class="col-sm-4">
-														<p class="incomplete">General Information</p>
+														<p class="incomplete"><a href="#general_info">General Information</a></p>
 													</div>
 													<div class="col-sm-1">
 														<span class="glyphicon glyphicon-unchecked incomplete" aria-hidden="true"></span>
 													</div>
 													<div class="col-sm-4 col-sm-offset-2">
-														<p class="complete">Profile Image</p>
+														<p class="complete"><a href="#profile_image">Profile Image</a></p>
 													</div>
 													<div class="col-sm-1">
 														<span class="glyphicon glyphicon-check complete" aria-hidden="true"></span>
@@ -64,13 +64,13 @@
 												</div>
 												<div class="row">
 													<div class="col-sm-4">
-														<p class="incomplete">Hometown</p>
+														<p class="incomplete"><a href="#hometown">Hometown</a></p>
 													</div>
 													<div class="col-sm-1">
 														<span class="glyphicon glyphicon-unchecked incomplete" aria-hidden="true"></span>
 													</div>
 													<div class="col-sm-4 col-sm-offset-2">
-														<p class="incomplete">Nikkei Interests</p>
+														<p class="incomplete"><a href="#nikkei_interests">Nikkei Interests</a></p>
 													</div>
 													<div class="col-sm-1">
 														<span class="glyphicon glyphicon-unchecked incomplete" aria-hidden="true"></span>
@@ -78,12 +78,30 @@
 												</div>
 												<div class="row">
 													<div class="col-sm-4">
-														<p class="incomplete">Current City</p>
+														<p class="incomplete"><a href="#current_location">Current Location</a></p>
 													</div>
 													<div class="col-sm-1">
 														<span class="glyphicon glyphicon-unchecked incomplete" aria-hidden="true"></span>
 													</div>
 													<div class="col-sm-4 col-sm-offset-2">
+														<p class="incomplete">
+															<a href="#social">Social</a>
+														</p>
+													</div>
+													<div class="col-sm-1">
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-sm-4">
+														<p class="incomplete"><a href="#communication_pref">Communication Preferences</a></p>
+													</div>
+													<div class="col-sm-1">
+														<span class="glyphicon glyphicon-unchecked incomplete" aria-hidden="true"></span>
+													</div>
+													<div class="col-sm-4 col-sm-offset-2">
+														<p class="incomplete">
+															<a href="nikkei_interests">Nikkei Interests</a>
+														</p>
 													</div>
 													<div class="col-sm-1">
 													</div>
@@ -94,7 +112,7 @@
 								</div>
 							</li>
 							<li class="list-group-item">
-								<div class="container-fluid">
+								<div id="general_info" class="container-fluid">
 									<div class="row">
 										<div class="col-sm-4">
 											<h4>General Information</h4>
@@ -115,7 +133,7 @@
 								</div>
 							</li>
 							<li class="list-group-item">
-									<div class="container-fluid">
+									<div id="profile_image" class="container-fluid">
 										<div class="row">
 											<div class="col-sm-4">
 												<h4>Profile Image</h4>
@@ -135,7 +153,7 @@
 									</div>
 								</li>
 							<li class="list-group-item">
-								<div class="container-fluid">
+								<div id="hometown" class="container-fluid">
 									<div class="row">
 										<div class="col-sm-4">
 											<h4>Hometown</h4>
@@ -156,7 +174,7 @@
 								</div>
 							</li>
 							<li class="list-group-item">
-								<div class="container-fluid">
+								<div id="current_location" class="container-fluid">
 									<div class="row">
 										
 										<div class="col-sm-4">
@@ -180,7 +198,7 @@
 								</div>
 							</li>
 							<li class="list-group-item">
-							<div class="container-fluid">
+							<div id="social" class="container-fluid">
 								<div class="row">
 									<div class="col-sm-4">
 										<h4>Social</h4>
@@ -239,7 +257,7 @@
 							</div>
 						</li>
 							<li class="list-group-item">
-							<div class="container-fluid">
+							<div id="communication_pref" class="container-fluid">
 								<div class="row">
 									<div class="col-sm-4">
 										<h4>Communication Preferences</h4>
@@ -259,7 +277,7 @@
 							</div>
 						</li>
 						<li class="list-group-item">
-							<div class="container-fluid">
+							<div id="nikkei_interests" class="container-fluid">
 								<div class="row">
 									<div class="col-sm-4">
 										<h4>Nikkei Interests</h4>
@@ -411,3 +429,17 @@
 </div>
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>tinymce.init({ selector:'#id_general_info' });</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzycUlwH3NrMq_i3ohLDzJHPjZe4FsMQc&libraries=places&callback=initAutoComplete"></script>
+<script type="text/javascript">
+function initAutoComplete(){
+	 var inputHome = document.getElementById('id_hometown');
+	 var inputCurr = document.getElementById('id_city');
+
+	 var autocomplete = new google.maps.places.Autocomplete(inputHome);
+	 var autocomplete = new google.maps.places.Autocomplete(inputCurr);
+     
+     
+
+}
+</script>
