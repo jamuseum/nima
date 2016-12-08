@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const users = require('../public/test/users')
-let articles = require('../public/test/fakedata')
+const articles = require('../public/test/fakedata')
 
 router.get('/', function(req, res, next){
 

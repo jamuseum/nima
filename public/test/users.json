@@ -217,7 +217,7 @@
 		"current_city":"Tokyo, Japan",
 		"hometown":"Mumbai, India",
 		"picture":{
-			"thumbnail":"media/cache/skawa-tiny.png",
+			"thumbnail":"http://media.discovernikkei.org/static/img/icons/album-40.png",
 			"regular":"media/cache/skawa.png"
 		}
 	},
@@ -251,7 +251,7 @@
 		"current_city":"Boise, ID",
 		"hometown":"Detroit, MI",
 		"picture":{
-			"thumbnail":"media/cache/skawa-tiny.png",
+			"thumbnail":"http://media.discovernikkei.org/static/img/icons/album-40.png",
 			"regular":"media/cache/skawa.png"
 		}
 	},
@@ -285,7 +285,7 @@
 		"current_city":"Riverside, CA",
 		"hometown":"Redlands, CA",
 		"picture":{
-			"thumbnail":"media/cache/skawa-tiny.png",
+			"thumbnail":"http://media.discovernikkei.org/static/img/icons/album-40.png",
 			"regular":"media/cache/skawa.png"
 		}
 	},
@@ -319,7 +319,7 @@
 		"current_city":"Redlands, CA",
 		"hometown":"San Bernardino, CA",
 		"picture":{
-			"thumbnail":"media/cache/skawa-tiny.png",
+			"thumbnail":"http://media.discovernikkei.org/static/img/icons/album-40.png",
 			"regular":"media/cache/skawa.png"
 		}
 	},
@@ -353,7 +353,7 @@
 		"current_city":"Osaka, Japan",
 		"hometown":"Los Angeles, CA",
 		"picture":{
-			"thumbnail":"media/cache/skawa-tiny.png",
+			"thumbnail":"http://media.discovernikkei.org/static/img/icons/album-40.png",
 			"regular":"media/cache/skawa.png"
 		}
 	},

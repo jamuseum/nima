@@ -14,21 +14,61 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	}
 
 }
-.item {
-	padding-top: 10px !important;
-	.languages {
-		right:-2px !important;
-	}
-	img {
-		max-width: 180px;
-		border: 3px solid rgba(128, 128, 128, 0.29);
-	}
-	h3 {
-		padding-bottom: 10px;
+.feed {
+
+	.item {
+		padding:0;
+		margin:0;
+
+		.languages {
+			position: absolute;
+			right:-2px !important;
+			top:5px;
+
+			span {
+			    display: inline-block;
+			    min-width: 10px;
+			    padding: 3px 7px;
+			    font-size: 12px;
+			    font-weight: bold;
+			    color: #fff;
+			    line-height: 1;
+			    vertical-align: middle;
+			    white-space: nowrap;
+			    text-align: center;
+			    background-color: rgba(0, 0, 0, 0.68);
+			    border-radius: 10px;
+			    text-transform: uppercase;
+			}
+		}
+		img.feed-img {
+			max-width: 180px;
+			border: 3px solid rgba(128, 128, 128, 0.29);
+		}
+		a.event-locations {
+			font-size:11px;
+			line-height: 14px;
+			display: block;
+			color:blue;
+		}
+
+		.info {
+			h3 {
+				margin:0;
+				margin-bottom: 10px;
+				font-weight: bolder; 
+				font-size:15px;
+				line-height: 16px;
+			}			
+		}
+	
+	
+
 	}
 }
-.item-event {
-	padding-top: 20px !important;
+div.odd {
+	background-color: rgba(143, 4, 133, 0.08);
+
 }
 
 #journal_promos {
@@ -56,21 +96,25 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 }
 //calendars in events
 .startdate, .enddate {
-	height: 100px;
-    width: 100%;
+	height: 80px;
+    width: 175px;
     box-sizing: border-box;
+    background-color: white;
+    margin-left: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.09);
 }
 .startdate em, .enddate em, .startdate td.month, .enddate td.month {
-	font-size: 32px;
+	font-size: 22px;
     font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 .startdate b, .enddate b, .startdate td.date, .enddate td.date {
     background: #ffffff;
-    font-size: 36px;
-    color: #4b66d4;
-    font-weight: 200;
+    font-size: 26px;
+    color: #667;
+    font-weight: 700;
     padding-top: 7px;
 }
 .eventpreviews {
@@ -257,6 +301,12 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 	    margin-top: 0px !important;
 	    line-height: 25px !important;
 	}
+	&.username {
+		font-weight: bolder;
+	}
+	&.publish_date {
+		font-style:italic;
+	}
 }
 
 .nima-lang {
@@ -349,6 +399,10 @@ $default_font: Arial, Helvetica, Verdana, 'Bitstream Vera Sans', sans-serif;
 .social_profile {
 	position: relative;
 	top:7px;
+}
+
+#load-more {
+	margin-top:40px;
 }
 
 /* Disqus Comments */
