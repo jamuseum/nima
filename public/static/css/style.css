@@ -21595,7 +21595,7 @@ p.complete {
     text-align: center;
     background: transparent url("../img/interface/header-background.gif") no-repeat center -50px; }
 
-h1, h2, h3, h4, h5, h6, p, ul, li, button, a {
+h1, h2, h3, h4, h5, h6, p, ul, li, button, a, input, textarea {
   font-family: Ubuntu, Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif; }
 
 #journal_introduction {
